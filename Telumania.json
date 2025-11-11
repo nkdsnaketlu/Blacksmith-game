@@ -1,0 +1,409 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 242,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "b133d77a-14af-4a68-97fb-7ce07633275f",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Telumania",
+    "description": "",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "Telumania_Title.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Telumania_Title.png\",\"extension\":\".png\"}",
+        "name": "Telumania_Title.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tm_PlayButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tm_PlayButton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tm_PlayButton2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tm_PlayButton2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tm_SettingButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tm_SettingButton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tm_ExitButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tm_ExitButton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilemap_packed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tilemap_packed.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Tilemaps/Pixel Art/27320c17205d136e43ea4d9be4cf188e57c720ff6788204a63f0884206895b4c_tilemap_packed.png",
+          "name": "tilemap_packed.png"
+        }
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite6.png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "scroll_saw.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "scroll_saw.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "workbench.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "workbench.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "hole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hole.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/menu/Telumania_Title.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu\\Telumania_Title.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/menu/Tm_PlayButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu\\Tm_PlayButton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/menu/Tm_PlayButton2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu\\Tm_PlayButton2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/menu/Tm_SettingButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu\\Tm_SettingButton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/menu/Tm_ExitButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu\\Tm_ExitButton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/NewSprite4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\NewSprite4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/scroll_saw.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\scroll_saw.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/NewSprite6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\NewSprite6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/workbench.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\workbench.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/hole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\hole.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_menu_Tm_PlayButton2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\menu\\Tm_PlayButton2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/menu/playbutton_selected.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu\\playbutton_selected.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/menu/SettingButton_selected.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu\\SettingButton_selected.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/menu/ExitButton_selected.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu\\ExitButton_selected.png",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/title-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/metalcarving-scene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sticker"
+    }
+  ],
+  "externalLayouts": []
+}
