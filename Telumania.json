@@ -374,6 +374,98 @@
         "name": "assets\\menu\\ExitButton_selected.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "walljpg.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "walljpg.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "wall.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "wall.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "wallll.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wallll.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Clock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clock.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/fc63fcbf6e6669671a7618fd28db1ad3aa6acd56c1b287cf6da5edab9448a494_Clock.png",
+          "name": "Clock.png"
+        }
+      },
+      {
+        "file": "furnace.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "furnace.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "button1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "scale.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "scale.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -392,6 +484,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/metalcarving-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/forging"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ui-overlay"
     }
   ],
   "externalEvents": [],
