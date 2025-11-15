@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 242,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -462,8 +462,24 @@
       {
         "file": "assets/NewSprite9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite9.png\"}",
         "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "gradient.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gradient.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fire.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -475,7 +491,28 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "CurrentTemp",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "GameStarted",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "CoolDown",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TargetY",
+      "type": "number",
+      "value": 1000
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -488,10 +525,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/forging"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/ui-overlay"
     }
   ],
   "externalEvents": [],

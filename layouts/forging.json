@@ -19,10 +19,17 @@
     "gridAlpha": 0.8,
     "snap": false,
     "zoomFactor": 0.4027225833325918,
-    "windowMask": false
+    "windowMask": false,
+    "selectedLayer": ""
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "CurrentTemp",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -36,7 +43,7 @@
       "width": 2272,
       "x": -41,
       "y": -60,
-      "zOrder": 1,
+      "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -78,98 +85,31 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 61,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Time",
-      "persistentUuid": "73ba9fc8-7343-4c97-90cc-03426576e2ba",
-      "width": 278,
-      "x": 350,
-      "y": 46,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1373,
-      "keepRatio": true,
-      "layer": "",
-      "name": "furnace",
-      "persistentUuid": "8d8f55c7-bb64-40ed-9325-7310f2293746",
-      "width": 1318,
-      "x": 376,
-      "y": 33,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "forge",
-      "persistentUuid": "19c0a46f-ce20-471c-88bf-f2564b8a4b88",
-      "width": 0,
-      "x": 820,
-      "y": 28,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 418,
       "keepRatio": true,
       "layer": "",
       "name": "Button",
       "persistentUuid": "d61a913a-ff70-4b41-98a2-467195c9d103",
       "width": 449,
-      "x": 27,
-      "y": 561,
+      "x": 168,
+      "y": 400,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 360,
+      "angle": 180,
       "customSize": true,
       "depth": 1,
-      "height": 869,
+      "height": 104,
       "keepRatio": true,
       "layer": "",
-      "name": "scale",
-      "persistentUuid": "8ee609c3-a27b-47fa-a10f-99a5e6b69901",
-      "width": 952,
-      "x": 1232,
-      "y": 223,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 271,
-      "customSize": true,
-      "depth": 1,
-      "height": 87,
-      "keepRatio": true,
-      "layer": "",
-      "name": "indicator",
+      "name": "TempArrow",
       "persistentUuid": "4b3d9713-129d-4f3d-8182-20f28ba6f378",
-      "width": 104,
-      "x": 1653,
-      "y": 900,
+      "width": 118,
+      "x": 1582,
+      "y": 600,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -181,12 +121,62 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Start",
+      "name": "cooling",
       "persistentUuid": "6bf227db-1af0-46a2-8143-30f0130abaef",
       "width": 0,
-      "x": 939,
-      "y": 263,
+      "x": 301,
+      "y": 849,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 638,
+      "keepRatio": true,
+      "layer": "",
+      "name": "fire",
+      "persistentUuid": "67178fbe-1479-479a-b253-3918eaf6daa4",
+      "width": 564,
+      "x": 753,
+      "y": 403,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 778,
+      "keepRatio": true,
+      "layer": "",
+      "name": "scale",
+      "persistentUuid": "1c56d296-fa7a-4ce7-98fd-e267798a9f1f",
+      "width": 77,
+      "x": 1600,
+      "y": 207,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Timer",
+      "persistentUuid": "db8fba76-613e-4a18-a045-aa7ccc3217fc",
+      "width": 0,
+      "x": 356,
+      "y": 39,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -357,152 +347,6 @@
       }
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Time",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Time: ",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 50,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Time: ",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 50,
-        "lineHeight": 0,
-        "color": "255;255;255"
-      }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "furnace",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "furnace.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 203,
-                        "y": 928
-                      },
-                      {
-                        "x": 3112,
-                        "y": 928
-                      },
-                      {
-                        "x": 3112,
-                        "y": 2573
-                      },
-                      {
-                        "x": 203,
-                        "y": 2573
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "forge",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "The Forge",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 80,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "The Forge",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 80,
-        "lineHeight": 0,
-        "color": "255;255;255"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Button",
@@ -613,67 +457,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "scale",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "scale.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1548,
-                        "y": 264
-                      },
-                      {
-                        "x": 1884,
-                        "y": 264
-                      },
-                      {
-                        "x": 1884,
-                        "y": 3215
-                      },
-                      {
-                        "x": 1548,
-                        "y": 3215
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "indicator",
+      "name": "TempArrow",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -686,7 +470,7 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "NewSprite9",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -712,20 +496,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 27,
-                        "y": 8
+                        "x": 8,
+                        "y": 26
                       },
                       {
-                        "x": 33,
-                        "y": 8
+                        "x": 56,
+                        "y": 26
                       },
                       {
-                        "x": 33,
-                        "y": 55
+                        "x": 56,
+                        "y": 34
                       },
                       {
-                        "x": 27,
-                        "y": 55
+                        "x": 8,
+                        "y": 34
                       }
                     ]
                   ]
@@ -740,14 +524,14 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Start",
+      "name": "cooling",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Start",
+      "string": "cooling",
       "font": "",
       "textAlignment": "left",
       "characterSize": 60,
@@ -770,7 +554,170 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Start",
+        "text": "cooling",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "scale",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "gradient.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 77,
+                        "y": 0
+                      },
+                      {
+                        "x": 77,
+                        "y": 567
+                      },
+                      {
+                        "x": 0,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fire",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fire.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 510,
+                        "y": 0
+                      },
+                      {
+                        "x": 510,
+                        "y": 576
+                      },
+                      {
+                        "x": 0,
+                        "y": 576
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Timer",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Time: ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Time: ",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -787,31 +734,28 @@
         "objectName": "wall"
       },
       {
+        "objectName": "Timer"
+      },
+      {
         "objectName": "Clock"
       },
       {
         "objectName": "score"
       },
       {
-        "objectName": "Time"
-      },
-      {
-        "objectName": "furnace"
-      },
-      {
-        "objectName": "forge"
-      },
-      {
         "objectName": "Button"
+      },
+      {
+        "objectName": "TempArrow"
+      },
+      {
+        "objectName": "cooling"
       },
       {
         "objectName": "scale"
       },
       {
-        "objectName": "indicator"
-      },
-      {
-        "objectName": "Start"
+        "objectName": "fire"
       }
     ]
   },
@@ -841,34 +785,175 @@
             "",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Button",
-            "Animation",
-            "=",
-            "\"1\""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Button",
+                "Animation",
+                "=",
+                "\"1\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Button",
+                "Animation",
+                "=",
+                "\"0\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "TempArrow",
+                "-",
+                "20"
+              ]
+            }
           ]
         }
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Temperature"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "cooling",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "TempArrow",
+            "Tween",
+            "\"movedown\"",
+            "TempArrow.Y()+100",
+            "\"linear\"",
+            "3",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "TImer"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "cooling",
+            "",
+            "",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "MouseButtonFromTextReleased"
@@ -882,13 +967,22 @@
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "ResetObjectTimer"
           },
           "parameters": [
-            "Button",
-            "Animation",
+            "Timer",
+            "\"GameTime\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
             "=",
-            "\"0\""
+            "ToString(TimerElapsedTime(\"GameTime\"))"
           ]
         }
       ]
@@ -897,129 +991,6 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Scale"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Start",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "Start",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-          },
-          "parameters": [
-            "indicator",
-            "Tween",
-            "\"MoveUp\"",
-            "300",
-            "\"linear\"",
-            "0.7",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Tween::HasFinished"
-          },
-          "parameters": [
-            "indicator",
-            "Tween",
-            "\"MoveUp\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-          },
-          "parameters": [
-            "indicator",
-            "Tween",
-            "\"MoveDown\"",
-            "900",
-            "\"linear\"",
-            "0.7",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Tween::HasFinished"
-          },
-          "parameters": [
-            "indicator",
-            "Tween",
-            "\"MoveDown\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-          },
-          "parameters": [
-            "indicator",
-            "Tween",
-            "\"MoveUp\"",
-            "300",
-            "\"linear\"",
-            "0.7",
-            "1"
-          ]
-        }
-      ]
     }
   ],
   "layers": [
