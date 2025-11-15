@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.30887412163426775,
+    "zoomFactor": 0.4303403802207691,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1405,6 +1405,22 @@
       "x": 469,
       "y": 873,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "65be7a60-82b4-45d4-99e6-6a0ac231aae1",
+      "width": 0,
+      "x": -1,
+      "y": 0,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
