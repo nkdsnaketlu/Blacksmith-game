@@ -482,6 +482,30 @@
         "name": "fire.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "wallll2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wallll2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "046B1215-136D-4E3D-A891-337717281D0E.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "046B1215-136D-4E3D-A891-337717281D0E.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1C986914-B67B-40A9-AE0B-CA51F7DC19ED.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1C986914-B67B-40A9-AE0B-CA51F7DC19ED.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -511,6 +535,11 @@
       "name": "TargetY",
       "type": "number",
       "value": 1000
+    },
+    {
+      "name": "Option",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -525,6 +554,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/forging"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/material"
     }
   ],
   "externalEvents": [],
