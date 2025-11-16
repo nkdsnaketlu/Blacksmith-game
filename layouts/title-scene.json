@@ -92,6 +92,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "ff3e8e4f-7992-42ea-b22d-4d06ee8257d8",
+      "width": 0,
+      "x": 0,
+      "y": 2,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -667,7 +683,7 @@
               },
               "parameters": [
                 "",
-                "\"MetalCarving scene\"",
+                "\"Game Selection scene\"",
                 ""
               ]
             }
