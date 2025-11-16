@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3895856273827292,
+    "zoomFactor": 0.4598521426736339,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -88,6 +88,22 @@
       "x": 1340,
       "y": 806,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "ff3e8e4f-7992-42ea-b22d-4d06ee8257d8",
+      "width": 0,
+      "x": 0,
+      "y": 2,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -666,7 +682,7 @@
               },
               "parameters": [
                 "",
-                "\"MetalCarving scene\"",
+                "\"Game Selection scene\"",
                 ""
               ]
             }
