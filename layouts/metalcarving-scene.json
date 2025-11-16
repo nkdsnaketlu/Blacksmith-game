@@ -1409,22 +1409,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Background",
-      "persistentUuid": "65be7a60-82b4-45d4-99e6-6a0ac231aae1",
-      "width": 0,
-      "x": -1,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -1990,11 +1974,12 @@
       "actions": [
         {
           "type": {
-            "value": "PushScene"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "\"MetalCarving scene\""
+            "\"Forging\"",
+            ""
           ]
         }
       ]

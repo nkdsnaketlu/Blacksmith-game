@@ -380,10 +380,6 @@
         "kind": "image",
         "metadata": "",
         "name": "walljpg.jpg",
-        "file": "assets/background.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\background.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -392,10 +388,6 @@
         "kind": "image",
         "metadata": "",
         "name": "wall.jpg",
-        "file": "assets/background-grass.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\background-grass.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -504,10 +496,6 @@
         "kind": "image",
         "metadata": "",
         "name": "046B1215-136D-4E3D-A891-337717281D0E.png",
-        "file": "assets/cutting.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\cutting.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -516,6 +504,34 @@
         "kind": "image",
         "metadata": "",
         "name": "1C986914-B67B-40A9-AE0B-CA51F7DC19ED.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/background-grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background-grass.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cutting.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cutting.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "assets/forging.png",
         "kind": "image",
         "metadata": "",
@@ -526,75 +542,9 @@
     ],
     "resourceFolders": []
   },
-  "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Background",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\background.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Background"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "objectsGroups": [],
   "variables": [
@@ -645,6 +595,9 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/material"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-selection-scene"
     }
   ],

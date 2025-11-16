@@ -99,11 +99,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Background",
-      "persistentUuid": "ff3e8e4f-7992-42ea-b22d-4d06ee8257d8",
+      "name": "NewSprite",
+      "persistentUuid": "773840e6-dedc-454e-861d-2c9cd7f15379",
       "width": 0,
-      "x": 0,
-      "y": 2,
+      "x": 5,
+      "y": -4,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -496,6 +496,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "menu-background",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -512,6 +572,9 @@
       },
       {
         "objectName": "ExitButton"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -684,6 +747,8 @@
               "parameters": [
                 "",
                 "\"Game Selection scene\"",
+                "\"Material\"",
+                "\"MetalCarving scene\"",
                 ""
               ]
             }
