@@ -180,6 +180,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cooling",
+      "persistentUuid": "bf882d01-095c-40b5-be44-e1f4f4d57197",
+      "width": 0,
+      "x": 2346,
+      "y": 694,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
