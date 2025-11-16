@@ -19,7 +19,8 @@
     "gridAlpha": 0.8,
     "snap": false,
     "zoomFactor": 0.30887412163426775,
-    "windowMask": false
+    "windowMask": false,
+    "selectedLayer": ""
   },
   "objectsGroups": [
     {
@@ -1973,11 +1974,12 @@
       "actions": [
         {
           "type": {
-            "value": "PushScene"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "\"MetalCarving scene\""
+            "\"Forging\"",
+            ""
           ]
         }
       ]

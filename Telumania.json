@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 242,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -374,6 +374,170 @@
         "name": "assets\\menu\\ExitButton_selected.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "walljpg.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "walljpg.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "wall.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "wall.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "wallll.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wallll.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Clock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clock.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/fc63fcbf6e6669671a7618fd28db1ad3aa6acd56c1b287cf6da5edab9448a494_Clock.png",
+          "name": "Clock.png"
+        }
+      },
+      {
+        "file": "furnace.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "furnace.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "button1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "scale.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "scale.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite9.png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "gradient.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gradient.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fire.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "wallll2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wallll2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "046B1215-136D-4E3D-A891-337717281D0E.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "046B1215-136D-4E3D-A891-337717281D0E.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1C986914-B67B-40A9-AE0B-CA51F7DC19ED.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1C986914-B67B-40A9-AE0B-CA51F7DC19ED.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/background-grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background-grass.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cutting.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cutting.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/forging.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\forging.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -383,7 +547,38 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "CurrentTemp",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "GameStarted",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "CoolDown",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TargetY",
+      "type": "number",
+      "value": 1000
+    },
+    {
+      "name": "Option",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "HeatLevel",
+      "type": "number",
+      "value": 20
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -392,6 +587,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/metalcarving-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/forging"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/material"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-selection-scene"
     }
   ],
   "externalEvents": [],

@@ -1,13 +1,13 @@
 {
-  "b": 121,
+  "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Title_32scene",
-  "name": "Title scene",
-  "r": 102,
+  "mangledName": "Forging",
+  "name": "Forging",
+  "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 107,
+  "v": 209,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,26 +18,32 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3411856023473456,
+    "zoomFactor": 0.3895856273827292,
     "windowMask": false,
     "selectedLayer": ""
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "CurrentTemp",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 304,
+      "height": 1219,
       "keepRatio": true,
       "layer": "",
-      "name": "Title",
-      "persistentUuid": "cb0c028f-2d53-42fd-badb-d362e8fdb1f5",
-      "width": 1247,
-      "x": 86,
-      "y": 44,
-      "zOrder": 1,
+      "name": "wall",
+      "persistentUuid": "3690844c-37d0-4e6f-b6c7-ae9df9a687d5",
+      "width": 2272,
+      "x": -41,
+      "y": -60,
+      "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -45,32 +51,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 213.33333333333337,
-      "keepRatio": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
-      "name": "PlayButton",
-      "persistentUuid": "eb4862ea-6d86-4310-a3bf-71a714704534",
-      "width": 700,
-      "x": 1140,
-      "y": 357,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 182.8571428571429,
-      "keepRatio": true,
-      "layer": "",
-      "name": "SettingButton",
-      "persistentUuid": "c2098fa1-cb82-4167-9d46-9b23e10cbad0",
-      "width": 600,
-      "x": 1240,
-      "y": 601,
+      "name": "Clock",
+      "persistentUuid": "c830a28c-6ccb-4dd0-9778-1177da6e5286",
+      "width": 72,
+      "x": 240,
+      "y": 47,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -79,16 +67,33 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 152.38095238095238,
+      "depth": 1,
+      "height": 418,
       "keepRatio": true,
       "layer": "",
-      "name": "ExitButton",
-      "persistentUuid": "9235ba58-0f32-4a3a-9d53-73bf8f4a6a26",
-      "width": 500,
-      "x": 1340,
-      "y": 806,
-      "zOrder": 4,
+      "name": "Button",
+      "persistentUuid": "d61a913a-ff70-4b41-98a2-467195c9d103",
+      "width": 449,
+      "x": 168,
+      "y": 400,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TempArrow",
+      "persistentUuid": "4b3d9713-129d-4f3d-8182-20f28ba6f378",
+      "width": 118,
+      "x": 1582,
+      "y": 700,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -99,12 +104,62 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "773840e6-dedc-454e-861d-2c9cd7f15379",
+      "name": "cooling",
+      "persistentUuid": "6bf227db-1af0-46a2-8143-30f0130abaef",
       "width": 0,
-      "x": 5,
-      "y": -4,
-      "zOrder": 0,
+      "x": 301,
+      "y": 849,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 638,
+      "keepRatio": true,
+      "layer": "",
+      "name": "fire",
+      "persistentUuid": "67178fbe-1479-479a-b253-3918eaf6daa4",
+      "width": 564,
+      "x": 753,
+      "y": 403,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 778,
+      "keepRatio": true,
+      "layer": "",
+      "name": "scale",
+      "persistentUuid": "1c56d296-fa7a-4ce7-98fd-e267798a9f1f",
+      "width": 77,
+      "x": 1600,
+      "y": 207,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Heat",
+      "persistentUuid": "3a7800bf-5741-4b34-b1a4-2c6efce68d25",
+      "width": 0,
+      "x": 1536,
+      "y": 89,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -114,7 +169,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Title",
+      "name": "wall",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -122,7 +177,240 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Telumania_Title",
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "wallll.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 828,
+                        "y": 0
+                      },
+                      {
+                        "x": 828,
+                        "y": 466
+                      },
+                      {
+                        "x": 0,
+                        "y": 466
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "b35c4ab659579e645010f1c55d06100f42cf5d28eb4fcdc2504142ec26b5bcf9",
+      "name": "Clock",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Clock.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 12,
+                        "y": 0
+                      },
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 0,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Button",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "0",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "button1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 57,
+                        "y": 246
+                      },
+                      {
+                        "x": 3407,
+                        "y": 246
+                      },
+                      {
+                        "x": 3407,
+                        "y": 3223
+                      },
+                      {
+                        "x": 57,
+                        "y": 3223
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "button2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 57,
+                        "y": 246
+                      },
+                      {
+                        "x": 3407,
+                        "y": 246
+                      },
+                      {
+                        "x": 3407,
+                        "y": 3223
+                      },
+                      {
+                        "x": 57,
+                        "y": 3223
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TempArrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite9",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -132,7 +420,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\menu\\Telumania_Title.png",
+                  "image": "NewSprite9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -148,20 +436,123 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 12
+                        "x": 8,
+                        "y": 26
                       },
                       {
-                        "x": 193,
-                        "y": 12
+                        "x": 56,
+                        "y": 26
                       },
                       {
-                        "x": 193,
-                        "y": 38
+                        "x": 56,
+                        "y": 34
                       },
                       {
-                        "x": 6,
-                        "y": 38
+                        "x": 8,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "cooling",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "cooling",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "cooling",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "scale",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "gradient.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 77,
+                        "y": 0
+                      },
+                      {
+                        "x": 77,
+                        "y": 567
+                      },
+                      {
+                        "x": 0,
+                        "y": 567
                       }
                     ]
                   ]
@@ -175,7 +566,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "PlayButton",
+      "name": "fire",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -183,16 +574,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "normal",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\menu\\Tm_PlayButton2.png",
+                  "image": "fire.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -212,65 +603,16 @@
                         "y": 0
                       },
                       {
-                        "x": 105,
+                        "x": 510,
                         "y": 0
                       },
                       {
-                        "x": 105,
-                        "y": 32
+                        "x": 510,
+                        "y": 576
                       },
                       {
                         "x": 0,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "selected",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\menu\\playbutton_selected.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 105,
-                        "y": 0
-                      },
-                      {
-                        "x": 105,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 32
+                        "y": 576
                       }
                     ]
                   ]
@@ -282,361 +624,90 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "SettingButton",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "bold": false,
+      "italic": false,
+      "name": "Heat",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": [
-        {
-          "name": "normal",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\menu\\Tm_SettingButton.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 105,
-                        "y": 0
-                      },
-                      {
-                        "x": 105,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "selected",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\menu\\SettingButton_selected.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 105,
-                        "y": 0
-                      },
-                      {
-                        "x": 105,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "ExitButton",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "normal",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\menu\\Tm_ExitButton.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 105,
-                        "y": 0
-                      },
-                      {
-                        "x": 105,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "selected",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\menu\\ExitButton_selected.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 105,
-                        "y": 0
-                      },
-                      {
-                        "x": 105,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "menu-background",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\background.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "string": "Heat: ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Heat: ",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Title"
+        "objectName": "wall"
       },
       {
-        "objectName": "PlayButton"
+        "objectName": "Clock"
       },
       {
-        "objectName": "SettingButton"
+        "objectName": "Button"
       },
       {
-        "objectName": "ExitButton"
+        "objectName": "TempArrow"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "cooling"
+      },
+      {
+        "objectName": "scale"
+      },
+      {
+        "objectName": "fire"
+      },
+      {
+        "objectName": "Heat"
       }
     ]
   },
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "SettingButton",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "SettingButton",
-            "Animation",
-            "=",
-            "\"selected\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "SettingButton",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "SettingButton",
-            "Animation",
-            "=",
-            "\"normal\""
-          ]
-        }
-      ]
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Button "
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -646,86 +717,42 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "ExitButton",
+            "Button",
             "",
             "",
             ""
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "ExitButton",
-            "Animation",
-            "=",
-            "\"selected\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ExitButton",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "ExitButton",
-            "Animation",
-            "=",
-            "\"normal\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "PlayButton",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "PlayButton",
-            "Animation",
-            "=",
-            "\"selected\""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Button",
+                "Animation",
+                "=",
+                "\"1\""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -734,7 +761,7 @@
                 "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
-                "PlayButton",
+                "",
                 "\"Left\""
               ]
             }
@@ -742,14 +769,33 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "",
-                "\"Game Selection scene\"",
-                "\"Material\"",
-                "\"MetalCarving scene\"",
-                ""
+                "Button",
+                "Animation",
+                "=",
+                "\"0\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "TempArrow",
+                "-",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HeatLevel",
+                "+",
+                "5"
               ]
             }
           ]
@@ -757,34 +803,124 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Temperature"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "inverted": true,
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "PlayButton",
+            "cooling",
             "",
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
           },
           "parameters": [
-            "PlayButton",
-            "Animation",
-            "=",
-            "\"normal\""
+            "TempArrow",
+            "Tween",
+            "\"movedown\"",
+            "TempArrow.Y()+50",
+            "\"linear\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "HeatLevel",
+            "-",
+            "15"
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "HeatLevel"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Heat",
+            "Text",
+            "=",
+            "\"Heat level: \" + ToString(Variable(HeatLevel))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "cooling"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -877,6 +1013,14 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }
