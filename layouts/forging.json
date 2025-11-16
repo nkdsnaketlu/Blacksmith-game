@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3895856273827292,
+    "zoomFactor": 0.41630252177333427,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -91,8 +91,8 @@
       "name": "TempArrow",
       "persistentUuid": "4b3d9713-129d-4f3d-8182-20f28ba6f378",
       "width": 118,
-      "x": 1582,
-      "y": 700,
+      "x": 1580,
+      "y": 930,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -107,8 +107,8 @@
       "name": "cooling",
       "persistentUuid": "6bf227db-1af0-46a2-8143-30f0130abaef",
       "width": 0,
-      "x": 301,
-      "y": 849,
+      "x": -256,
+      "y": 772,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -141,8 +141,8 @@
       "name": "scale",
       "persistentUuid": "1c56d296-fa7a-4ce7-98fd-e267798a9f1f",
       "width": 77,
-      "x": 1600,
-      "y": 207,
+      "x": 1601,
+      "y": 210,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -154,12 +154,111 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Heat",
-      "persistentUuid": "3a7800bf-5741-4b34-b1a4-2c6efce68d25",
+      "name": "Heat_Level",
+      "persistentUuid": "da7b30a7-4b50-43ad-962b-9b33c0e4305d",
       "width": 0,
-      "x": 1536,
-      "y": 89,
-      "zOrder": 15,
+      "x": 236,
+      "y": 153,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Temp",
+      "persistentUuid": "7d6cc8af-e1f9-4d5d-bf00-ac61e39d27af",
+      "width": 0,
+      "x": 1305,
+      "y": 94,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "menu",
+      "persistentUuid": "813ea1d1-012b-4b33-9350-04ed0efc4e07",
+      "width": 0,
+      "x": 1441,
+      "y": 1011,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 225,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Level_divider",
+      "persistentUuid": "c0a59a4b-7294-4219-998f-02466861b429",
+      "width": 268,
+      "x": 1493,
+      "y": 644,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 225,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Level_divider",
+      "persistentUuid": "71b69f06-f5fb-45cf-959a-4ce35717bc09",
+      "width": 268,
+      "x": 1492,
+      "y": 420,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 225,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Level_divider",
+      "persistentUuid": "863a2634-38f5-472f-969a-e7182f9b5bb6",
+      "width": 268,
+      "x": 1496,
+      "y": 204,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "time",
+      "persistentUuid": "7cf916e8-a4f6-4583-a0f1-c1b3a98add31",
+      "width": 0,
+      "x": 343,
+      "y": 45,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -186,7 +285,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "wallll.png",
+                  "image": "assets\\minigames\\forge\\wallll.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -306,7 +405,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "button1.png",
+                  "image": "assets\\minigames\\forge\\button1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -354,7 +453,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "button2.png",
+                  "image": "assets\\minigames\\forge\\button2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -523,7 +622,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "gradient.png",
+                  "image": "assets\\minigames\\forge\\gradient.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -583,7 +682,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "fire.png",
+                  "image": "assets\\minigames\\forge\\fire.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -627,14 +726,14 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Heat",
+      "name": "Temp",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Heat: ",
+      "string": "Current temperature: 0",
       "font": "",
       "textAlignment": "left",
       "characterSize": 60,
@@ -657,7 +756,154 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Heat: ",
+        "text": "Current temperature: 0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Heat_Level",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Heat Level: ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Heat Level: ",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Level_divider",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "LevelDivider",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 33
+                      },
+                      {
+                        "x": 47,
+                        "y": 33
+                      },
+                      {
+                        "x": 47,
+                        "y": 35
+                      },
+                      {
+                        "x": 23,
+                        "y": 35
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "time",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -692,11 +938,120 @@
         "objectName": "fire"
       },
       {
-        "objectName": "Heat"
+        "objectName": "Temp"
+      },
+      {
+        "objectName": "time"
+      },
+      {
+        "objectName": "Heat_Level"
+      },
+      {
+        "objectName": "Level_divider"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"forge_timer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"scene_timer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CurrentTemp",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "HeatLevel",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CoolDown",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "menu",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Title scene\"",
+            ""
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
@@ -780,22 +1135,154 @@
             },
             {
               "type": {
-                "value": "MettreY"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "TempArrow",
-                "-",
-                "20"
+                "Temp",
+                "Text",
+                "=",
+                "\"Current temperature: \" + ToString(CurrentTemp)"
               ]
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "HeatLevel",
-                "+",
-                "5"
+                "Heat_Level",
+                "Text",
+                "=",
+                "\"Heat level: \" + ToString(HeatLevel)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentTemp",
+                    ">=",
+                    "25"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentTemp",
+                    "=",
+                    "24"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentTemp",
+                    "=",
+                    "24"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "TempArrow",
+                    "=",
+                    "155"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentTemp",
+                    "<=",
+                    "20"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentTemp",
+                    "+",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "TempArrow",
+                    "-",
+                    "110"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "CoolDown",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentTemp",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "CoolDown",
+                    "=",
+                    "0"
+                  ]
+                }
               ]
             }
           ]
@@ -812,61 +1299,88 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Temperature"
+      "comment": "cooling"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "cooling",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "CompareTimer"
           },
           "parameters": [
             "",
-            "\"Left\""
+            "\"forge_timer\"",
+            ">",
+            "3"
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-          },
-          "parameters": [
-            "TempArrow",
-            "Tween",
-            "\"movedown\"",
-            "TempArrow.Y()+50",
-            "\"linear\"",
-            "1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "HeatLevel",
-            "-",
-            "15"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CoolDown",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CurrentTemp",
+                "-",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Temp",
+                "Text",
+                "=",
+                "\"Current temperature: \" + ToString(CurrentTemp)"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "TempArrow",
+                "+",
+                "110"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"forge_timer\""
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
@@ -885,42 +1399,368 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"scene_timer\"",
+            ">",
+            "0"
+          ]
+        }
+      ],
       "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "game_time",
+            "-",
+            "1"
+          ]
+        },
         {
           "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Heat",
+            "time",
             "Text",
             "=",
-            "\"Heat level: \" + ToString(Variable(HeatLevel))"
+            "\"Time left: \" + ToString(60 - round(TimerElapsedTime(\"scene_timer\")))"
           ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"forge_timer\"",
+            ">",
+            "0"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentTemp",
+                ">=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentTemp",
+                "<=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HeatLevel",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentTemp",
+                ">=",
+                "7"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentTemp",
+                "<=",
+                "12"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HeatLevel",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentTemp",
+                ">=",
+                "13"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentTemp",
+                "<=",
+                "18"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HeatLevel",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentTemp",
+                ">=",
+                "19"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentTemp",
+                "<=",
+                "24"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HeatLevel",
+                "=",
+                "4"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "cooling"
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Grouped events",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Temperature"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cooling",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "TempArrow",
+                "Tween",
+                "\"movedown\"",
+                "TempArrow.Y()+50",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HeatLevel",
+                "-",
+                "15"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"scene_timer\"",
+            ">",
+            "60"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"game over\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"scene_timer\"",
+            "<",
+            "60"
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"scene_timer\"",
+            ">",
+            "20"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "HeatLevel",
+            ">=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"nice\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

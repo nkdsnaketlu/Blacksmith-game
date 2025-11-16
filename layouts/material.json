@@ -149,9 +149,25 @@
       "name": "forge",
       "persistentUuid": "a6ead2d9-e773-4ffe-80aa-5d70c6d927e8",
       "width": 526,
-      "x": 644,
-      "y": 457,
+      "x": 745,
+      "y": 1126,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "menu",
+      "persistentUuid": "f7bf4516-a51f-4e00-9976-4dbc4808be5c",
+      "width": 0,
+      "x": 1498,
+      "y": 958,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -178,7 +194,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "wallll2.png",
+                  "image": "assets\\minigames\\forge\\wallll.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -496,7 +512,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "046B1215-136D-4E3D-A891-337717281D0E.png",
+                  "image": "assets\\minigames\\forge\\046B1215-136D-4E3D-A891-337717281D0E.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -544,7 +560,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "1C986914-B67B-40A9-AE0B-CA51F7DC19ED.png",
+                  "image": "assets\\minigames\\forge\\1C986914-B67B-40A9-AE0B-CA51F7DC19ED.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -623,6 +639,68 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
+            "menu",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Title scene\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Chosen_Material",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
             "Option1",
             "",
             "",
@@ -636,9 +714,37 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Option",
+            "Chosen_Material",
             "=",
             "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "PlayButton",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MetalCarving scene\"",
+                "\"Material\""
+              ]
+            }
           ]
         }
       ]
@@ -664,9 +770,37 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Option",
+            "Chosen_Material",
             "=",
             "2"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "PlayButton",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MetalCarving scene\"",
+                "\"Material\""
+              ]
+            }
           ]
         }
       ]
@@ -692,9 +826,37 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Option",
+            "Chosen_Material",
             "=",
             "3"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "PlayButton",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MetalCarving scene\"",
+                "\"Material\""
+              ]
+            }
           ]
         }
       ]
@@ -720,9 +882,37 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Option",
+            "Chosen_Material",
             "=",
             "4"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "PlayButton",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MetalCarving scene\"",
+                "\"Material\""
+              ]
+            }
           ]
         }
       ]
@@ -748,9 +938,37 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Option",
+            "Chosen_Material",
             "=",
             "5"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "PlayButton",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MetalCarving scene\"",
+                "\"Material\""
+              ]
+            }
           ]
         }
       ]
@@ -833,7 +1051,7 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "Option",
+            "Chosen_Material",
             ">",
             "0"
           ]
@@ -864,7 +1082,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Option",
+            "Chosen_Material",
             "=",
             "0"
           ]

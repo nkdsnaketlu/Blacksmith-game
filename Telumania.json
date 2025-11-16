@@ -538,13 +538,166 @@
         "name": "assets\\forging.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/material2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\material2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/material3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\material3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/material4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\material4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/material5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\material5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite10.png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/forge/fire.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\forge\\fire.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/forge/gradient.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\forge\\gradient.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/forge/button1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\forge\\button1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/forge/button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\forge\\button2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/forge/wallll.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\forge\\wallll.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/forge/046B1215-136D-4E3D-A891-337717281D0E.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\forge\\046B1215-136D-4E3D-A891-337717281D0E.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/forge/1C986914-B67B-40A9-AE0B-CA51F7DC19ED.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\forge\\1C986914-B67B-40A9-AE0B-CA51F7DC19ED.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "сщщдсфде.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "сщщдсфде.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "menu",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Back to menu",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 255,
+        "g": 203,
+        "r": 200
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Back to menu",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "200;203;255"
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "menu"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [
@@ -569,7 +722,7 @@
       "value": 1000
     },
     {
-      "name": "Option",
+      "name": "Chosen_Material",
       "type": "number",
       "value": 0
     },
@@ -577,6 +730,11 @@
       "name": "HeatLevel",
       "type": "number",
       "value": 20
+    },
+    {
+      "name": "game_time",
+      "type": "number",
+      "value": 120
     }
   ],
   "layouts": [
@@ -599,6 +757,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-selection-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-over"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/nice"
     }
   ],
   "externalEvents": [],
