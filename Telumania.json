@@ -540,6 +540,11 @@
       "name": "Option",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "HeatLevel",
+      "type": "number",
+      "value": 20
     }
   ],
   "layouts": [

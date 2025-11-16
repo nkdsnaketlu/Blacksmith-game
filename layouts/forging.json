@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4027225833325918,
+    "zoomFactor": 0.3895856273827292,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -68,23 +68,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 79,
-      "keepRatio": true,
-      "layer": "",
-      "name": "score",
-      "persistentUuid": "ff895730-a479-44e3-b548-212b9ebdcdfb",
-      "width": 421,
-      "x": 1490,
-      "y": 33,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 418,
       "keepRatio": true,
       "layer": "",
@@ -109,7 +92,7 @@
       "persistentUuid": "4b3d9713-129d-4f3d-8182-20f28ba6f378",
       "width": 118,
       "x": 1582,
-      "y": 600,
+      "y": 700,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -171,28 +154,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Timer",
-      "persistentUuid": "db8fba76-613e-4a18-a045-aa7ccc3217fc",
+      "name": "Heat",
+      "persistentUuid": "3a7800bf-5741-4b34-b1a4-2c6efce68d25",
       "width": 0,
-      "x": 356,
-      "y": 39,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "cooling",
-      "persistentUuid": "bf882d01-095c-40b5-be44-e1f4f4d57197",
-      "width": 0,
-      "x": 2346,
-      "y": 694,
-      "zOrder": 14,
+      "x": 1536,
+      "y": 89,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -318,49 +285,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "score",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Score",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 50,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Score",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 50,
-        "lineHeight": 0,
-        "color": "255;255;255"
-      }
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -703,14 +627,14 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Timer",
+      "name": "Heat",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Time: ",
+      "string": "Heat: ",
       "font": "",
       "textAlignment": "left",
       "characterSize": 60,
@@ -733,7 +657,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Time: ",
+        "text": "Heat: ",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -750,13 +674,7 @@
         "objectName": "wall"
       },
       {
-        "objectName": "Timer"
-      },
-      {
         "objectName": "Clock"
-      },
-      {
-        "objectName": "score"
       },
       {
         "objectName": "Button"
@@ -772,6 +690,9 @@
       },
       {
         "objectName": "fire"
+      },
+      {
+        "objectName": "Heat"
       }
     ]
   },
@@ -866,6 +787,16 @@
                 "-",
                 "20"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HeatLevel",
+                "+",
+                "5"
+              ]
             }
           ]
         }
@@ -922,24 +853,20 @@
             "TempArrow",
             "Tween",
             "\"movedown\"",
-            "TempArrow.Y()+100",
+            "TempArrow.Y()+50",
             "\"linear\"",
-            "3",
+            "1",
             ""
           ]
-        }
-      ],
-      "events": [
+        },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "HeatLevel",
+            "-",
+            "15"
           ]
         }
       ]
@@ -954,54 +881,41 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "TImer"
+      "comment": "HeatLevel"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "cooling",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
+      "conditions": [],
       "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Timer",
-            "\"GameTime\""
-          ]
-        },
         {
           "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Timer",
+            "Heat",
             "Text",
             "=",
-            "ToString(TimerElapsedTime(\"GameTime\"))"
+            "\"Heat level: \" + ToString(Variable(HeatLevel))"
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "cooling"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
