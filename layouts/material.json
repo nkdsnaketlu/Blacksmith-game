@@ -35,8 +35,8 @@
       "name": "NewSprite",
       "persistentUuid": "308b45ec-7a12-4d5a-9076-89200bad8603",
       "width": 2272,
-      "x": -186,
-      "y": -146,
+      "x": -146,
+      "y": -126,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -49,11 +49,11 @@
       "height": 138,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
+      "name": "weapon",
       "persistentUuid": "9925f583-1a0a-491b-b28e-5f9ded85f8d4",
       "width": 982,
-      "x": 436,
-      "y": 55,
+      "x": 19,
+      "y": 77,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -68,8 +68,8 @@
       "name": "Option1",
       "persistentUuid": "1e36df29-8c47-46e2-a915-4f4067b82290",
       "width": 0,
-      "x": 367,
-      "y": 301,
+      "x": 1088,
+      "y": 251,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -84,8 +84,8 @@
       "name": "Option2",
       "persistentUuid": "4d12486f-303d-4657-83d9-a87bb9164ac0",
       "width": 0,
-      "x": 662,
-      "y": 297,
+      "x": 1370,
+      "y": 249,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -100,8 +100,8 @@
       "name": "Option3",
       "persistentUuid": "c192854f-a7ad-41c8-bb63-39d773cd0235",
       "width": 0,
-      "x": 899,
-      "y": 301,
+      "x": 1053,
+      "y": 390,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -116,8 +116,8 @@
       "name": "Option4",
       "persistentUuid": "27ed6e50-71f0-46e7-84cb-8b37abd8c8d0",
       "width": 0,
-      "x": 1214,
-      "y": 295,
+      "x": 1402,
+      "y": 396,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -132,8 +132,8 @@
       "name": "Option5",
       "persistentUuid": "44df2d50-5e86-43c8-9c81-373be2b2f447",
       "width": 0,
-      "x": 1511,
-      "y": 305,
+      "x": 1638,
+      "y": 310,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -142,15 +142,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 540,
+      "depth": 0.7407407407407406,
+      "height": 400,
       "keepRatio": true,
       "layer": "",
       "name": "forge",
       "persistentUuid": "a6ead2d9-e773-4ffe-80aa-5d70c6d927e8",
-      "width": 526,
-      "x": 745,
-      "y": 1126,
+      "width": 389.62962962962956,
+      "x": 1148,
+      "y": 616,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -165,9 +165,42 @@
       "name": "menu",
       "persistentUuid": "f7bf4516-a51f-4e00-9976-4dbc4808be5c",
       "width": 0,
-      "x": 1498,
-      "y": 958,
+      "x": 1443,
+      "y": 1138,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 400,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Dagger",
+      "persistentUuid": "a6972c82-8c23-4d3b-acd0-69ba83ecd257",
+      "width": 400,
+      "x": 82,
+      "y": 234,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Material",
+      "persistentUuid": "dbdec1aa-7dd2-4866-ba02-7434df36d058",
+      "width": 0,
+      "x": 1057,
+      "y": 85,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -238,17 +271,17 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "weapon",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Choose your material",
+      "string": "Current objective: ",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 100,
+      "characterSize": 70,
       "color": {
         "b": 255,
         "g": 255,
@@ -268,11 +301,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Choose your material",
+        "text": "Current objective: ",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 100,
+        "characterSize": 70,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -288,10 +321,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "1",
+      "string": "Steel",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 100,
+      "characterSize": 60,
       "color": {
         "b": 255,
         "g": 255,
@@ -311,11 +344,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "1",
+        "text": "Steel",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 100,
+        "characterSize": 60,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -331,10 +364,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "2",
+      "string": "iron",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 100,
+      "characterSize": 60,
       "color": {
         "b": 255,
         "g": 255,
@@ -354,11 +387,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "2",
+        "text": "iron",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 100,
+        "characterSize": 60,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -374,10 +407,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "3",
+      "string": "Bronze",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 100,
+      "characterSize": 60,
       "color": {
         "b": 255,
         "g": 255,
@@ -397,11 +430,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "3",
+        "text": "Bronze",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 100,
+        "characterSize": 60,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -420,7 +453,7 @@
       "string": "4",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 100,
+      "characterSize": 60,
       "color": {
         "b": 255,
         "g": 255,
@@ -444,7 +477,7 @@
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 100,
+        "characterSize": 60,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -463,7 +496,7 @@
       "string": "5",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 100,
+      "characterSize": 60,
       "color": {
         "b": 255,
         "g": 255,
@@ -487,7 +520,7 @@
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 100,
+        "characterSize": 60,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -599,6 +632,229 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Settings",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "unnamed (5)2.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 1024
+                      },
+                      {
+                        "x": 0,
+                        "y": 1024
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Menu",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "unnamed (6)2.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 1024
+                      },
+                      {
+                        "x": 0,
+                        "y": 1024
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dagger",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "unnamed (7).jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 1024
+                      },
+                      {
+                        "x": 0,
+                        "y": 1024
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Material",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Select your Material",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Select your Material",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -608,7 +864,10 @@
         "objectName": "NewSprite"
       },
       {
-        "objectName": "NewText"
+        "objectName": "weapon"
+      },
+      {
+        "objectName": "Dagger"
       },
       {
         "objectName": "Option1"
@@ -627,10 +886,46 @@
       },
       {
         "objectName": "Option5"
+      },
+      {
+        "objectName": "Settings"
+      },
+      {
+        "objectName": "Menu"
+      },
+      {
+        "objectName": "Material"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"Ui Layer\"",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -1085,6 +1380,80 @@
             "Chosen_Material",
             "=",
             "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Settings",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"settings\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Menu",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Title scene\"",
+            ""
           ]
         }
       ]

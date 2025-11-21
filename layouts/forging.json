@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41630252177333427,
+    "zoomFactor": 0.3411856023473464,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -57,8 +57,8 @@
       "name": "Clock",
       "persistentUuid": "c830a28c-6ccb-4dd0-9778-1177da6e5286",
       "width": 72,
-      "x": 240,
-      "y": 47,
+      "x": 887,
+      "y": 30,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -157,8 +157,8 @@
       "name": "Heat_Level",
       "persistentUuid": "da7b30a7-4b50-43ad-962b-9b33c0e4305d",
       "width": 0,
-      "x": 236,
-      "y": 153,
+      "x": 880,
+      "y": 188,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -173,8 +173,8 @@
       "name": "Temp",
       "persistentUuid": "7d6cc8af-e1f9-4d5d-bf00-ac61e39d27af",
       "width": 0,
-      "x": 1305,
-      "y": 94,
+      "x": 733,
+      "y": 256,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,8 +189,8 @@
       "name": "menu",
       "persistentUuid": "813ea1d1-012b-4b33-9350-04ed0efc4e07",
       "width": 0,
-      "x": 1441,
-      "y": 1011,
+      "x": 2008,
+      "y": 607,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -256,8 +256,8 @@
       "name": "time",
       "persistentUuid": "7cf916e8-a4f6-4583-a0f1-c1b3a98add31",
       "width": 0,
-      "x": 343,
-      "y": 45,
+      "x": 997,
+      "y": 33,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -952,6 +952,33 @@
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"Ui Layer\"",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [

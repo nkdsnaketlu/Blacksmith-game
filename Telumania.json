@@ -642,6 +642,46 @@
         "name": "сщщдсфде.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "unnamed (5).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed (5).jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "unnamed (6).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed (6).jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "unnamed (5)2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed (5)2.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "unnamed (6)2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed (6)2.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "unnamed (7).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed (7).jpg",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -765,6 +805,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/nice"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/settings"
     }
   ],
   "externalEvents": [],
@@ -778,5 +822,10 @@
       "referenceTo": "/eventsFunctionsExtensions/sticker"
     }
   ],
-  "externalLayouts": []
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/ui-layer"
+    }
+  ]
 }
