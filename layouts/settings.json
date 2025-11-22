@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.37687720367508754,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -29,47 +29,100 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 89,
+      "height": 1092,
       "keepRatio": true,
       "layer": "",
-      "name": "Music",
-      "persistentUuid": "2f02ae48-2e1d-49e2-9608-7eee6ae4d717",
-      "width": 680,
-      "x": 178,
-      "y": 252,
-      "zOrder": 1,
+      "name": "bg",
+      "persistentUuid": "d891164b-71c6-4d29-89e6-c4ab0f6175ce",
+      "width": 2050,
+      "x": -1,
+      "y": -6,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 69,
       "keepRatio": true,
       "layer": "",
-      "name": "SFX",
-      "persistentUuid": "6354b065-09d3-4ffc-a53e-d8a573e1de04",
-      "width": 0,
-      "x": 180,
-      "y": 496,
-      "zOrder": 2,
+      "name": "SquareWhiteSlider",
+      "persistentUuid": "2bef0b10-fa18-4a06-b016-287fea893620",
+      "width": 691,
+      "x": 1041,
+      "y": 304,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 69,
       "keepRatio": true,
       "layer": "",
-      "name": "return",
-      "persistentUuid": "fc7ad4d6-2dfe-4483-bd18-665f78c867cb",
-      "width": 0,
-      "x": 743,
-      "y": 867,
-      "zOrder": 3,
+      "name": "SquareWhiteSlider2",
+      "persistentUuid": "b53920a4-da79-41cf-8ff3-3a87a97803b8",
+      "width": 697,
+      "x": 1038,
+      "y": 530,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 700,
+      "keepRatio": true,
+      "layer": "",
+      "name": "music",
+      "persistentUuid": "a17c81a2-d2ed-4d93-850c-5ee881bf677a",
+      "width": 700,
+      "x": 154,
+      "y": -4,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 700,
+      "keepRatio": true,
+      "layer": "",
+      "name": "sfx",
+      "persistentUuid": "d5cd9fdc-a88a-47ff-9e29-484c7e38da2d",
+      "width": 700,
+      "x": 152,
+      "y": 226,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 901,
+      "keepRatio": true,
+      "layer": "",
+      "name": "return2",
+      "persistentUuid": "3b8c67de-f5eb-495e-9545-65cb1205979a",
+      "width": 901,
+      "x": 622,
+      "y": 468,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -77,146 +130,298 @@
   ],
   "objects": [
     {
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Music",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
+      "name": "bg",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Music Volume",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 100,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bg3.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 810,
+                        "y": 0
+                      },
+                      {
+                        "x": 810,
+                        "y": 519
+                      },
+                      {
+                        "x": 0,
+                        "y": 519
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+      "name": "SquareWhiteSlider",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Square white slider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
       "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Music Volume",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 100,
-        "lineHeight": 0,
-        "color": "0;0;0"
+        "BarTopPadding": 6,
+        "BarLeftPadding": 6,
+        "BarRightPadding": 6,
+        "BarBottomPadding": 6,
+        "LabelMargin": 6
       }
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "SFX",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
+      "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+      "name": "SquareWhiteSlider2",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Square white slider",
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Sound Effects",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 100,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Sound Effects",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 100,
-        "lineHeight": 0,
-        "color": "0;0;0"
+        "BarTopPadding": 6,
+        "BarLeftPadding": 6,
+        "BarRightPadding": 6,
+        "BarBottomPadding": 6,
+        "LabelMargin": 6
       }
     },
     {
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "return",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
+      "name": "music",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "return",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 100,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "return",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 100,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "4BD02962-7299-4A64-AF7D-826C48909B04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 231,
+                        "y": 1264
+                      },
+                      {
+                        "x": 3260,
+                        "y": 1264
+                      },
+                      {
+                        "x": 3260,
+                        "y": 2072
+                      },
+                      {
+                        "x": 231,
+                        "y": 2072
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "sfx",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "384B771B-4C56-43C1-BAE2-9769281CD23C.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 231,
+                        "y": 1264
+                      },
+                      {
+                        "x": 3260,
+                        "y": 1264
+                      },
+                      {
+                        "x": 3260,
+                        "y": 2072
+                      },
+                      {
+                        "x": 231,
+                        "y": 2072
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "return2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "E9873087-AE1E-44DA-AD93-3E1A176C23F5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 231,
+                        "y": 1264
+                      },
+                      {
+                        "x": 3260,
+                        "y": 1264
+                      },
+                      {
+                        "x": 3260,
+                        "y": 2072
+                      },
+                      {
+                        "x": 231,
+                        "y": 2072
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Music"
+        "objectName": "bg"
       },
       {
-        "objectName": "SFX"
+        "objectName": "return2"
       },
       {
-        "objectName": "return"
+        "objectName": "sfx"
+      },
+      {
+        "objectName": "SquareWhiteSlider"
+      },
+      {
+        "objectName": "SquareWhiteSlider2"
+      },
+      {
+        "objectName": "music"
       }
     ]
   },
@@ -289,12 +494,24 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
     },
     {
       "name": "Scale",

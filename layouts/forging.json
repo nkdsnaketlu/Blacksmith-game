@@ -35,30 +35,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1219,
-      "keepRatio": true,
-      "layer": "",
-      "name": "wall",
-      "persistentUuid": "3690844c-37d0-4e6f-b6c7-ae9df9a687d5",
-      "width": 2272,
-      "x": -41,
-      "y": -60,
-      "zOrder": -3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 64,
       "layer": "",
       "name": "Clock",
       "persistentUuid": "c830a28c-6ccb-4dd0-9778-1177da6e5286",
       "width": 72,
-      "x": 887,
-      "y": 30,
+      "x": 826,
+      "y": 96,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -107,8 +90,8 @@
       "name": "cooling",
       "persistentUuid": "6bf227db-1af0-46a2-8143-30f0130abaef",
       "width": 0,
-      "x": -256,
-      "y": 772,
+      "x": 431,
+      "y": 1182,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,8 +172,8 @@
       "name": "menu",
       "persistentUuid": "813ea1d1-012b-4b33-9350-04ed0efc4e07",
       "width": 0,
-      "x": 2008,
-      "y": 607,
+      "x": 721,
+      "y": 1163,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -256,9 +239,61 @@
       "name": "time",
       "persistentUuid": "7cf916e8-a4f6-4583-a0f1-c1b3a98add31",
       "width": 0,
-      "x": 997,
-      "y": 33,
+      "x": 957,
+      "y": 96,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 458,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bgText",
+      "opacity": 230,
+      "persistentUuid": "cf16f867-e98c-43ab-8647-76261cc3c448",
+      "width": 2168,
+      "x": -98,
+      "y": 327,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 263,
+      "keepRatio": true,
+      "layer": "",
+      "name": "instructions",
+      "persistentUuid": "7ddca3f4-463e-4040-9af3-db40d841e1de",
+      "width": 1475,
+      "x": 241,
+      "y": 375,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1091,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg",
+      "persistentUuid": "3ba4f5ce-0a29-4b53-bcab-2185c36f0336",
+      "width": 2060,
+      "x": -14,
+      "y": -6,
+      "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -736,7 +771,7 @@
       "string": "Current temperature: 0",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 60,
+      "characterSize": 50,
       "color": {
         "b": 255,
         "g": 255,
@@ -744,11 +779,11 @@
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -760,7 +795,7 @@
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 60,
+        "characterSize": 50,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -787,11 +822,11 @@
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -911,6 +946,230 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bgText",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "instructions",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Press the button to increase the heat level until \nthe temperature arrow reaches the target range.\n\n[press left click to escape]\n\n\n",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 70,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Press the button to increase the heat level until \nthe temperature arrow reaches the target range.\n\n[press left click to escape]\n\n\n",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BG",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "background.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 810,
+                        "y": 0
+                      },
+                      {
+                        "x": 810,
+                        "y": 519
+                      },
+                      {
+                        "x": 0,
+                        "y": 519
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bg1.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 810,
+                        "y": 0
+                      },
+                      {
+                        "x": 810,
+                        "y": 519
+                      },
+                      {
+                        "x": 0,
+                        "y": 519
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -948,6 +1207,18 @@
       },
       {
         "objectName": "Level_divider"
+      },
+      {
+        "objectName": "bgText"
+      },
+      {
+        "objectName": "instructions"
+      },
+      {
+        "objectName": "BG"
+      },
+      {
+        "objectName": "bg"
       }
     ]
   },
@@ -1075,6 +1346,71 @@
             "",
             "\"Title scene\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "bgText",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "instructions",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "bgText"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "instructions"
           ]
         }
       ]
@@ -1407,6 +1743,11 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         }
