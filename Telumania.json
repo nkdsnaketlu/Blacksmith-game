@@ -642,6 +642,38 @@
         "name": "сщщдсфде.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "playbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "playbutton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "settingsbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "settingsbutton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "exitbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exitbutton.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
