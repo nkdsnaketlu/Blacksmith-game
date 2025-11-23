@@ -1836,6 +1836,11 @@
       "name": "game_time",
       "type": "number",
       "value": 120
+    },
+    {
+      "name": "weaponIndex",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
