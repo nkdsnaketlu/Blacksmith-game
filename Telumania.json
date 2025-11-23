@@ -644,6 +644,14 @@
         "userAdded": false
       },
       {
+        "file": "logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "unnamed (5).jpg",
         "kind": "image",
         "metadata": "",
@@ -659,11 +667,35 @@
         "smoothed": false,
         "userAdded": false
       },
+       {
+        "file": "playbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "playbutton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
       {
         "file": "unnamed (5)2.jpg",
         "kind": "image",
         "metadata": "",
         "name": "unnamed (5)2.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "settingsbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "settingsbutton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "exitbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exitbutton.png",
         "smoothed": false,
         "userAdded": false
       },
