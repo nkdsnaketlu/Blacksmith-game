@@ -165,7 +165,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "wmremove-transformed.png",
+                  "image": "assets\\wmremove-transformed.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -246,16 +246,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 32,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 32,
+                        "y": 32
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 32
                       }
                     ]
                   ]
