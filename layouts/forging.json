@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3411856023473464,
+    "zoomFactor": 0.36458333333333504,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -35,30 +35,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "layer": "",
-      "name": "Clock",
-      "persistentUuid": "c830a28c-6ccb-4dd0-9778-1177da6e5286",
-      "width": 72,
-      "x": 826,
-      "y": 96,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 418,
       "keepRatio": true,
       "layer": "",
       "name": "Button",
       "persistentUuid": "d61a913a-ff70-4b41-98a2-467195c9d103",
       "width": 449,
-      "x": 168,
-      "y": 400,
+      "x": 124,
+      "y": 555,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,23 +85,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 638,
-      "keepRatio": true,
-      "layer": "",
-      "name": "fire",
-      "persistentUuid": "67178fbe-1479-479a-b253-3918eaf6daa4",
-      "width": 564,
-      "x": 753,
-      "y": 403,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 778,
       "keepRatio": true,
       "layer": "",
@@ -141,7 +108,7 @@
       "persistentUuid": "da7b30a7-4b50-43ad-962b-9b33c0e4305d",
       "width": 0,
       "x": 880,
-      "y": 188,
+      "y": 379,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -156,8 +123,8 @@
       "name": "Temp",
       "persistentUuid": "7d6cc8af-e1f9-4d5d-bf00-ac61e39d27af",
       "width": 0,
-      "x": 733,
-      "y": 256,
+      "x": 727,
+      "y": 311,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -239,8 +206,8 @@
       "name": "time",
       "persistentUuid": "7cf916e8-a4f6-4583-a0f1-c1b3a98add31",
       "width": 0,
-      "x": 957,
-      "y": 96,
+      "x": 996,
+      "y": 73,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -257,9 +224,9 @@
       "opacity": 230,
       "persistentUuid": "cf16f867-e98c-43ab-8647-76261cc3c448",
       "width": 2168,
-      "x": -98,
-      "y": 327,
-      "zOrder": 21,
+      "x": -79,
+      "y": 346,
+      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -268,15 +235,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 263,
+      "height": 243,
       "keepRatio": true,
       "layer": "",
       "name": "instructions",
       "persistentUuid": "7ddca3f4-463e-4040-9af3-db40d841e1de",
       "width": 1475,
-      "x": 241,
-      "y": 375,
-      "zOrder": 22,
+      "x": 280,
+      "y": 385,
+      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -285,7 +252,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1091,
+      "height": 1080,
       "keepRatio": true,
       "layer": "",
       "name": "bg",
@@ -293,7 +260,7 @@
       "width": 2060,
       "x": -14,
       "y": -6,
-      "zOrder": -3,
+      "zOrder": -7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -328,6 +295,89 @@
       "x": 85,
       "y": 75,
       "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 252,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bgtext",
+      "persistentUuid": "6cbb5545-195f-4016-9bd2-da4051e7d9cf",
+      "width": 611,
+      "x": 700,
+      "y": 205,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1000,
+      "keepRatio": true,
+      "layer": "",
+      "name": "furnace",
+      "persistentUuid": "7ba5b58c-9d16-4776-bbec-3fba5cc31dde",
+      "width": 1000,
+      "x": 535,
+      "y": 262,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 150,
+      "keepRatio": true,
+      "layer": "",
+      "name": "clock",
+      "persistentUuid": "2d3aa98f-44d4-438d-9b5c-d5781bf88a8e",
+      "width": 150,
+      "x": 815,
+      "y": 45,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MaterialDisplay",
+      "persistentUuid": "02e4871c-3899-4f30-b101-4b1e81bbe1df",
+      "width": 0,
+      "x": 933,
+      "y": 230,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "justtext",
+      "persistentUuid": "4873d1e7-5c7e-403f-a4c5-4061c608c52c",
+      "width": 0,
+      "x": 728,
+      "y": 231,
+      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -732,66 +782,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "fire",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\minigames\\forge\\fire.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 510,
-                        "y": 0
-                      },
-                      {
-                        "x": 510,
-                        "y": 576
-                      },
-                      {
-                        "x": 0,
-                        "y": 576
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
@@ -807,13 +797,13 @@
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": true,
+        "isOutlineEnabled": false,
         "isShadowEnabled": true,
         "italic": false,
         "outlineColor": "0;0;0",
@@ -831,7 +821,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 50,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "0;0;0"
       }
     },
     {
@@ -850,13 +840,13 @@
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": true,
+        "isOutlineEnabled": false,
         "isShadowEnabled": true,
         "italic": false,
         "outlineColor": "0;0;0",
@@ -874,7 +864,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 50,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "0;0;0"
       }
     },
     {
@@ -1084,6 +1074,272 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bgtext",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "plate.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 3207,
+                        "y": 0
+                      },
+                      {
+                        "x": 3207,
+                        "y": 1063
+                      },
+                      {
+                        "x": 0,
+                        "y": 1063
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "furnace",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "furnace.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 203,
+                        "y": 928
+                      },
+                      {
+                        "x": 3112,
+                        "y": 928
+                      },
+                      {
+                        "x": 3112,
+                        "y": 2573
+                      },
+                      {
+                        "x": 203,
+                        "y": 2573
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "clock",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clock.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 336,
+                        "y": 463
+                      },
+                      {
+                        "x": 3132,
+                        "y": 463
+                      },
+                      {
+                        "x": 3132,
+                        "y": 2961
+                      },
+                      {
+                        "x": 336,
+                        "y": 2961
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "MaterialDisplay",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "chosen Material",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "chosen Material",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "justtext",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "material: ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "material: ",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1108,13 +1364,13 @@
         "objectName": "scale"
       },
       {
-        "objectName": "fire"
-      },
-      {
         "objectName": "Temp"
       },
       {
         "objectName": "time"
+      },
+      {
+        "objectName": "clock"
       },
       {
         "objectName": "Heat_Level"
@@ -1127,37 +1383,22 @@
       },
       {
         "objectName": "instructions"
+      },
+      {
+        "objectName": "bgtext"
+      },
+      {
+        "objectName": "furnace"
+      },
+      {
+        "objectName": "MaterialDisplay"
+      },
+      {
+        "objectName": "justtext"
       }
     ]
   },
   "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"Ui Layer\"",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -1217,6 +1458,18 @@
             "CoolDown",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "fire-crackling-356123.mp3",
+            "yes",
+            "50",
+            "1"
           ]
         }
       ]
@@ -1459,6 +1712,18 @@
                 "Text",
                 "=",
                 "\"Heat level: \" + ToString(HeatLevel)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "woosh-345977.mp3",
+                "",
+                "50",
+                "1"
               ]
             }
           ],
@@ -2069,6 +2334,44 @@
             "",
             "\"nice\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Materialdisplay"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "MaterialDisplay",
+            "Text",
+            "=",
+            "GlobalVariableString(MaterialNames[GlobalVariable(Global_Chosen_Material)])"
           ]
         }
       ]
