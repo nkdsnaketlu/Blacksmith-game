@@ -652,10 +652,34 @@
         "userAdded": false
       },
       {
+        "file": "unnamed (5).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed (5).jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "unnamed (6).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed (6).jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+       {
         "file": "playbutton.png",
         "kind": "image",
         "metadata": "",
         "name": "playbutton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "unnamed (5)2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed (5)2.jpg",
         "smoothed": false,
         "userAdded": false
       },
@@ -672,6 +696,894 @@
         "kind": "image",
         "metadata": "",
         "name": "exitbutton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "unnamed (6)2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed (6)2.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "unnamed (7).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed (7).jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite11.png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "background.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bg1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg1.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bg2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg2.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bg3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg3.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Square White Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/324e5f522f6242e9f93090e75ddc38427c3a6c42e8236dbf0ed541bd85cf7221_Square White Slider Border.png",
+          "name": "Square White Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Square White Slider Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/47bc684198cd25b3ec74b0e72c2e2c7abb1b6736bd9f4b78a943c663e83118bf_Square White Slider Fill Bar.png",
+          "name": "Square White Slider Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/Square White Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/848f861767e7ce4581dba9e122ee7bafeaca57987655cebe1f78ab31d1300f0f_Square White Slider Thumb.png",
+          "name": "Square White Slider Thumb.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Square Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Square Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png",
+          "name": "Small Plastic Green Square Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Square Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Square Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/2f9378611f391b8228cac337e39ecacacd720b59716e7dd9e56cce73adb60f69_Small Plastic Green Square Slider Thumb.png",
+          "name": "Small Plastic Green Square Slider Thumb.png"
+        }
+      },
+      {
+        "file": "assets/Transparent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+          "name": "Transparent.png"
+        }
+      },
+      {
+        "file": "assets/Square Green Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Green Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/b20061f94d8b7288702975d6bd15d1a750a6b5ba429c22cb695b19210d0da8b9_Square Green Slider Border.png",
+          "name": "Square Green Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Square Green Slider Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Green Slider Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/553dd6c98bc6b7c3539f936e1c0815fef2796c9aa3468ae90d288bdb5931076b_Square Green Slider Fill Bar.png",
+          "name": "Square Green Slider Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/Square Green Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Green Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/7f9d3fcd723e6cd77452d818e3cba9775f63acdbf98378e7276cc95bf1213e86_Square Green Slider Thumb.png",
+          "name": "Square Green Slider Thumb.png"
+        }
+      },
+      {
+        "file": "assets/Square Blue Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/4358a20ce4a1e83f8643b287f37cefadefc1941d23cfdc50a3836ecd0dd209f1_Square Blue Slider Border.png",
+          "name": "Square Blue Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Square Blue Slider Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Slider Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/71e7d4c8549a750e6e7b6bc6508a352176cb64a57129e96bdd8f2c5bbc187820_Square Blue Slider Fill Bar.png",
+          "name": "Square Blue Slider Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/Square Blue Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/984a68a8bbb562d3f01a8a1993720778df07d37bb3314ed6f1aaf3d4f0edede3_Square Blue Slider Thumb.png",
+          "name": "Square Blue Slider Thumb.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/308609c5db4c7f741d0ea6ce46b7245524c9e48682f23c670ec81ea08f5917e5_Small Plastic Green Round Slider Border.png",
+          "name": "Small Plastic Green Round Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/f1fe4aaaa4d6da59e2bf6b9411de1f013b5d86c5cacda01f99226c78f427f606_Small Plastic Green Round Slider Thumb.png",
+          "name": "Small Plastic Green Round Slider Thumb.png"
+        }
+      },
+      {
+        "file": "assets/Gold Round Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold Round Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/7bf53b28aa4f451084f9c4d52408ffc1748253be56957512909864ec0caef7e0_Gold Round Toggle_Off.png",
+          "name": "Gold Round Toggle_Off.png"
+        }
+      },
+      {
+        "file": "assets/Gold Round Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold Round Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/1272aa3720a7e69e9125f5d854b17c086f16bee709886fd248220da68259d2e4_Gold Round Toggle_On.png",
+          "name": "Gold Round Toggle_On.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/fb7f90b97747df8daf145e5d616435f9bbf02a5b953ee2c8e51dc9f298bd9257_Small Plastic Green Round Toggle_Off.png",
+          "name": "Small Plastic Green Round Toggle_Off.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/f1fe4aaaa4d6da59e2bf6b9411de1f013b5d86c5cacda01f99226c78f427f606_Small Plastic Green Round Toggle_On.png",
+          "name": "Small Plastic Green Round Toggle_On.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Square Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Square Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/9fac934090b9e722bbede334ed31025aa21ea4f85d64d12d2ed29f95157df6b5_Small Plastic Green Square Toggle_Off.png",
+          "name": "Small Plastic Green Square Toggle_Off.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Square Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Square Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/2f9378611f391b8228cac337e39ecacacd720b59716e7dd9e56cce73adb60f69_Small Plastic Green Square Toggle_On.png",
+          "name": "Small Plastic Green Square Toggle_On.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Switch_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Switch_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/80b157db1711ebc0166b1e42ff29bbf8837b5c9a0b1d62494e8eb5ca06837a31_Small Plastic Green Round Switch_Off.png",
+          "name": "Small Plastic Green Round Switch_Off.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Switch_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Switch_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/0af9e04c0c382482aeeaa36bc713a626249d6f6df3280bbccc6a042973ad555c_Small Plastic Green Round Switch_On.png",
+          "name": "Small Plastic Green Round Switch_On.png"
+        }
+      },
+      {
+        "file": "assets/Gold Square Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold Square Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/f60585fc8683ba04f4d95faf340b9aec80a6d81117aa08a9b67a3a11c8954bfd_Gold Square Toggle_Off.png",
+          "name": "Gold Square Toggle_Off.png"
+        }
+      },
+      {
+        "file": "assets/Gold Square Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold Square Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/b45b4a4f911bcf0fdb90b31b6e300835be589bc5e63297f3daf2817be09e468e_Gold Square Toggle_On.png",
+          "name": "Gold Square Toggle_On.png"
+        }
+      },
+      {
+        "file": "assets/Square Blue Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/14903c264ccc32143a5dea59a53e0a9fa7c055cdff1afb7ebc4ee624a783271e_Square Blue Toggle_Off.png",
+          "name": "Square Blue Toggle_Off.png"
+        }
+      },
+      {
+        "file": "assets/Square Blue Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/2dda7f1aa5cac6d167f2833febbe1982b833183664653e8fac352579113982df_Square Blue Toggle_On.png",
+          "name": "Square Blue Toggle_On.png"
+        }
+      },
+      {
+        "file": "assets/Square Green Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Green Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/d05bf00d39eb358ed6633f8fdb2b3b9180629639a659cd3b97ced4fe4cd584a2_Square Green Toggle_Off.png",
+          "name": "Square Green Toggle_Off.png"
+        }
+      },
+      {
+        "file": "assets/Square Green Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Green Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/0663f29b1be666b216fc5c658b59a403e951ec100cbc316402495b078b83b6a0_Square Green Toggle_On.png",
+          "name": "Square Green Toggle_On.png"
+        }
+      },
+      {
+        "file": "assets/Square White Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/e88334de6c9ad921b4719b34a512d70b923fcf36112610a7f9ed4d56aa77cfd0_Square White Toggle_Off.png",
+          "name": "Square White Toggle_Off.png"
+        }
+      },
+      {
+        "file": "assets/Square White Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/ebdb63dcba9c53d41a0a468ba28929bf88b1b8698d672fc17568723fe1fbc3cc_Square White Toggle_On.png",
+          "name": "Square White Toggle_On.png"
+        }
+      },
+      {
+        "file": "music.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "music.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sfx.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sfx.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4BD02962-7299-4A64-AF7D-826C48909B04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4BD02962-7299-4A64-AF7D-826C48909B04.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "384B771B-4C56-43C1-BAE2-9769281CD23C.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "384B771B-4C56-43C1-BAE2-9769281CD23C.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "E9873087-AE1E-44DA-AD93-3E1A176C23F5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "E9873087-AE1E-44DA-AD93-3E1A176C23F5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "74D7A521-68DC-441E-9B22-9E3B3AD1E062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "74D7A521-68DC-441E-9B22-9E3B3AD1E062.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sfxv.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sfxv.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "musicv.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "musicv.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "aluminium.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "aluminium.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "copper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "copper.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "iron.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "iron.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "steel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "steel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "titanium.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "titanium.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "aluminium2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "aluminium2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "axe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "axe.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "longsword.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "longsword.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dagger.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dagger.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "textobj.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "textobj.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "select.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "settings.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "settings.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "text2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "text2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "textt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "textt.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "250.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "250.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "150.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "150.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "75.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "75.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "settings2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "settings2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "251.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "251.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "151.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "151.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "101.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "101.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "76.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "forgee.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forgee.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "forgeee.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forgeee.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dark iron.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dark iron.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "refined steel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "refined steel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "titanium2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "titanium2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "aluminium3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "aluminium3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dark iron.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "dark iron.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "75.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "75.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "copper.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "copper.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "100.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "100.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "titanium.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "titanium.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "150.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "150.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "aluminium.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "aluminium.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "250.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "250.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "refined steel.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "refined steel.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "300.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "300.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "left.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "right.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -721,6 +1633,186 @@
         "lineHeight": 0,
         "color": "200;203;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "settings",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "settings.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 226,
+                        "y": 180
+                      },
+                      {
+                        "x": 3229,
+                        "y": 180
+                      },
+                      {
+                        "x": 3229,
+                        "y": 3212
+                      },
+                      {
+                        "x": 226,
+                        "y": 3212
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "menu2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "menu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 459,
+                        "y": 97
+                      },
+                      {
+                        "x": 3005,
+                        "y": 97
+                      },
+                      {
+                        "x": 3005,
+                        "y": 3372
+                      },
+                      {
+                        "x": 459,
+                        "y": 3372
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bg1.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 810,
+                        "y": 0
+                      },
+                      {
+                        "x": 810,
+                        "y": 519
+                      },
+                      {
+                        "x": 0,
+                        "y": 519
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -728,6 +1820,15 @@
     "children": [
       {
         "objectName": "menu"
+      },
+      {
+        "objectName": "settings"
+      },
+      {
+        "objectName": "menu2"
+      },
+      {
+        "objectName": "bg"
       }
     ]
   },
@@ -767,6 +1868,11 @@
       "name": "game_time",
       "type": "number",
       "value": 120
+    },
+    {
+      "name": "weaponIndex",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
@@ -797,6 +1903,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/nice"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/settings"
     }
   ],
   "externalEvents": [],
@@ -808,7 +1918,24 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/sticker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/recolorizer"
     }
   ],
-  "externalLayouts": []
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/ui-layer"
+    }
+  ]
 }

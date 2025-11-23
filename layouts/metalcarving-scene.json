@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.542792080247332,
+    "zoomFactor": 0.2531414001298645,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -1419,9 +1419,60 @@
       "name": "menu",
       "persistentUuid": "0a4f52f1-5f70-4435-a545-307c14e7bd6d",
       "width": 0,
-      "x": 1531,
-      "y": 996,
+      "x": 2195,
+      "y": 889,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg",
+      "persistentUuid": "166144d6-14fd-4ee4-a949-7b211b22646f",
+      "width": 2065,
+      "x": -1,
+      "y": -1,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "settings",
+      "persistentUuid": "74cd1b3b-b57b-4b28-979d-d2e751e0ca40",
+      "width": 100,
+      "x": 1875,
+      "y": 75,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "menu2",
+      "persistentUuid": "c4404fa4-647f-44eb-8478-c693f9ec9c0b",
+      "width": 100,
+      "x": 85,
+      "y": 75,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2157,7 +2208,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "menu",
+            "menu2",
             "",
             "",
             ""
@@ -2176,12 +2227,47 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "PushScene"
           },
           "parameters": [
             "",
-            "\"Title scene\"",
+            "\"Title scene\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "settings",
+            "",
+            "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"settings\""
           ]
         }
       ]
@@ -2292,6 +2378,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

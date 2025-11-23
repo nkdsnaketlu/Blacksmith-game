@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Game_32Selection_32scene",
-  "name": "Game Selection scene",
+  "mangledName": "settings",
+  "name": "settings",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.37687720367508754,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -27,49 +27,17 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Selection_Cutting",
-      "persistentUuid": "41ed42a2-4363-478c-ad62-c5fcd26b397c",
-      "width": 0,
-      "x": 302,
-      "y": 420,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Selection_Forging",
-      "persistentUuid": "94652e31-53be-4058-b2df-4dd1db9f8220",
-      "width": 0,
-      "x": 718,
-      "y": 420,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1081,
+      "height": 1079,
       "keepRatio": true,
       "layer": "",
       "name": "bg",
-      "persistentUuid": "a398e225-a36b-46fb-aeb0-cedc51ada0fd",
-      "width": 2068,
-      "x": -11,
-      "y": 1,
-      "zOrder": 1,
+      "persistentUuid": "d891164b-71c6-4d29-89e6-c4ab0f6175ce",
+      "width": 2050,
+      "x": -1,
+      "y": -6,
+      "zOrder": -4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -77,15 +45,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 100,
+      "depth": 64,
+      "height": 69,
       "keepRatio": true,
       "layer": "",
-      "name": "settings",
-      "persistentUuid": "d3945302-8354-476a-9151-d99707610ae5",
-      "width": 100,
-      "x": 1875,
-      "y": 75,
+      "name": "SquareWhiteSlider",
+      "persistentUuid": "2bef0b10-fa18-4a06-b016-287fea893620",
+      "width": 691,
+      "x": 1068,
+      "y": 308,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -94,16 +62,67 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 100,
+      "depth": 64,
+      "height": 69,
       "keepRatio": true,
       "layer": "",
-      "name": "menu2",
-      "persistentUuid": "843c8592-499c-4c4b-8adf-3492473f9928",
-      "width": 100,
-      "x": 85,
-      "y": 75,
+      "name": "SquareWhiteSlider2",
+      "persistentUuid": "b53920a4-da79-41cf-8ff3-3a87a97803b8",
+      "width": 697,
+      "x": 1051,
+      "y": 528,
       "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 901,
+      "keepRatio": true,
+      "layer": "",
+      "name": "return",
+      "persistentUuid": "3b8c67de-f5eb-495e-9545-65cb1205979a",
+      "width": 901,
+      "x": 622,
+      "y": 438,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1700,
+      "keepRatio": true,
+      "layer": "",
+      "name": "music",
+      "persistentUuid": "ce1aec0d-d301-44aa-a998-9a8cda692223",
+      "width": 1700,
+      "x": 170,
+      "y": -283,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1700,
+      "keepRatio": true,
+      "layer": "",
+      "name": "sfx",
+      "persistentUuid": "c1444083-2f98-431b-ba03-b5cf945f63b3",
+      "width": 1700,
+      "x": 171,
+      "y": -500,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -113,7 +132,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Background_grass",
+      "name": "bg",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -130,7 +149,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\background-grass.png",
+                  "image": "bg3.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -150,16 +169,108 @@
                         "y": 0
                       },
                       {
-                        "x": 1920,
+                        "x": 810,
                         "y": 0
                       },
                       {
-                        "x": 1920,
-                        "y": 1080
+                        "x": 810,
+                        "y": 519
                       },
                       {
                         "x": 0,
-                        "y": 1080
+                        "y": 519
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+      "name": "SquareWhiteSlider",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Square white slider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 6,
+        "BarLeftPadding": 6,
+        "BarRightPadding": 6,
+        "BarBottomPadding": 6,
+        "LabelMargin": 6
+      }
+    },
+    {
+      "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+      "name": "SquareWhiteSlider2",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Square white slider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 6,
+        "BarLeftPadding": 6,
+        "BarRightPadding": 6,
+        "BarBottomPadding": 6,
+        "LabelMargin": 6
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "return",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "E9873087-AE1E-44DA-AD93-3E1A176C23F5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 231,
+                        "y": 1264
+                      },
+                      {
+                        "x": 3260,
+                        "y": 1264
+                      },
+                      {
+                        "x": 3260,
+                        "y": 2072
+                      },
+                      {
+                        "x": 231,
+                        "y": 2072
                       }
                     ]
                   ]
@@ -173,7 +284,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Selection_Cutting",
+      "name": "sfx",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -190,7 +301,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\cutting.png",
+                  "image": "sfxv.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -206,20 +317,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 1544
                       },
                       {
-                        "x": 246,
-                        "y": 0
+                        "x": 3434,
+                        "y": 1544
                       },
                       {
-                        "x": 246,
-                        "y": 246
+                        "x": 3434,
+                        "y": 1891
                       },
                       {
-                        "x": 0,
-                        "y": 246
+                        "x": 32,
+                        "y": 1891
                       }
                     ]
                   ]
@@ -233,7 +344,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Selection_Forging",
+      "name": "music",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -250,7 +361,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\forging.png",
+                  "image": "musicv.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -266,20 +377,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 1544
                       },
                       {
-                        "x": 246,
-                        "y": 0
+                        "x": 3434,
+                        "y": 1544
                       },
                       {
-                        "x": 246,
-                        "y": 246
+                        "x": 3434,
+                        "y": 1891
                       },
                       {
-                        "x": 0,
-                        "y": 246
+                        "x": 32,
+                        "y": 1891
                       }
                     ]
                   ]
@@ -295,13 +406,22 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Background_grass"
+        "objectName": "bg"
       },
       {
-        "objectName": "Selection_Cutting"
+        "objectName": "return"
       },
       {
-        "objectName": "Selection_Forging"
+        "objectName": "SquareWhiteSlider"
+      },
+      {
+        "objectName": "SquareWhiteSlider2"
+      },
+      {
+        "objectName": "sfx"
+      },
+      {
+        "objectName": "music"
       }
     ]
   },
@@ -311,37 +431,10 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"Ui Layer\"",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "Selection_Cutting",
+            "return",
             "",
             "",
             ""
@@ -358,7 +451,7 @@
                 "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
-                "PlayButton",
+                "",
                 "\"Left\""
               ]
             }
@@ -366,139 +459,15 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PopScene"
               },
               "parameters": [
-                "",
-                "\"Material\"",
                 ""
               ]
             }
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Selection_Forging",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "PlayButton",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Forging\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "menu2",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Title scene\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "settings",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"settings\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

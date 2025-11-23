@@ -91,8 +91,26 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1084,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg",
+      "persistentUuid": "14affddf-6cd7-456b-807c-a5a069325387",
+      "width": 2064,
+      "x": -1,
+      "y": -8,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1084,
       "keepRatio": true,
       "layer": "",
       "name": "ExitButton",
@@ -518,6 +536,33 @@
             "Animation",
             "=",
             "\"selected\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"settings\""
+              ]
+            }
           ]
         }
       ]
