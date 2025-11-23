@@ -27,6 +27,74 @@
   "instances": [
     {
       "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 304,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Title",
+      "persistentUuid": "cb0c028f-2d53-42fd-badb-d362e8fdb1f5",
+      "width": 1247,
+      "x": 86,
+      "y": 44,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 213.33333333333337,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PlayButton",
+      "persistentUuid": "eb4862ea-6d86-4310-a3bf-71a714704534",
+      "width": 700,
+      "x": 1140,
+      "y": 357,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 182.8571428571429,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SettingButton",
+      "persistentUuid": "c2098fa1-cb82-4167-9d46-9b23e10cbad0",
+      "width": 600,
+      "x": 1240,
+      "y": 601,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 152.38095238095238,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ExitButton",
+      "persistentUuid": "9235ba58-0f32-4a3a-9d53-73bf8f4a6a26",
+      "width": 500,
+      "x": 1340,
+      "y": 806,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -37,88 +105,6 @@
       "x": 5,
       "y": -4,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Logo",
-      "persistentUuid": "b8fca16e-872a-49c2-9006-106675ab97b8",
-      "width": 0,
-      "x": 169,
-      "y": 101,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "PlayButton",
-      "persistentUuid": "e8db85ee-aed0-4a17-8284-2065c2feeac1",
-      "width": 0,
-      "x": 1302,
-      "y": 414,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "SettingsButton",
-      "persistentUuid": "4a48f6d4-1611-4536-934f-adf45b491752",
-      "width": 0,
-      "x": 1300,
-      "y": 629,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1084,
-      "keepRatio": true,
-      "layer": "",
-      "name": "bg",
-      "persistentUuid": "14affddf-6cd7-456b-807c-a5a069325387",
-      "width": 2064,
-      "x": -1,
-      "y": -8,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1084,
-      "keepRatio": true,
-      "layer": "",
-      "name": "ExitButton",
-      "persistentUuid": "00f24997-b114-4afa-a086-0829ff8dee2a",
-      "width": 0,
-      "x": 1297,
-      "y": 846,
-      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -189,6 +175,331 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
+      "name": "PlayButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\menu\\Tm_PlayButton2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 105,
+                        "y": 0
+                      },
+                      {
+                        "x": 105,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "selected",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\menu\\playbutton_selected.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 105,
+                        "y": 0
+                      },
+                      {
+                        "x": 105,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SettingButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\menu\\Tm_SettingButton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 105,
+                        "y": 0
+                      },
+                      {
+                        "x": 105,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "selected",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\menu\\SettingButton_selected.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 105,
+                        "y": 0
+                      },
+                      {
+                        "x": 105,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ExitButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\menu\\Tm_ExitButton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 105,
+                        "y": 0
+                      },
+                      {
+                        "x": 105,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "selected",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\menu\\ExitButton_selected.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 105,
+                        "y": 0
+                      },
+                      {
+                        "x": 105,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
       "name": "NewSprite",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -245,246 +556,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Logo",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "logo.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 874,
-                        "y": 1
-                      },
-                      {
-                        "x": 874,
-                        "y": 138
-                      },
-                      {
-                        "x": 0,
-                        "y": 138
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "PlayButton",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "playbutton.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 460,
-                        "y": 0
-                      },
-                      {
-                        "x": 460,
-                        "y": 149
-                      },
-                      {
-                        "x": 0,
-                        "y": 149
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "SettingsButton",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "settingsbutton.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 460,
-                        "y": 0
-                      },
-                      {
-                        "x": 460,
-                        "y": 149
-                      },
-                      {
-                        "x": 0,
-                        "y": 149
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "ExitButton",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "exitbutton.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 460,
-                        "y": 0
-                      },
-                      {
-                        "x": 460,
-                        "y": 149
-                      },
-                      {
-                        "x": 0,
-                        "y": 149
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -494,19 +565,16 @@
         "objectName": "Title"
       },
       {
-        "objectName": "Logo"
-      },
-      {
         "objectName": "PlayButton"
       },
       {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "SettingsButton"
+        "objectName": "SettingButton"
       },
       {
         "objectName": "ExitButton"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -519,7 +587,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "SettingsButton",
+            "SettingButton",
             "",
             "",
             ""
@@ -532,37 +600,10 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "SettingsButton",
+            "SettingButton",
             "Animation",
             "=",
             "\"selected\""
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PushScene"
-              },
-              "parameters": [
-                "",
-                "\"settings\""
-              ]
-            }
           ]
         }
       ]
@@ -576,7 +617,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "SettingsButton",
+            "SettingButton",
             "",
             "",
             ""
@@ -589,7 +630,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "SettingsButton",
+            "SettingButton",
             "Animation",
             "=",
             "\"normal\""
@@ -705,10 +746,8 @@
               },
               "parameters": [
                 "",
-                "\"Game Selection scene\"",
-                "\"Material\"",
-                "\"MetalCarving scene\"",
-                ""
+                "\"Main Map scene\"",
+                "\"Material\""
               ]
             }
           ]
