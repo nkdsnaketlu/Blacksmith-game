@@ -308,8 +308,8 @@
       "name": "settings",
       "persistentUuid": "2c3d37e4-0cef-4298-baf0-7024e9ac21e7",
       "width": 100,
-      "x": 1825,
-      "y": 84,
+      "x": 1875,
+      "y": 75,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -325,8 +325,8 @@
       "name": "menu2",
       "persistentUuid": "7fe4f07c-482e-466f-a3ad-9583c0bd5862",
       "width": 100,
-      "x": 92,
-      "y": 77,
+      "x": 85,
+      "y": 75,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -1084,66 +1084,6 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "bg",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "bg1.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 810,
-                        "y": 0
-                      },
-                      {
-                        "x": 810,
-                        "y": 519
-                      },
-                      {
-                        "x": 0,
-                        "y": 519
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1187,9 +1127,6 @@
       },
       {
         "objectName": "instructions"
-      },
-      {
-        "objectName": "bg"
       }
     ]
   },
@@ -1292,7 +1229,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "menu",
+            "menu2",
             "",
             "",
             ""
@@ -1311,12 +1248,47 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "PushScene"
           },
           "parameters": [
             "",
-            "\"Title scene\"",
+            "\"Title scene\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "settings",
+            "",
+            "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"settings\""
           ]
         }
       ]

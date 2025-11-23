@@ -1330,6 +1330,230 @@
         "name": "menu2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "251.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "251.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "151.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "151.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "101.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "101.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "76.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "forgee.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forgee.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "forgeee.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forgeee.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dark iron.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dark iron.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "refined steel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "refined steel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "titanium2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "titanium2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "aluminium3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "aluminium3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dark iron.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "dark iron.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "75.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "75.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "copper.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "copper.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "100.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "100.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "titanium.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "titanium.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "150.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "150.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "aluminium.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "aluminium.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "250.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "250.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "refined steel.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "refined steel.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "300.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "300.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "left.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "right.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1497,6 +1721,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bg1.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 810,
+                        "y": 0
+                      },
+                      {
+                        "x": 810,
+                        "y": 519
+                      },
+                      {
+                        "x": 0,
+                        "y": 519
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1510,6 +1794,9 @@
       },
       {
         "objectName": "menu2"
+      },
+      {
+        "objectName": "bg"
       }
     ]
   },
