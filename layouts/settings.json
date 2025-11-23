@@ -29,7 +29,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1092,
+      "height": 1079,
       "keepRatio": true,
       "layer": "",
       "name": "bg",
@@ -37,7 +37,7 @@
       "width": 2050,
       "x": -1,
       "y": -6,
-      "zOrder": 0,
+      "zOrder": -4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -52,8 +52,8 @@
       "name": "SquareWhiteSlider",
       "persistentUuid": "2bef0b10-fa18-4a06-b016-287fea893620",
       "width": 691,
-      "x": 1041,
-      "y": 304,
+      "x": 1068,
+      "y": 308,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -69,43 +69,9 @@
       "name": "SquareWhiteSlider2",
       "persistentUuid": "b53920a4-da79-41cf-8ff3-3a87a97803b8",
       "width": 697,
-      "x": 1038,
-      "y": 530,
+      "x": 1051,
+      "y": 528,
       "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 700,
-      "keepRatio": true,
-      "layer": "",
-      "name": "music",
-      "persistentUuid": "a17c81a2-d2ed-4d93-850c-5ee881bf677a",
-      "width": 700,
-      "x": 154,
-      "y": -4,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 700,
-      "keepRatio": true,
-      "layer": "",
-      "name": "sfx",
-      "persistentUuid": "d5cd9fdc-a88a-47ff-9e29-484c7e38da2d",
-      "width": 700,
-      "x": 152,
-      "y": 226,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -117,12 +83,46 @@
       "height": 901,
       "keepRatio": true,
       "layer": "",
-      "name": "return2",
+      "name": "return",
       "persistentUuid": "3b8c67de-f5eb-495e-9545-65cb1205979a",
       "width": 901,
       "x": 622,
-      "y": 468,
+      "y": 438,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1700,
+      "keepRatio": true,
+      "layer": "",
+      "name": "music",
+      "persistentUuid": "ce1aec0d-d301-44aa-a998-9a8cda692223",
+      "width": 1700,
+      "x": 170,
+      "y": -283,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1700,
+      "keepRatio": true,
+      "layer": "",
+      "name": "sfx",
+      "persistentUuid": "c1444083-2f98-431b-ba03-b5cf945f63b3",
+      "width": 1700,
+      "x": 171,
+      "y": -500,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -224,7 +224,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "music",
+      "name": "return",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -241,7 +241,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "4BD02962-7299-4A64-AF7D-826C48909B04.png",
+                  "image": "E9873087-AE1E-44DA-AD93-3E1A176C23F5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -301,7 +301,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "384B771B-4C56-43C1-BAE2-9769281CD23C.png",
+                  "image": "sfxv.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -317,20 +317,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 231,
-                        "y": 1264
+                        "x": 32,
+                        "y": 1544
                       },
                       {
-                        "x": 3260,
-                        "y": 1264
+                        "x": 3434,
+                        "y": 1544
                       },
                       {
-                        "x": 3260,
-                        "y": 2072
+                        "x": 3434,
+                        "y": 1891
                       },
                       {
-                        "x": 231,
-                        "y": 2072
+                        "x": 32,
+                        "y": 1891
                       }
                     ]
                   ]
@@ -344,7 +344,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "return2",
+      "name": "music",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -361,7 +361,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "E9873087-AE1E-44DA-AD93-3E1A176C23F5.png",
+                  "image": "musicv.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -377,20 +377,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 231,
-                        "y": 1264
+                        "x": 32,
+                        "y": 1544
                       },
                       {
-                        "x": 3260,
-                        "y": 1264
+                        "x": 3434,
+                        "y": 1544
                       },
                       {
-                        "x": 3260,
-                        "y": 2072
+                        "x": 3434,
+                        "y": 1891
                       },
                       {
-                        "x": 231,
-                        "y": 2072
+                        "x": 32,
+                        "y": 1891
                       }
                     ]
                   ]
@@ -409,10 +409,7 @@
         "objectName": "bg"
       },
       {
-        "objectName": "return2"
-      },
-      {
-        "objectName": "sfx"
+        "objectName": "return"
       },
       {
         "objectName": "SquareWhiteSlider"
@@ -421,11 +418,50 @@
         "objectName": "SquareWhiteSlider2"
       },
       {
+        "objectName": "sfx"
+      },
+      {
         "objectName": "music"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "return",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PopScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,

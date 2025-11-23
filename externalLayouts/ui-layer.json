@@ -1,42 +1,7 @@
 {
   "associatedLayout": "Material",
   "name": "Ui Layer",
-  "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 150,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Settings",
-      "persistentUuid": "64887850-0682-4ebd-b611-95175a610da4",
-      "width": 150,
-      "x": 1821,
-      "y": 83,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 150,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Menu",
-      "persistentUuid": "48393a61-4a65-4e2e-aac2-0d490d0ae18d",
-      "width": 150,
-      "x": 72,
-      "y": 69,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    }
-  ],
+  "instances": [],
   "editionSettings": {
     "grid": false,
     "gridType": "rectangular",

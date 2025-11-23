@@ -1138,6 +1138,198 @@
         "name": "74D7A521-68DC-441E-9B22-9E3B3AD1E062.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "sfxv.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sfxv.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "musicv.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "musicv.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "aluminium.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "aluminium.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "copper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "copper.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "iron.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "iron.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "steel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "steel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "titanium.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "titanium.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "aluminium2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "aluminium2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "axe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "axe.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "longsword.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "longsword.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dagger.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dagger.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "textobj.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "textobj.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "select.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "settings.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "settings.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "text2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "text2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "textt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "textt.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "250.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "250.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "150.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "150.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "75.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "75.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "settings2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "settings2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1185,6 +1377,126 @@
         "lineHeight": 0,
         "color": "200;203;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "settings",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "settings.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 226,
+                        "y": 180
+                      },
+                      {
+                        "x": 3229,
+                        "y": 180
+                      },
+                      {
+                        "x": 3229,
+                        "y": 3212
+                      },
+                      {
+                        "x": 226,
+                        "y": 3212
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "menu2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "menu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 459,
+                        "y": 97
+                      },
+                      {
+                        "x": 3005,
+                        "y": 97
+                      },
+                      {
+                        "x": 3005,
+                        "y": 3372
+                      },
+                      {
+                        "x": 459,
+                        "y": 3372
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1192,6 +1504,12 @@
     "children": [
       {
         "objectName": "menu"
+      },
+      {
+        "objectName": "settings"
+      },
+      {
+        "objectName": "menu2"
       }
     ]
   },
