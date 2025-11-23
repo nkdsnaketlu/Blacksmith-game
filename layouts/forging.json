@@ -1215,7 +1215,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "clock.png",
+                  "image": "assets\\minigames\\forge\\clock.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1231,20 +1231,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 336,
-                        "y": 463
+                        "x": 335,
+                        "y": 462
                       },
                       {
-                        "x": 3132,
-                        "y": 463
+                        "x": 3134,
+                        "y": 462
                       },
                       {
-                        "x": 3132,
-                        "y": 2961
+                        "x": 3134,
+                        "y": 2963
                       },
                       {
-                        "x": 336,
-                        "y": 2961
+                        "x": 335,
+                        "y": 2963
                       }
                     ]
                   ]

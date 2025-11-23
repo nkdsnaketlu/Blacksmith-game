@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3411856023473456,
+    "zoomFactor": 0.4163025217733333,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -326,7 +326,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "playbutton.png",
+                  "image": "assets\\menu\\playbutton.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -351,11 +351,11 @@
                       },
                       {
                         "x": 460,
-                        "y": 149
+                        "y": 150
                       },
                       {
                         "x": 0,
-                        "y": 149
+                        "y": 150
                       }
                     ]
                   ]
@@ -386,7 +386,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "settingsbutton.png",
+                  "image": "assets\\menu\\settingsbutton.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -411,11 +411,11 @@
                       },
                       {
                         "x": 460,
-                        "y": 149
+                        "y": 150
                       },
                       {
                         "x": 0,
-                        "y": 149
+                        "y": 150
                       }
                     ]
                   ]
@@ -446,7 +446,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "exitbutton.png",
+                  "image": "assets\\menu\\exitbutton.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -471,11 +471,11 @@
                       },
                       {
                         "x": 460,
-                        "y": 149
+                        "y": 150
                       },
                       {
                         "x": 0,
-                        "y": 149
+                        "y": 150
                       }
                     ]
                   ]
@@ -554,6 +554,26 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\menubutton.wav",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
             {
               "type": {
                 "value": "PushScene"
@@ -699,6 +719,26 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\menubutton.wav",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"

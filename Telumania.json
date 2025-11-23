@@ -667,7 +667,7 @@
         "smoothed": false,
         "userAdded": false
       },
-       {
+      {
         "file": "playbutton.png",
         "kind": "image",
         "metadata": "",
@@ -1626,6 +1626,58 @@
         "kind": "audio",
         "metadata": "",
         "name": "woosh-345977.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/menu/playbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu\\playbutton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/menu/settingsbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu\\settingsbutton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/menu/exitbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu\\exitbutton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/forge/clock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\forge\\clock.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/menubutton.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\menubutton.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/weapon_button.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\weapon_button.ogg",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,

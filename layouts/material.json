@@ -1729,16 +1729,6 @@
             "",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Chosen_Material",
-            ">",
-            "0"
-          ]
         }
       ],
       "actions": [
@@ -1752,16 +1742,6 @@
             "=",
             "\"1\""
           ]
-        },
-        {
-          "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "ChosenWeaponName",
-            "=",
-            "GlobalVariableString(weaponNames[Variable(weaponIndex)]) "
-          ]
         }
       ],
       "events": [
@@ -1770,25 +1750,84 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "Chosen_Material",
+                ">",
+                "0"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "",
-                "\"MetalCarving scene\"",
-                ""
+                "ChosenWeaponName",
+                "=",
+                "GlobalVariableString(weaponNames[Variable(weaponIndex)]) "
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MetalCarving scene\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "forging",
+            "",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "forging",
+            "Animation",
+            "=",
+            "\"0\""
           ]
         }
       ]
@@ -2255,6 +2294,18 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\sound\\weapon_button.ogg",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
@@ -2290,6 +2341,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\sound\\weapon_button.ogg",
+            "",
+            "",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "SetNumberVariable"
