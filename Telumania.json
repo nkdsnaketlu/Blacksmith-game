@@ -732,6 +732,14 @@
         "userAdded": false
       },
       {
+        "file": "Telumania-townmap.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Telumania-townmap.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "background.jpg",
         "kind": "image",
         "metadata": "",
@@ -1682,6 +1690,22 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/wmremove-transformed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\wmremove-transformed.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2137,6 +2161,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/title-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-map-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
