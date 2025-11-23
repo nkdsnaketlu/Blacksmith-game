@@ -1521,33 +1521,6 @@
       "actions": [
         {
           "type": {
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"Ui Layer\"",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
@@ -1778,6 +1751,16 @@
             "Animation",
             "=",
             "\"1\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "ChosenWeaponName",
+            "=",
+            "GlobalVariableString(weaponNames[Variable(weaponIndex)]) "
           ]
         }
       ],
