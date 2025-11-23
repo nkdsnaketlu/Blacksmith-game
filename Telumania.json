@@ -1586,6 +1586,50 @@
         "name": "right.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "furnace2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "furnace2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "plate.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "plate.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clock.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fire-crackling-356123.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fire-crackling-356123.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "woosh-345977.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "woosh-345977.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1845,6 +1889,119 @@
       "value": 0
     },
     {
+      "name": "Materials",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Aluminium",
+          "type": "structure",
+          "children": [
+            {
+              "name": "MaxTempZone",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "MinTempZone",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "RequiredTime",
+              "type": "number",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "Copper",
+          "type": "structure",
+          "children": [
+            {
+              "name": "MaxTempZone",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "MinTempZone",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "RequiredTime",
+              "type": "number",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "name": "DarkIron",
+          "type": "structure",
+          "children": [
+            {
+              "name": "MaxTempZone",
+              "type": "number",
+              "value": 4
+            },
+            {
+              "name": "MinTempZone",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "RequiredTime",
+              "type": "number",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "RefinedSteel",
+          "type": "structure",
+          "children": [
+            {
+              "name": "MaxTempZone",
+              "type": "number",
+              "value": 4
+            },
+            {
+              "name": "MinTempZone",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "RequiredTime",
+              "type": "number",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "name": "Titanium",
+          "type": "structure",
+          "children": [
+            {
+              "name": "MaxTempZone",
+              "type": "number",
+              "value": 4
+            },
+            {
+              "name": "MinTempZone",
+              "type": "number",
+              "value": 4
+            },
+            {
+              "name": "RequiredTime",
+              "type": "number",
+              "value": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "CoolDown",
       "type": "number",
       "value": 0
@@ -1873,6 +2030,55 @@
       "name": "weaponIndex",
       "type": "number",
       "value": 1
+    },
+    {
+      "name": "weaponNames",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "\"Axe\""
+        },
+        {
+          "type": "string",
+          "value": "\"Longsword\""
+        },
+        {
+          "type": "string",
+          "value": "\"Dagger\""
+        }
+      ]
+    },
+    {
+      "name": "ChosenWeaponName",
+      "type": "string",
+      "value": "\" \""
+    },
+    {
+      "name": "MaterialNames",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "\"Refined Steel\""
+        },
+        {
+          "type": "string",
+          "value": "\"Aluminium\""
+        },
+        {
+          "type": "string",
+          "value": "\"Titanium\""
+        },
+        {
+          "type": "string",
+          "value": "\"Copper\""
+        },
+        {
+          "type": "string",
+          "value": "\"DarkIron\""
+        }
+      ]
     }
   ],
   "layouts": [
