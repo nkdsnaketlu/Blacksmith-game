@@ -31,6 +31,22 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "773840e6-dedc-454e-861d-2c9cd7f15379",
+      "width": 0,
+      "x": 5,
+      "y": -4,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
       "name": "Logo",
       "persistentUuid": "b8fca16e-872a-49c2-9006-106675ab97b8",
       "width": 0,
@@ -529,6 +545,42 @@
           "conditions": [
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SettingsButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\hover.wav",
+                "no",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
@@ -689,6 +741,42 @@
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "PlayButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\hover.wav",
+                "no",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [

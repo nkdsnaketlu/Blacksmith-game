@@ -1708,54 +1708,46 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite13.png",
+        "file": "gameover.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite13",
+        "metadata": "",
+        "name": "gameover.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/tick.png",
+        "file": "button.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\tick.png",
+        "name": "button.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite14.png",
+        "file": "scroll.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite14",
+        "metadata": "",
+        "name": "scroll.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite14.png",
+        "file": "gold.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\NewSprite14.png",
+        "name": "gold.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/UnifrakturCook-Bold.ttf",
-        "kind": "font",
+        "file": "assets/sound/hover.wav",
+        "kind": "audio",
         "metadata": "",
-        "name": "assets\\UnifrakturCook-Bold.ttf",
+        "name": "assets\\sound\\hover.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
-      },
-      {
-        "file": "assets/ReggaeOne-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "9fb28ba0ab1167fbdb2d69423e13139535176e27c2c6f61d6959935dba4b5974_ReggaeOne-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/9fb28ba0ab1167fbdb2d69423e13139535176e27c2c6f61d6959935dba4b5974_ReggaeOne-Regular.ttf",
-          "name": "gdevelop-asset-store"
-        }
       }
     ],
     "resourceFolders": []
@@ -1773,7 +1765,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Back to menu",
-      "font": "assets\\UnifrakturCook-Bold.ttf",
+      "font": "",
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
@@ -1796,7 +1788,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Back to menu",
-        "font": "assets\\UnifrakturCook-Bold.ttf",
+        "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 60,
@@ -2310,11 +2302,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hammering"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/tournament"
+      "referenceTo": "/layouts/judging"
     }
   ],
   "externalEvents": [],
