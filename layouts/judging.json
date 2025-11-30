@@ -13,12 +13,14 @@
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
+    "gridDepth": 32,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
+    "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.27050126039625505,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -37,7 +39,7 @@
       "width": 1921,
       "x": 0,
       "y": -2,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -99,54 +101,6 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "ForgingText",
-      "persistentUuid": "c0abc548-409d-4329-a11d-4dfe76a473c9",
-      "width": 0,
-      "x": 230,
-      "y": 466,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CuttingText",
-      "persistentUuid": "0a7d9b9d-3e65-4c65-b86c-cf4bfde2b60c",
-      "width": 0,
-      "x": 230,
-      "y": 170,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HammeringText",
-      "persistentUuid": "1cd569c4-a163-4c88-981d-4f844f1e2b2d",
-      "width": 0,
-      "x": 230,
-      "y": 763,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
       "name": "CuttingRating",
       "persistentUuid": "aaf92efa-46c6-45be-bb15-bacc3cd744de",
       "width": 0,
@@ -195,22 +149,6 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "RewardsText",
-      "persistentUuid": "cf2a64e3-d572-4e39-874f-7f61f69588e6",
-      "width": 0,
-      "x": 1237,
-      "y": 127,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
       "name": "GoldAmount",
       "persistentUuid": "f85ef9fc-5881-4b40-9802-384fa49553a5",
       "width": 0,
@@ -239,32 +177,102 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1.0695187165775402,
+      "height": 103.74331550802138,
       "keepRatio": true,
       "layer": "",
-      "name": "JudgingBack",
-      "persistentUuid": "ce6c0c96-428f-4dcc-a019-961af23046f0",
-      "width": 0,
-      "x": 1210,
-      "y": 779,
-      "zOrder": 12,
+      "name": "cuttingText",
+      "persistentUuid": "a66712d8-ff5d-445b-be12-41c95d1c3719",
+      "width": 400,
+      "x": 189,
+      "y": 180,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 132.080078125,
       "keepRatio": true,
       "layer": "",
-      "name": "Continue",
-      "persistentUuid": "0f5cf132-b5a2-4b27-be22-9e9af6b3a85b",
-      "width": 0,
-      "x": 1317,
-      "y": 815,
-      "zOrder": 13,
+      "name": "hammering",
+      "persistentUuid": "b9682ebf-27c2-4912-8629-4420ba86143b",
+      "width": 500,
+      "x": 231,
+      "y": 749,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 132.080078125,
+      "keepRatio": true,
+      "layer": "",
+      "name": "forgingText",
+      "persistentUuid": "3ee8d6d0-77ec-47cc-b00f-5c9db4fc7a21",
+      "width": 500,
+      "x": 170,
+      "y": 455,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 92.4560546875,
+      "keepRatio": true,
+      "layer": "",
+      "name": "continueText",
+      "persistentUuid": "2965be8c-9145-4cb3-b526-3761114ba562",
+      "width": 350,
+      "x": 1246,
+      "y": 803,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 96.88221709006928,
+      "keepRatio": true,
+      "layer": "",
+      "name": "rewardsText",
+      "persistentUuid": "aff4ad37-4b9b-4e43-b9b4-c6810bec5483",
+      "width": 400,
+      "x": 1201,
+      "y": 179,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 196.41307492045138,
+      "keepRatio": true,
+      "layer": "",
+      "name": "button",
+      "persistentUuid": "b7747ea8-7d0c-498b-9e73-0d87586a611b",
+      "width": 700,
+      "x": 1080,
+      "y": 748,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -777,6 +785,366 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cuttingText",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "cutting3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 546,
+                        "y": 29
+                      },
+                      {
+                        "x": 3547,
+                        "y": 29
+                      },
+                      {
+                        "x": 3547,
+                        "y": 1053
+                      },
+                      {
+                        "x": 546,
+                        "y": 1053
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "hammering",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "cutt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 104,
+                        "y": 114
+                      },
+                      {
+                        "x": 3989,
+                        "y": 114
+                      },
+                      {
+                        "x": 3989,
+                        "y": 959
+                      },
+                      {
+                        "x": 104,
+                        "y": 959
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "forgingText",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "forging3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 604,
+                        "y": 77
+                      },
+                      {
+                        "x": 3490,
+                        "y": 77
+                      },
+                      {
+                        "x": 3490,
+                        "y": 997
+                      },
+                      {
+                        "x": 604,
+                        "y": 997
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "continueText",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "continue.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 178,
+                        "y": 108
+                      },
+                      {
+                        "x": 3917,
+                        "y": 108
+                      },
+                      {
+                        "x": 3917,
+                        "y": 973
+                      },
+                      {
+                        "x": 178,
+                        "y": 973
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "rewardsText",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rewrds.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 124,
+                        "y": 65
+                      },
+                      {
+                        "x": 3339,
+                        "y": 65
+                      },
+                      {
+                        "x": 3339,
+                        "y": 771
+                      },
+                      {
+                        "x": 124,
+                        "y": 771
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "button",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bttontemplate.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 46
+                      },
+                      {
+                        "x": 3377,
+                        "y": 46
+                      },
+                      {
+                        "x": 3377,
+                        "y": 923
+                      },
+                      {
+                        "x": 96,
+                        "y": 923
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -814,6 +1182,24 @@
       },
       {
         "objectName": "Coin"
+      },
+      {
+        "objectName": "cuttingText"
+      },
+      {
+        "objectName": "hammering"
+      },
+      {
+        "objectName": "forgingText"
+      },
+      {
+        "objectName": "continueText"
+      },
+      {
+        "objectName": "rewardsText"
+      },
+      {
+        "objectName": "button"
       }
     ]
   },
@@ -826,7 +1212,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "Continue",
+            "continueText",
             "",
             "",
             ""
@@ -843,7 +1229,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Continue",
+                "continueText",
                 "",
                 "",
                 ""

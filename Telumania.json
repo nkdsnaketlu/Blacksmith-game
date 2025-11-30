@@ -81,6 +81,7 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -1814,6 +1815,54 @@
         "name": "hammering2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "cutting3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cutting3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "cutt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cutt.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "forging3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forging3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "continue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "continue.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rewrds.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rewrds.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bttontemplate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bttontemplate.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2368,6 +2417,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/judging"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ending-scene"
     }
   ],
   "externalEvents": [],
