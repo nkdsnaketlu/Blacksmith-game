@@ -745,10 +745,8 @@
               },
               "parameters": [
                 "",
-                "\"Game Selection scene\"",
-                "\"Material\"",
-                "\"MetalCarving scene\"",
-                ""
+                "\"Main Map scene\"",
+                "\"Material\""
               ]
             }
           ]
