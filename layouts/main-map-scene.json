@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.43034038022076565,
+    "zoomFactor": 0.37687720367508776,
     "windowMask": false,
     "selectedLayer": "Effect Layer"
   },
@@ -63,31 +63,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 199,
-      "keepRatio": true,
-      "layer": "Effect Layer",
-      "name": "LittleCastleHitBox",
-      "persistentUuid": "f2b78ce9-3f59-4a4c-a010-4513f61dc372",
-      "width": 230,
-      "x": 911,
-      "y": 381,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 245,
+      "height": 290,
       "keepRatio": true,
       "layer": "Effect Layer",
       "name": "BigCaslteHitBox",
       "persistentUuid": "f1cf8892-05be-469b-b1f7-fc8ea84d547e",
-      "width": 329,
-      "x": 1210,
-      "y": 337,
+      "width": 325,
+      "x": 1230,
+      "y": 317,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -139,6 +122,57 @@
       "x": 54,
       "y": 156,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 282,
+      "keepRatio": true,
+      "layer": "Effect Layer",
+      "name": "BigCaslteHitBox",
+      "persistentUuid": "1ca4bb8a-cbb6-4925-879f-669f9d903ae5",
+      "width": 269,
+      "x": 896,
+      "y": 330,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 365,
+      "keepRatio": true,
+      "layer": "Effect Layer",
+      "name": "tick",
+      "persistentUuid": "32841e6b-e70a-470b-b13f-268636a21e0f",
+      "width": 389,
+      "x": 1192,
+      "y": 296,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 303,
+      "keepRatio": true,
+      "layer": "Effect Layer",
+      "name": "tick",
+      "persistentUuid": "ca2c559d-45e3-4561-bea6-94ec5a1e8c57",
+      "width": 323,
+      "x": 861,
+      "y": 342,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -348,7 +382,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite12",
+                  "image": "NewSprite14",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -368,16 +402,52 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 920,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 920,
+                        "y": 864
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 864
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 920,
+                        "y": 0
+                      },
+                      {
+                        "x": 920,
+                        "y": 864
+                      },
+                      {
+                        "x": 0,
+                        "y": 864
                       }
                     ]
                   ]
@@ -534,6 +604,66 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "tick",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\tick.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 75,
+                        "y": 58
+                      },
+                      {
+                        "x": 805,
+                        "y": 58
+                      },
+                      {
+                        "x": 805,
+                        "y": 738
+                      },
+                      {
+                        "x": 75,
+                        "y": 738
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -559,6 +689,9 @@
       },
       {
         "objectName": "MountainHitBox"
+      },
+      {
+        "objectName": "tick"
       }
     ]
   },
@@ -745,7 +878,7 @@
                 "DetailInfo",
                 "Text",
                 "=",
-                "\"Win the competition\""
+                "\"Already completed\""
               ]
             },
             {
@@ -757,34 +890,6 @@
                 "Opacity",
                 "=",
                 "50"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Material\"",
-                    ""
-                  ]
-                }
               ]
             }
           ]
@@ -824,7 +929,7 @@
                 "DetailInfo",
                 "Text",
                 "=",
-                "\"Win the competition\""
+                "\"Already completed\""
               ]
             },
             {
@@ -838,37 +943,10 @@
                 "50"
               ]
             }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Material\"",
-                    ""
-                  ]
-                }
-              ]
-            }
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -903,7 +981,7 @@
                 "DetailInfo",
                 "Text",
                 "=",
-                "\"Be a legend\""
+                "\"Become a legend\""
               ]
             },
             {
@@ -939,7 +1017,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Material\"",
+                    "\"tournament\"",
                     ""
                   ]
                 }
@@ -1070,6 +1148,11 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
