@@ -1863,6 +1863,22 @@
         "name": "bttontemplate.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "rise.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rise.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "textending.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "textending.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
