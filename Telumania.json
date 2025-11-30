@@ -1748,6 +1748,70 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "gameoverbig.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gameoverbig.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "backtomenu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backtomenu.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "cutting.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cutting.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "forging.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forging.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "hammering.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hammering.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "cutting2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cutting2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "forging2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forging2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "hammering2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hammering2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

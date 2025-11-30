@@ -31,29 +31,28 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "menu",
-      "persistentUuid": "6dea0e57-e196-4d71-ad82-91dcfe60e702",
+      "name": "GameOverBackground",
+      "persistentUuid": "ac32c835-f607-4eab-9800-6d264440d322",
       "width": 0,
-      "x": 1481,
-      "y": 958,
-      "zOrder": 2,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1084,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "b96fd0d2-78ab-40e8-bdc1-38ecb1b08166",
-      "width": 1921,
-      "x": 2,
-      "y": 0,
-      "zOrder": 0,
+      "name": "BackToMenuButton",
+      "persistentUuid": "cfbbd9d6-0cdd-4ec6-ab74-bf17950fd0c0",
+      "width": 0,
+      "x": 1418,
+      "y": 889,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -63,7 +62,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "GameOverBackground",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -80,7 +79,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "gameover.png",
+                  "image": "gameoverbig.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -100,16 +99,76 @@
                         "y": 0
                       },
                       {
-                        "x": 810,
+                        "x": 1920,
                         "y": 0
                       },
                       {
-                        "x": 810,
-                        "y": 519
+                        "x": 1920,
+                        "y": 1080
                       },
                       {
                         "x": 0,
-                        "y": 519
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BackToMenuButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "backtomenu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 460,
+                        "y": 0
+                      },
+                      {
+                        "x": 460,
+                        "y": 149
+                      },
+                      {
+                        "x": 0,
+                        "y": 149
                       }
                     ]
                   ]
@@ -125,7 +184,10 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewSprite"
+        "objectName": "GameOverBackground"
+      },
+      {
+        "objectName": "BackToMenuButton"
       }
     ]
   },
@@ -138,7 +200,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "menu",
+            "BackToMenuButton",
             "",
             "",
             ""
