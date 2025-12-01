@@ -5,7 +5,7 @@
   "name": "Main Map scene",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -158,6 +158,40 @@
       "x": 1886,
       "y": 27,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 325,
+      "keepRatio": true,
+      "layer": "Effect Layer",
+      "name": "NewSprite",
+      "persistentUuid": "ce37bac5-b2ff-4586-969e-22f0c90253ea",
+      "width": 346,
+      "x": 1273,
+      "y": 307,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 245,
+      "keepRatio": true,
+      "layer": "Effect Layer",
+      "name": "NewSprite",
+      "persistentUuid": "76f04d1b-7305-41c5-8b9b-8361916916fd",
+      "width": 260,
+      "x": 967,
+      "y": 391,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -553,6 +587,66 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\tick.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 75,
+                        "y": 58
+                      },
+                      {
+                        "x": 805,
+                        "y": 58
+                      },
+                      {
+                        "x": 805,
+                        "y": 738
+                      },
+                      {
+                        "x": 75,
+                        "y": 738
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -578,6 +672,9 @@
       },
       {
         "objectName": "MountainHitBox"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -637,6 +734,15 @@
             "Opacity",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
           ]
         }
       ]
@@ -764,7 +870,7 @@
                 "DetailInfo",
                 "Text",
                 "=",
-                "\"Win the competition\""
+                "\"Already completed\""
               ]
             },
             {
@@ -776,34 +882,6 @@
                 "Opacity",
                 "=",
                 "50"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Material\"",
-                    ""
-                  ]
-                }
               ]
             }
           ]
@@ -843,7 +921,7 @@
                 "DetailInfo",
                 "Text",
                 "=",
-                "\"Win the competition\""
+                "\"Already completed\""
               ]
             },
             {
@@ -855,34 +933,6 @@
                 "Opacity",
                 "=",
                 "50"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Material\"",
-                    ""
-                  ]
-                }
               ]
             }
           ]
@@ -922,7 +972,7 @@
                 "DetailInfo",
                 "Text",
                 "=",
-                "\"Be a legend\""
+                "\"Become a legend\""
               ]
             },
             {

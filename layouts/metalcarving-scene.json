@@ -5,7 +5,7 @@
   "name": "MetalCarving scene",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -13,8 +13,10 @@
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
+    "gridDepth": 32,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
+    "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
@@ -3232,10 +3234,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Move the plate with [Arrows] and cut every points with dots\n[Do not cut inside of the line]\n\nPress [Space] to escape",
-      "font": "",
+      "string": "Move the plate with [Arrows] and cut every points with dots\n[Do not cut inside of the line]\n\nPress [Space] to continue",
+      "font": "assets\\ReggaeOne-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 70,
+      "characterSize": 60,
       "color": {
         "b": 255,
         "g": 255,
@@ -3255,11 +3257,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Move the plate with [Arrows] and cut every points with dots\n[Do not cut inside of the line]\n\nPress [Space] to escape",
-        "font": "",
+        "text": "Move the plate with [Arrows] and cut every points with dots\n[Do not cut inside of the line]\n\nPress [Space] to continue",
+        "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 70,
+        "characterSize": 60,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -3316,7 +3318,17 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "RePlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",

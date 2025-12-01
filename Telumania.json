@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Title scene",
   "gdVersion": {
     "build": 247,
     "major": 5,
@@ -12,7 +12,7 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "default",
-    "packageName": "com.example.gamename",
+    "packageName": "com.telumania",
     "pixelsRounding": true,
     "projectUuid": "b133d77a-14af-4a68-97fb-7ce07633275f",
     "scaleMode": "nearest",
@@ -24,7 +24,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\loxin\\Documents\\videogamea",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -1879,6 +1879,294 @@
         "name": "textending.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/hammer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\hammer.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/hammer_hit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\hammer_hit.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\background.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/start.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\start.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/firsthit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\firsthit.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/seconhit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\seconhit.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/thirdhit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\thirdhit.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/final.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\final.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/NewSprite7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\NewSprite7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/VOb6sd-circle-yellow-pic.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\VOb6sd-circle-yellow-pic.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/circle66.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\circle66.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/circle44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\circle44.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/circle24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\circle24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/circle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\circle.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/osuahh/0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\osuahh\\0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/music/Alon Ohana - Castle of Dreams.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\music\\Alon Ohana - Castle of Dreams.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tick.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tick.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/hammer.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\hammer.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/coin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\coin.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/point.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\point.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/applause.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\applause.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ReggaeOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\ReggaeOne-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/UnifrakturCook-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\UnifrakturCook-Bold.ttf",
+        "userAdded": false
       }
     ]
   },
@@ -2413,6 +2701,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/material"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hammering"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

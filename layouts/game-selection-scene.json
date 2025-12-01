@@ -5,7 +5,7 @@
   "name": "Game Selection scene",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -339,6 +339,15 @@
       "actions": [
         {
           "type": {
+            "value": "RePlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
           },
           "parameters": [
@@ -646,7 +655,7 @@
               },
               "parameters": [
                 "",
-                "\"Forging\"",
+                "\"hammering\"",
                 ""
               ]
             }

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.36458333333333504,
+    "zoomFactor": 0.47535850871269536,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -243,8 +243,8 @@
       "name": "instructions",
       "persistentUuid": "7ddca3f4-463e-4040-9af3-db40d841e1de",
       "width": 1475,
-      "x": 280,
-      "y": 385,
+      "x": 282,
+      "y": 419,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -328,8 +328,8 @@
       "name": "furnace",
       "persistentUuid": "7ba5b58c-9d16-4776-bbec-3fba5cc31dde",
       "width": 1000,
-      "x": 535,
-      "y": 262,
+      "x": 534,
+      "y": 273,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -361,8 +361,8 @@
       "name": "MaterialDisplay",
       "persistentUuid": "02e4871c-3899-4f30-b101-4b1e81bbe1df",
       "width": 0,
-      "x": 933,
-      "y": 230,
+      "x": 959,
+      "y": 240,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -795,9 +795,9 @@
       "effects": [],
       "behaviors": [],
       "string": "Current temperature: 0",
-      "font": "",
+      "font": "assets\\ReggaeOne-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 40,
       "color": {
         "b": 0,
         "g": 0,
@@ -818,10 +818,10 @@
         "smoothed": true,
         "underlined": false,
         "text": "Current temperature: 0",
-        "font": "",
+        "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 50,
+        "characterSize": 40,
         "lineHeight": 0,
         "color": "0;0;0"
       }
@@ -838,7 +838,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Heat Level: ",
-      "font": "",
+      "font": "assets\\UnifrakturCook-Bold.ttf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
@@ -861,7 +861,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Heat Level: ",
-        "font": "",
+        "font": "assets\\UnifrakturCook-Bold.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 50,
@@ -942,7 +942,7 @@
       "effects": [],
       "behaviors": [],
       "string": "0",
-      "font": "",
+      "font": "assets\\ReggaeOne-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
@@ -965,7 +965,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "0",
-        "font": "",
+        "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 60,
@@ -1045,10 +1045,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Press the button to increase the heat level until \nthe temperature arrow reaches the target range.\n\n[press left click to escape]\n\n\n",
-      "font": "",
+      "string": "Press the button to increase the heat level until \nthe temperature arrow reaches the target range.\n\n[press left click to continue]\n\n\n",
+      "font": "assets\\ReggaeOne-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 70,
+      "characterSize": 50,
       "color": {
         "b": 255,
         "g": 255,
@@ -1068,11 +1068,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Press the button to increase the heat level until \nthe temperature arrow reaches the target range.\n\n[press left click to escape]\n\n\n",
-        "font": "",
+        "text": "Press the button to increase the heat level until \nthe temperature arrow reaches the target range.\n\n[press left click to continue]\n\n\n",
+        "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 70,
+        "characterSize": 50,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -1269,9 +1269,9 @@
       "effects": [],
       "behaviors": [],
       "string": "chosen Material",
-      "font": "",
+      "font": "assets\\ReggaeOne-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 40,
       "color": {
         "b": 0,
         "g": 0,
@@ -1292,10 +1292,10 @@
         "smoothed": true,
         "underlined": false,
         "text": "chosen Material",
-        "font": "",
+        "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 50,
+        "characterSize": 40,
         "lineHeight": 0,
         "color": "0;0;0"
       }
@@ -1312,7 +1312,7 @@
       "effects": [],
       "behaviors": [],
       "string": "material: ",
-      "font": "",
+      "font": "assets\\ReggaeOne-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
@@ -1335,7 +1335,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "material: ",
-        "font": "",
+        "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 50,
@@ -1464,13 +1464,23 @@
         },
         {
           "type": {
-            "value": "PlayMusic"
+            "value": "PlayMusicCanal"
           },
           "parameters": [
             "",
             "fire-crackling-356123.mp3",
-            "yes",
+            "0",
             "70",
+            "20",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlayMusicCanal"
+          },
+          "parameters": [
+            "",
             "1"
           ]
         }
@@ -2288,6 +2298,15 @@
             "\"game over\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
         }
       ]
     },
@@ -2334,8 +2353,17 @@
           },
           "parameters": [
             "",
-            "\"nice\"",
+            "\"hammering\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "0"
           ]
         }
       ]
