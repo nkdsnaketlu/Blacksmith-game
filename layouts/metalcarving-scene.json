@@ -20,9 +20,9 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333385,
+    "zoomFactor": 0.22916801610749069,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "UI Layer"
   },
   "objectsGroups": [
     {
@@ -70,14 +70,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 702,
+      "height": 644,
       "keepRatio": true,
       "layer": "",
       "name": "SawMachineSprite",
       "persistentUuid": "0b1b1fe7-3aa1-4269-bd3c-aff327bc9007",
-      "width": 960,
-      "x": 548,
-      "y": -356,
+      "width": 695,
+      "x": 852,
+      "y": -60,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -937,14 +937,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1033,
+      "height": 1030,
       "keepRatio": true,
       "layer": "",
       "name": "WorkBenchSprite",
       "persistentUuid": "384f56ce-85e4-4fce-a9a7-8395170b3e63",
-      "width": 2062,
+      "width": 2204,
       "x": -84,
-      "y": 159,
+      "y": 162,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -960,8 +960,8 @@
       "name": "SawBladeSprite",
       "persistentUuid": "3a7a7597-e8c4-4358-925a-a73c1ee9180e",
       "width": 49,
-      "x": 1251,
-      "y": 114,
+      "x": 1318,
+      "y": 373,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -977,8 +977,8 @@
       "name": "HoleSprite",
       "persistentUuid": "6e7910d6-41a5-4bf2-8334-32f2aa65d285",
       "width": 136,
-      "x": 1204,
-      "y": 365,
+      "x": 1277,
+      "y": 637,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -1351,8 +1351,8 @@
       "name": "Sawtip",
       "persistentUuid": "7875c30d-1e46-4a44-8b35-b3dad60c4800",
       "width": 16,
-      "x": 1269,
-      "y": 401,
+      "x": 1336,
+      "y": 665,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1422,22 +1422,6 @@
       "x": 469,
       "y": 873,
       "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "menu",
-      "persistentUuid": "0a4f52f1-5f70-4435-a545-307c14e7bd6d",
-      "width": 0,
-      "x": 1531,
-      "y": 996,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2314,12 +2298,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
+      "layer": "UI Layer",
       "name": "TimerText",
       "persistentUuid": "b232d37b-7aed-4552-b679-f09582cda5a4",
       "width": 0,
-      "x": 229,
-      "y": 25,
+      "x": 996,
+      "y": 73,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -2330,12 +2314,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
+      "layer": "UI Layer",
       "name": "SparePlatesText",
       "persistentUuid": "2fa2bd72-3f65-43f8-adf7-0f12368afcdc",
       "width": 0,
-      "x": 1447,
-      "y": 25,
+      "x": 1449,
+      "y": 73,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -2347,7 +2331,7 @@
       "depth": 0,
       "height": 458,
       "keepRatio": true,
-      "layer": "",
+      "layer": "UI Layer",
       "name": "TutorialBox",
       "persistentUuid": "c6a6a1df-eba5-4e18-ad51-4e7246237016",
       "width": 2168,
@@ -2363,13 +2347,149 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
+      "layer": "UI Layer",
       "name": "Tutorial",
       "persistentUuid": "bb56f306-b806-4d86-a7ad-b424b75452f9",
       "width": 0,
       "x": 45,
       "y": 412,
       "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "menu2",
+      "persistentUuid": "fb4b2441-4551-4c2d-918f-964eb802326b",
+      "width": 100,
+      "x": 85,
+      "y": 75,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "settings",
+      "persistentUuid": "7242a032-4a17-40b7-9819-5301f788db56",
+      "width": 100,
+      "x": 1875,
+      "y": 75,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 150,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "clock",
+      "persistentUuid": "45602d62-e1c4-4397-9963-f6ebdda7001e",
+      "width": 150,
+      "x": 815,
+      "y": 45,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bg",
+      "persistentUuid": "621fdd72-2a8b-4be7-9dbe-f4d89d58f72c",
+      "width": 2060,
+      "x": -14,
+      "y": -6,
+      "zOrder": -7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1841,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "Walls",
+      "persistentUuid": "d9f49ba9-5685-4521-a927-1383c9ba47e2",
+      "width": 33,
+      "x": -404,
+      "y": -403,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 29,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "Walls",
+      "persistentUuid": "d7117240-5858-4963-9827-26fcb8e404fa",
+      "width": 2768,
+      "x": -405,
+      "y": -406,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 33,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "Walls",
+      "persistentUuid": "85da57b6-f0c4-4ef9-8c11-3e94c99dd5f5",
+      "width": 2788,
+      "x": -401,
+      "y": 1407,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1841,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "Walls",
+      "persistentUuid": "95f4d761-fc29-4c35-b012-23475613505a",
+      "width": 33,
+      "x": 2367,
+      "y": -407,
+      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2386,20 +2506,59 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": false,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": true
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 0,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 0,
+          "canGoDownFromJumpthru": false,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": false,
+          "deceleration": 0,
+          "gravity": 0,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 0,
+          "jumpSustainTime": 0,
+          "ladderClimbingSpeed": 0,
+          "maxFallingSpeed": 0,
+          "maxSpeed": 0,
+          "slopeMaxAngle": 0,
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 0,
+          "yGrabOffset": 0
         }
       ],
       "animations": [
@@ -3148,14 +3307,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Time: 60",
-      "font": "",
+      "string": "60",
+      "font": "assets\\ReggaeOne-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 80,
+      "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": true,
@@ -3171,13 +3330,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Time: 60",
-        "font": "",
+        "text": "60",
+        "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 80,
+        "characterSize": 60,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -3192,13 +3351,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Plates: 3",
-      "font": "",
+      "font": "assets\\ReggaeOne-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 80,
+      "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": true,
@@ -3215,12 +3374,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Plates: 3",
-        "font": "",
+        "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 80,
+        "characterSize": 60,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -3234,7 +3393,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Move the plate with [Arrows] and cut every points with dots\n[Do not cut inside of the line]\n\nPress [Space] to continue",
+      "string": "Drag the plate with [Mouse] and cut every points with dots\n[Do not cut inside of the line]\n\nClick [Left mouse] to continue",
       "font": "assets\\ReggaeOne-Regular.ttf",
       "textAlignment": "center",
       "characterSize": 60,
@@ -3257,7 +3416,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Move the plate with [Arrows] and cut every points with dots\n[Do not cut inside of the line]\n\nPress [Space] to continue",
+        "text": "Drag the plate with [Mouse] and cut every points with dots\n[Do not cut inside of the line]\n\nClick [Left mouse] to continue",
         "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -3265,6 +3424,75 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Walls",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Wall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3272,6 +3500,9 @@
     "children": [
       {
         "objectName": "SwordMetalSprite"
+      },
+      {
+        "objectName": "Walls"
       },
       {
         "objectName": "SawMachineSprite"
@@ -3398,11 +3629,19 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyFromTextReleased"
+            "value": "Visible"
+          },
+          "parameters": [
+            "TutorialBox"
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
-            "\"Space\""
+            "\"Left\""
           ]
         }
       ],
@@ -3581,6 +3820,15 @@
                 "=",
                 "\"Plates:\" + SparePlates"
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "NoTouchPoint",
+                ""
+              ]
             }
           ]
         },
@@ -3634,7 +3882,7 @@
               },
               "parameters": [
                 "SparePlatesText",
-                "\"0;0;0\""
+                "\"255;255;255\""
               ]
             }
           ]
@@ -3745,7 +3993,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "menu",
+            "menu2",
             "",
             "",
             ""
@@ -3753,7 +4001,7 @@
         },
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
@@ -3770,6 +4018,42 @@
             "",
             "\"Main Map scene\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "settings",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"settings\""
           ]
         }
       ]
@@ -3840,12 +4124,70 @@
           }
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "DraggablePhysics",
+      "type": "DraggablePhysics::DraggablePhysics"
     },
     {
       "name": "Effect",
@@ -3858,6 +4200,23 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Physics2",
+      "type": "Physics2::Physics2Behavior",
+      "gravityX": 0,
+      "gravityY": 9.8,
+      "worldScale": 100,
+      "scaleX": 100,
+      "scaleY": 100
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
     },
     {
       "name": "Resizable",
@@ -3874,10 +4233,6 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
-    },
-    {
-      "name": "TopDownMovement",
-      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "firstLayout": "Title scene",
   "gdVersion": {
-    "build": 247,
+    "build": 249,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -2167,6 +2167,14 @@
         "metadata": "",
         "name": "assets\\UnifrakturCook-Bold.ttf",
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2454,6 +2462,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "clock",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\minigames\\forge\\clock.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 335,
+                        "y": 462
+                      },
+                      {
+                        "x": 3134,
+                        "y": 462
+                      },
+                      {
+                        "x": 3134,
+                        "y": 2963
+                      },
+                      {
+                        "x": 335,
+                        "y": 2963
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2473,6 +2541,9 @@
       },
       {
         "objectName": "TutorialBox"
+      },
+      {
+        "objectName": "clock"
       }
     ]
   },
@@ -2752,6 +2823,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/recolorizer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/draggablephysics"
     }
   ],
   "externalLayouts": [
