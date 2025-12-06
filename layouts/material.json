@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41630252177333343,
+    "zoomFactor": 0.402722583332592,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -1759,20 +1759,19 @@
                 ">",
                 "0"
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "ChosenWeaponName",
-                "=",
-                "GlobalVariableString(weaponNames[Variable(weaponIndex)]) "
+                "weaponIndex",
+                ">=",
+                "0"
               ]
             }
           ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1790,11 +1789,31 @@
               "actions": [
                 {
                   "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ChosenWeaponName",
+                    "=",
+                    "GlobalVariableString(WeaponName[Variable(weaponIndex)])"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ChosenMaterialName",
+                    "=",
+                    "GlobalVariableString(MaterialNames[Chosen_Material])"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Scene"
                   },
                   "parameters": [
                     "",
-                    "\"MetalCarving scene\"",
+                    "\"Forging\"",
                     ""
                   ]
                 }
@@ -2526,6 +2545,69 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"scene_timer\"",
+            "<",
+            "60"
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"scene_timer\"",
+            ">",
+            "20"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "HeatLevel",
+            ">=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"hammering\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

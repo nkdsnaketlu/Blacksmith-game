@@ -2489,6 +2489,7 @@
       "value": 0
     },
     {
+      "folded": true,
       "name": "Materials",
       "type": "structure",
       "children": [
@@ -2499,12 +2500,12 @@
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 3
+              "value": 24
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 2
+              "value": 20
             },
             {
               "name": "RequiredTime",
@@ -2514,19 +2515,18 @@
           ]
         },
         {
-          "folded": true,
           "name": "Copper",
           "type": "structure",
           "children": [
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 3
+              "value": 19
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 2
+              "value": 16
             },
             {
               "name": "RequiredTime",
@@ -2542,12 +2542,12 @@
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 4
+              "value": 16
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 3
+              "value": 12
             },
             {
               "name": "RequiredTime",
@@ -2557,19 +2557,18 @@
           ]
         },
         {
-          "folded": true,
           "name": "RefinedSteel",
           "type": "structure",
           "children": [
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 4
+              "value": 12
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 3
+              "value": 8
             },
             {
               "name": "RequiredTime",
@@ -2585,12 +2584,12 @@
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 4
+              "value": 24
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 4
+              "value": 20
             },
             {
               "name": "RequiredTime",
@@ -2632,22 +2631,27 @@
       "value": 1
     },
     {
-      "name": "weaponNames",
+      "name": "WeaponName",
       "type": "array",
       "children": [
         {
           "type": "string",
-          "value": "\"Axe\""
+          "value": "Axe"
         },
         {
           "type": "string",
-          "value": "\"Longsword\""
+          "value": "Longsword"
         },
         {
           "type": "string",
-          "value": "\"Dagger\""
+          "value": "Dagger"
         }
       ]
+    },
+    {
+      "name": "ChosenMaterialName",
+      "type": "string",
+      "value": ""
     },
     {
       "name": "ChosenWeaponName",
@@ -2655,30 +2659,40 @@
       "value": "\" \""
     },
     {
+      "folded": true,
       "name": "MaterialNames",
       "type": "array",
       "children": [
         {
           "type": "string",
-          "value": "\"Refined Steel\""
+          "value": ""
         },
         {
           "type": "string",
-          "value": "\"Aluminium\""
+          "value": "Refined Steel"
         },
         {
           "type": "string",
-          "value": "\"Titanium\""
+          "value": "Aluminium"
         },
         {
           "type": "string",
-          "value": "\"Copper\""
+          "value": "Titanium"
         },
         {
           "type": "string",
-          "value": "\"DarkIron\""
+          "value": "Copper"
+        },
+        {
+          "type": "string",
+          "value": "Dark Iron"
         }
       ]
+    },
+    {
+      "name": "time_in_zone",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
