@@ -45,7 +45,7 @@
       "width": 449,
       "x": 124,
       "y": 555,
-      "zOrder": 8,
+      "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -96,22 +96,6 @@
       "x": 1601,
       "y": 210,
       "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Heat_Level",
-      "persistentUuid": "da7b30a7-4b50-43ad-962b-9b33c0e4305d",
-      "width": 0,
-      "x": 880,
-      "y": 379,
-      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -219,16 +203,16 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1122,
+      "height": 1107,
       "keepRatio": true,
       "layer": "",
       "name": "bgText",
       "opacity": 204,
       "persistentUuid": "cf16f867-e98c-43ab-8647-76261cc3c448",
       "width": 2168,
-      "x": -40,
-      "y": -21,
-      "zOrder": 27,
+      "x": -9,
+      "y": -13,
+      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -243,9 +227,9 @@
       "name": "instructions",
       "persistentUuid": "7ddca3f4-463e-4040-9af3-db40d841e1de",
       "width": 1831,
-      "x": 122,
-      "y": 381,
-      "zOrder": 28,
+      "x": 139,
+      "y": 412,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -262,7 +246,7 @@
       "width": 2071,
       "x": -14,
       "y": -6,
-      "zOrder": -7,
+      "zOrder": -17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -313,7 +297,7 @@
       "width": 611,
       "x": 700,
       "y": 205,
-      "zOrder": -4,
+      "zOrder": -14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -328,9 +312,9 @@
       "name": "furnace",
       "persistentUuid": "7ba5b58c-9d16-4776-bbec-3fba5cc31dde",
       "width": 1000,
-      "x": 534,
-      "y": 273,
-      "zOrder": 25,
+      "x": 518,
+      "y": 260,
+      "zOrder": -16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -361,8 +345,8 @@
       "name": "MaterialDisplay",
       "persistentUuid": "02e4871c-3899-4f30-b101-4b1e81bbe1df",
       "width": 0,
-      "x": 959,
-      "y": 240,
+      "x": 936,
+      "y": 236,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -393,9 +377,26 @@
       "name": "weapon",
       "persistentUuid": "86b5d150-f6c3-41d4-97cc-16dbd6a59a02",
       "width": 0,
-      "x": 189,
-      "y": 239,
-      "zOrder": 31,
+      "x": 935,
+      "y": 379,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Weapontext",
+      "persistentUuid": "a97b6135-0ec5-401b-9cf3-8662b3b5a23c",
+      "width": 199,
+      "x": 722,
+      "y": 381,
+      "zOrder": -8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -835,49 +836,6 @@
         "underlined": false,
         "text": "Current temperature: 0",
         "font": "assets\\ReggaeOne-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 40,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Heat_Level",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Heat Level: ",
-      "font": "assets\\UnifrakturCook-Bold.ttf",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": true,
-        "italic": false,
-        "outlineColor": "0;0;0",
-        "outlineThickness": 1,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Heat Level: ",
-        "font": "assets\\UnifrakturCook-Bold.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 40,
@@ -1401,6 +1359,49 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Weapontext",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Weapon: \n\n\n",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Weapon: \n\n\n",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1434,9 +1435,6 @@
         "objectName": "clock"
       },
       {
-        "objectName": "Heat_Level"
-      },
-      {
         "objectName": "Level_divider"
       },
       {
@@ -1444,6 +1442,9 @@
       },
       {
         "objectName": "instructions"
+      },
+      {
+        "objectName": "Weapontext"
       },
       {
         "objectName": "bgtext"
@@ -1781,17 +1782,6 @@
                 "Text",
                 "=",
                 "\"Current temperature: \" + ToString(CurrentTemp)"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Heat_Level",
-                "Text",
-                "=",
-                "\"Heat level: \" + ToString(HeatLevel)"
               ]
             },
             {
@@ -2501,16 +2491,6 @@
                 ">=",
                 "GlobalVariable(Materials[ChosenMaterialName].MinTempZone)"
               ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "CurrentTemp",
-                "<=",
-                "GlobalVariable(Materials[ChosenMaterialName].MaxTempZone)"
-              ]
             }
           ],
           "actions": [
@@ -2534,13 +2514,42 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "time_in_zone",
-                    ">=",
-                    "GlobalVariable(Materials[ChosenMaterialName].RequiredTime)"
+                    "CurrentTemp",
+                    "<=",
+                    "GlobalVariable(Materials[ChosenMaterialName].MaxTempZone)"
                   ]
                 }
               ],
-              "actions": []
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "time_in_zone",
+                        ">=",
+                        "GlobalVariable(Materials[ChosenMaterialName].RequiredTime)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"hammering\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

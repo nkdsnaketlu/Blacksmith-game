@@ -1,9 +1,9 @@
 {
   "firstLayout": "Title scene",
   "gdVersion": {
-    "build": 247,
+    "build": 249,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -2626,18 +2626,14 @@
       "value": 120
     },
     {
-      "name": "weaponIndex",
+      "name": "chosen_weapon",
       "type": "number",
-      "value": 1
+      "value": 0
     },
     {
-      "name": "WeaponName",
+      "name": "WeaponNames",
       "type": "array",
       "children": [
-        {
-          "type": "string",
-          "value": "Axe"
-        },
         {
           "type": "string",
           "value": "Longsword"
@@ -2645,6 +2641,10 @@
         {
           "type": "string",
           "value": "Dagger"
+        },
+        {
+          "type": "string",
+          "value": "Axe"
         }
       ]
     },
@@ -2656,7 +2656,7 @@
     {
       "name": "ChosenWeaponName",
       "type": "string",
-      "value": "\" \""
+      "value": ""
     },
     {
       "folded": true,

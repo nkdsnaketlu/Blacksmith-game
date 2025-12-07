@@ -1752,71 +1752,43 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
-                "Chosen_Material",
-                ">",
-                "0"
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "ChosenWeaponName",
+                "=",
+                "GlobalVariableString(WeaponNames[Variable(chosen_weapon)])"
               ]
             },
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "weaponIndex",
-                ">=",
-                "0"
+                "ChosenMaterialName",
+                "=",
+                "GlobalVariableString(MaterialNames[Chosen_Material])"
               ]
-            }
-          ],
-          "actions": [],
-          "events": [
+            },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "ChosenWeaponName",
-                    "=",
-                    "GlobalVariableString(WeaponName[Variable(weaponIndex)])"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "ChosenMaterialName",
-                    "=",
-                    "GlobalVariableString(MaterialNames[Chosen_Material])"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Forging\"",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Forging\"",
+                ""
               ]
             }
           ]
@@ -2225,74 +2197,6 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "weaponIndex",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "longsword",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "dagger"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "axe"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "right",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "left",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "SourisSurObjet"
           },
           "parameters": [
@@ -2330,7 +2234,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "weaponIndex",
+            "chosen_weapon",
             "-",
             "1"
           ]
@@ -2379,7 +2283,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "weaponIndex",
+            "chosen_weapon",
             "+",
             "1"
           ]
@@ -2394,9 +2298,68 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "weaponIndex",
+            "chosen_weapon",
             "=",
             "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "longsword",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dagger"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "axe"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "left"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "right",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "chosen_weapon",
+            "=",
+            "1"
           ]
         }
       ],
@@ -2428,10 +2391,20 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Montre"
           },
           "parameters": [
-            "left"
+            "left",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "right",
+            ""
           ]
         }
       ]
@@ -2444,7 +2417,7 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "weaponIndex",
+            "chosen_weapon",
             "=",
             "2"
           ]
@@ -2482,66 +2455,6 @@
           },
           "parameters": [
             "right"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "weaponIndex",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "longsword",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "dagger"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "axe"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "left",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "right",
-            ""
           ]
         }
       ]
@@ -2603,6 +2516,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
