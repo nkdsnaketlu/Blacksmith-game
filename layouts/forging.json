@@ -45,7 +45,7 @@
       "width": 449,
       "x": 124,
       "y": 555,
-      "zOrder": 8,
+      "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -96,22 +96,6 @@
       "x": 1601,
       "y": 210,
       "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Heat_Level",
-      "persistentUuid": "da7b30a7-4b50-43ad-962b-9b33c0e4305d",
-      "width": 0,
-      "x": 880,
-      "y": 379,
-      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -208,8 +192,8 @@
       "name": "time",
       "persistentUuid": "7cf916e8-a4f6-4583-a0f1-c1b3a98add31",
       "width": 0,
-      "x": 996,
-      "y": 73,
+      "x": 864,
+      "y": 92,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -219,16 +203,16 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 458,
+      "height": 1107,
       "keepRatio": true,
       "layer": "",
       "name": "bgText",
-      "opacity": 230,
+      "opacity": 204,
       "persistentUuid": "cf16f867-e98c-43ab-8647-76261cc3c448",
       "width": 2168,
-      "x": -79,
-      "y": 346,
-      "zOrder": 27,
+      "x": -17,
+      "y": -15,
+      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -237,15 +221,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 243,
+      "height": 273,
       "keepRatio": true,
       "layer": "",
       "name": "instructions",
       "persistentUuid": "7ddca3f4-463e-4040-9af3-db40d841e1de",
-      "width": 1475,
-      "x": 282,
-      "y": 419,
-      "zOrder": 28,
+      "width": 1831,
+      "x": 141,
+      "y": 395,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -259,10 +243,10 @@
       "layer": "",
       "name": "bg",
       "persistentUuid": "3ba4f5ce-0a29-4b53-bcab-2185c36f0336",
-      "width": 2060,
-      "x": -14,
-      "y": -6,
-      "zOrder": -7,
+      "width": 2071,
+      "x": -6,
+      "y": -2,
+      "zOrder": -19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -313,7 +297,7 @@
       "width": 611,
       "x": 700,
       "y": 205,
-      "zOrder": -4,
+      "zOrder": -14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -328,9 +312,9 @@
       "name": "furnace",
       "persistentUuid": "7ba5b58c-9d16-4776-bbec-3fba5cc31dde",
       "width": 1000,
-      "x": 534,
-      "y": 273,
-      "zOrder": 25,
+      "x": 518,
+      "y": 260,
+      "zOrder": -16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -345,8 +329,8 @@
       "name": "clock",
       "persistentUuid": "2d3aa98f-44d4-438d-9b5c-d5781bf88a8e",
       "width": 150,
-      "x": 815,
-      "y": 45,
+      "x": 707,
+      "y": 56,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -361,8 +345,8 @@
       "name": "MaterialDisplay",
       "persistentUuid": "02e4871c-3899-4f30-b101-4b1e81bbe1df",
       "width": 0,
-      "x": 959,
-      "y": 240,
+      "x": 936,
+      "y": 236,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -377,9 +361,59 @@
       "name": "justtext",
       "persistentUuid": "4873d1e7-5c7e-403f-a4c5-4061c608c52c",
       "width": 0,
-      "x": 728,
-      "y": 231,
+      "x": 730,
+      "y": 239,
       "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "weapon",
+      "persistentUuid": "86b5d150-f6c3-41d4-97cc-16dbd6a59a02",
+      "width": 0,
+      "x": 935,
+      "y": 379,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Weapontext",
+      "persistentUuid": "a97b6135-0ec5-401b-9cf3-8662b3b5a23c",
+      "width": 199,
+      "x": 722,
+      "y": 381,
+      "zOrder": -8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 212,
+      "keepRatio": true,
+      "layer": "",
+      "name": "winningcondition",
+      "persistentUuid": "ddcd2002-59e5-4ad5-b6e7-5a4e05946677",
+      "width": 448,
+      "x": 116,
+      "y": 201,
+      "zOrder": -18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -827,49 +861,6 @@
       }
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Heat_Level",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Heat Level: ",
-      "font": "assets\\UnifrakturCook-Bold.ttf",
-      "textAlignment": "left",
-      "characterSize": 50,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": true,
-        "italic": false,
-        "outlineColor": "0;0;0",
-        "outlineThickness": 1,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Heat Level: ",
-        "font": "assets\\UnifrakturCook-Bold.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 50,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Level_divider",
@@ -946,14 +937,14 @@
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": false,
         "isOutlineEnabled": false,
-        "isShadowEnabled": false,
+        "isShadowEnabled": true,
         "italic": false,
         "outlineColor": "255;255;255",
         "outlineThickness": 2,
@@ -970,7 +961,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 60,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "0;0;0"
       }
     },
     {
@@ -1045,10 +1036,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Press the button to increase the heat level until \nthe temperature arrow reaches the target range.\n\n[press left click to continue]\n\n\n",
+      "string": "Press the button to increase the heat level and maintain \nthe temperature for a required time to succeed\n\npress [space] to continue\n\n\n",
       "font": "assets\\ReggaeOne-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 50,
+      "characterSize": 60,
       "color": {
         "b": 255,
         "g": 255,
@@ -1068,11 +1059,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Press the button to increase the heat level until \nthe temperature arrow reaches the target range.\n\n[press left click to continue]\n\n\n",
+        "text": "Press the button to increase the heat level and maintain \nthe temperature for a required time to succeed\n\npress [space] to continue\n\n\n",
         "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 50,
+        "characterSize": 60,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -1220,7 +1211,7 @@
       "content": {
         "bold": false,
         "isOutlineEnabled": false,
-        "isShadowEnabled": false,
+        "isShadowEnabled": true,
         "italic": false,
         "outlineColor": "255;255;255",
         "outlineThickness": 2,
@@ -1251,10 +1242,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "material: ",
+      "string": "Material: ",
       "font": "assets\\ReggaeOne-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 40,
       "color": {
         "b": 0,
         "g": 0,
@@ -1274,11 +1265,140 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "material: ",
+        "text": "Material: ",
         "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 50,
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "weapon",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Weapon: ",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Weapon: ",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Weapontext",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Weapon: \n\n\n",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Weapon: \n\n\n",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "winningcondition",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "\ngoal: \n\n",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "\ngoal: \n\n",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
         "lineHeight": 0,
         "color": "0;0;0"
       }
@@ -1312,7 +1432,7 @@
         "objectName": "time"
       },
       {
-        "objectName": "Heat_Level"
+        "objectName": "clock"
       },
       {
         "objectName": "Level_divider"
@@ -1322,6 +1442,12 @@
       },
       {
         "objectName": "instructions"
+      },
+      {
+        "objectName": "Weapontext"
+      },
+      {
+        "objectName": "winningcondition"
       },
       {
         "objectName": "bgtext"
@@ -1334,6 +1460,9 @@
       },
       {
         "objectName": "justtext"
+      },
+      {
+        "objectName": "weapon"
       }
     ]
   },
@@ -1351,24 +1480,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"forge_timer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"scene_timer\""
-          ]
-        },
         {
           "type": {
             "value": "SetNumberVariable"
@@ -1533,12 +1644,18 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "KeyFromTextReleased"
           },
           "parameters": [
             "",
-            "\"Left\""
+            "\"Space\""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1650,17 +1767,6 @@
                 "Text",
                 "=",
                 "\"Current temperature: \" + ToString(CurrentTemp)"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Heat_Level",
-                "Text",
-                "=",
-                "\"Heat level: \" + ToString(HeatLevel)"
               ]
             },
             {
@@ -1832,7 +1938,7 @@
             "",
             "\"forge_timer\"",
             ">",
-            "3"
+            "2"
           ]
         }
       ],
@@ -1900,11 +2006,33 @@
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentTemp",
+                "<",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CurrentTemp",
+                "=",
+                "0"
+              ]
             }
           ]
         }
@@ -2024,8 +2152,8 @@
               },
               "parameters": [
                 "CurrentTemp",
-                ">=",
-                "7"
+                ">",
+                "6"
               ]
             },
             {
@@ -2061,8 +2189,8 @@
               },
               "parameters": [
                 "CurrentTemp",
-                ">=",
-                "13"
+                ">",
+                "12"
               ]
             },
             {
@@ -2098,8 +2226,8 @@
               },
               "parameters": [
                 "CurrentTemp",
-                ">=",
-                "19"
+                ">",
+                "18"
               ]
             },
             {
@@ -2134,7 +2262,7 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
-      "name": "Grouped events",
+      "name": "Game over",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -2248,64 +2376,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"scene_timer\"",
-            "<",
-            "60"
-          ]
-        },
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"scene_timer\"",
-            ">",
-            "20"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "HeatLevel",
-            ">=",
-            "2"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"hammering\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "StopMusicCanal"
-          },
-          "parameters": [
-            "",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -2338,7 +2408,344 @@
             "MaterialDisplay",
             "Text",
             "=",
-            "GlobalVariableString(MaterialNames[GlobalVariable(Global_Chosen_Material)])"
+            "GlobalVariableString(ChosenMaterialName)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "weapon",
+            "Text",
+            "=",
+            "GlobalVariableString(ChosenWeaponName)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "winning conditions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"forge_timer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"scene_timer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GameStarted",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "time_in_zone",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CurrentTemp",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CurrentTemp",
+            ">=",
+            "GlobalVariable(Materials[ChosenMaterialName].MinTempZone)"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CurrentTemp",
+            "<=",
+            "GlobalVariable(Materials[ChosenMaterialName].MaxTempZone)"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "time_in_zone",
+            "+",
+            "TimeDelta()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CurrentTemp",
+            ">=",
+            "GlobalVariable(Materials[ChosenMaterialName].MinTempZone)"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CurrentTemp",
+            "<=",
+            "GlobalVariable(Materials[ChosenMaterialName].MaxTempZone)"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "time_in_zone",
+            ">=",
+            "GlobalVariable(Materials[ChosenMaterialName].RequiredTime)"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"hammering\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "time_in_zone",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "instructions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Chosen_Material",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "winningcondition",
+            "Text",
+            "=",
+            "\"Keep the Temperature between 8  and 12 for 15 seconds\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Chosen_Material",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "winningcondition",
+            "Text",
+            "=",
+            "\"Keep the Temperature between 20  and 24 for 10 seconds\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Chosen_Material",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "winningcondition",
+            "Text",
+            "=",
+            "\"Keep the Temperature between 20  and 24 for 20 seconds\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Chosen_Material",
+            "=",
+            "4 "
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "winningcondition",
+            "Text",
+            "=",
+            "\"Keep the Temperature between 16  and 20 for 12 seconds\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Chosen_Material",
+            "=",
+            "5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "winningcondition",
+            "Text",
+            "=",
+            "\"Keep the Temperature between 12  and 16 for 25 seconds\""
           ]
         }
       ]

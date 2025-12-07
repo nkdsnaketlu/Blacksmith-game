@@ -2570,12 +2570,12 @@
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 3
+              "value": 24
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 2
+              "value": 20
             },
             {
               "name": "RequiredTime",
@@ -2585,19 +2585,18 @@
           ]
         },
         {
-          "folded": true,
           "name": "Copper",
           "type": "structure",
           "children": [
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 3
+              "value": 20
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 2
+              "value": 16
             },
             {
               "name": "RequiredTime",
@@ -2613,12 +2612,12 @@
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 4
+              "value": 16
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 3
+              "value": 12
             },
             {
               "name": "RequiredTime",
@@ -2628,19 +2627,18 @@
           ]
         },
         {
-          "folded": true,
           "name": "RefinedSteel",
           "type": "structure",
           "children": [
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 4
+              "value": 12
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 3
+              "value": 8
             },
             {
               "name": "RequiredTime",
@@ -2656,12 +2654,12 @@
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 4
+              "value": 24
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 4
+              "value": 20
             },
             {
               "name": "RequiredTime",
@@ -2698,58 +2696,73 @@
       "value": 120
     },
     {
-      "name": "weaponIndex",
+      "name": "chosen_weapon",
       "type": "number",
-      "value": 1
+      "value": 0
     },
     {
-      "name": "weaponNames",
+      "name": "WeaponNames",
       "type": "array",
       "children": [
         {
           "type": "string",
-          "value": "\"Axe\""
+          "value": "Longsword"
         },
         {
           "type": "string",
-          "value": "\"Longsword\""
+          "value": "Dagger"
         },
         {
           "type": "string",
-          "value": "\"Dagger\""
+          "value": "Axe"
         }
       ]
     },
     {
-      "name": "ChosenWeaponName",
+      "name": "ChosenMaterialName",
       "type": "string",
-      "value": "\" \""
+      "value": ""
     },
     {
+      "name": "ChosenWeaponName",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
       "name": "MaterialNames",
       "type": "array",
       "children": [
         {
           "type": "string",
-          "value": "\"Refined Steel\""
+          "value": ""
         },
         {
           "type": "string",
-          "value": "\"Aluminium\""
+          "value": "Refined Steel"
         },
         {
           "type": "string",
-          "value": "\"Titanium\""
+          "value": "Aluminium"
         },
         {
           "type": "string",
-          "value": "\"Copper\""
+          "value": "Titanium"
         },
         {
           "type": "string",
-          "value": "\"DarkIron\""
+          "value": "Copper"
+        },
+        {
+          "type": "string",
+          "value": "Dark Iron"
         }
       ]
+    },
+    {
+      "name": "time_in_zone",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -2800,6 +2813,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/ending-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/test"
     }
   ],
   "externalEvents": [],

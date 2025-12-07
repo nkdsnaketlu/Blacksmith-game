@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41630252177333343,
+    "zoomFactor": 0.402722583332592,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -47,12 +47,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1091,
+      "height": 1087,
       "keepRatio": true,
       "layer": "",
       "name": "bg",
       "persistentUuid": "3743200c-1ff0-4b39-9733-13910f4a08db",
-      "width": 2109,
+      "width": 2117,
       "x": -7,
       "y": -1,
       "zOrder": 1,
@@ -2142,6 +2142,15 @@
           "conditions": [
             {
               "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
                 "value": "NumberVariable"
               },
               "parameters": [
@@ -2159,35 +2168,27 @@
               "parameters": [
                 "ChosenWeaponName",
                 "=",
-                "GlobalVariableString(weaponNames[Variable(weaponIndex)]) "
+                "GlobalVariableString(WeaponNames[Variable(chosen_weapon)])"
               ]
-            }
-          ],
-          "events": [
+            },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"MetalCarving scene\"",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "ChosenMaterialName",
+                "=",
+                "GlobalVariableString(MaterialNames[Chosen_Material])"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MetalCarving scene\"",
+                ""
               ]
             }
           ]
@@ -2596,24 +2597,131 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SourisSurObjet"
           },
           "parameters": [
+            "right",
+            "",
+            "",
             ""
           ]
         },
         {
           "type": {
-            "value": "NumberVariable"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
-            "weaponIndex",
-            "=",
-            "1"
+            "",
+            "\"Left\""
           ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\sound\\weapon_button.ogg",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "chosen_weapon",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "left",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\sound\\weapon_button.ogg",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "chosen_weapon",
+            "-",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "chosen_weapon",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "ChosenWeaponName",
+            "=",
+            "\"Longsword\""
+          ]
+        },
         {
           "type": {
             "value": "Montre"
@@ -2641,11 +2749,10 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Cache"
           },
           "parameters": [
-            "right",
-            ""
+            "left"
           ]
         },
         {
@@ -2653,106 +2760,8 @@
             "value": "Montre"
           },
           "parameters": [
-            "left",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "left",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\sound\\weapon_button.ogg",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "weaponIndex",
-            "-",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
             "right",
-            "",
-            "",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\sound\\weapon_button.ogg",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "weaponIndex",
-            "+",
-            "1"
           ]
         }
       ]
@@ -2765,13 +2774,23 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "weaponIndex",
+            "chosen_weapon",
             "=",
-            "0"
+            "1"
           ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "ChosenWeaponName",
+            "=",
+            "\"Dagger\""
+          ]
+        },
         {
           "type": {
             "value": "Montre"
@@ -2799,10 +2818,20 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Montre"
           },
           "parameters": [
-            "left"
+            "left",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "right",
+            ""
           ]
         }
       ]
@@ -2815,13 +2844,23 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "weaponIndex",
+            "chosen_weapon",
             "=",
             "2"
           ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "ChosenWeaponName",
+            "=",
+            "\"Axe\""
+          ]
+        },
         {
           "type": {
             "value": "Montre"
@@ -2859,63 +2898,13 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "weaponIndex",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "longsword",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "dagger"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "axe"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "left",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "right",
-            ""
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
