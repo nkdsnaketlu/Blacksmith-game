@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.47535850871269536,
+    "zoomFactor": 0.3526904934771242,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -1198,66 +1198,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "clock",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\minigames\\forge\\clock.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 335,
-                        "y": 462
-                      },
-                      {
-                        "x": 3134,
-                        "y": 462
-                      },
-                      {
-                        "x": 3134,
-                        "y": 2963
-                      },
-                      {
-                        "x": 335,
-                        "y": 2963
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
@@ -1370,9 +1310,6 @@
       },
       {
         "objectName": "time"
-      },
-      {
-        "objectName": "clock"
       },
       {
         "objectName": "Heat_Level"
