@@ -2489,7 +2489,6 @@
       "value": 0
     },
     {
-      "folded": true,
       "name": "Materials",
       "type": "structure",
       "children": [
@@ -2521,7 +2520,7 @@
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 19
+              "value": 20
             },
             {
               "name": "MinTempZone",

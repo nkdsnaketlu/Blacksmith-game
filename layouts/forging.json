@@ -192,8 +192,8 @@
       "name": "time",
       "persistentUuid": "7cf916e8-a4f6-4583-a0f1-c1b3a98add31",
       "width": 0,
-      "x": 996,
-      "y": 73,
+      "x": 864,
+      "y": 92,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -210,8 +210,8 @@
       "opacity": 204,
       "persistentUuid": "cf16f867-e98c-43ab-8647-76261cc3c448",
       "width": 2168,
-      "x": -9,
-      "y": -13,
+      "x": -17,
+      "y": -15,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -227,8 +227,8 @@
       "name": "instructions",
       "persistentUuid": "7ddca3f4-463e-4040-9af3-db40d841e1de",
       "width": 1831,
-      "x": 139,
-      "y": 412,
+      "x": 141,
+      "y": 395,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -244,9 +244,9 @@
       "name": "bg",
       "persistentUuid": "3ba4f5ce-0a29-4b53-bcab-2185c36f0336",
       "width": 2071,
-      "x": -14,
-      "y": -6,
-      "zOrder": -17,
+      "x": -6,
+      "y": -2,
+      "zOrder": -19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -329,8 +329,8 @@
       "name": "clock",
       "persistentUuid": "2d3aa98f-44d4-438d-9b5c-d5781bf88a8e",
       "width": 150,
-      "x": 815,
-      "y": 45,
+      "x": 707,
+      "y": 56,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -397,6 +397,23 @@
       "x": 722,
       "y": 381,
       "zOrder": -8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 212,
+      "keepRatio": true,
+      "layer": "",
+      "name": "winningcondition",
+      "persistentUuid": "ddcd2002-59e5-4ad5-b6e7-5a4e05946677",
+      "width": 448,
+      "x": 116,
+      "y": 201,
+      "zOrder": -18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1402,6 +1419,49 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "winningcondition",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "\ngoal: \n\n",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "\ngoal: \n\n",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1445,6 +1505,9 @@
       },
       {
         "objectName": "Weapontext"
+      },
+      {
+        "objectName": "winningcondition"
       },
       {
         "objectName": "bgtext"
@@ -2551,6 +2614,158 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "instructions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Chosen_Material",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "winningcondition",
+            "Text",
+            "=",
+            "\"Keep the Temperature between 8  and 12 for 15 seconds\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Chosen_Material",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "winningcondition",
+            "Text",
+            "=",
+            "\"Keep the Temperature between 20  and 24 for 10 seconds\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Chosen_Material",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "winningcondition",
+            "Text",
+            "=",
+            "\"Keep the Temperature between 20  and 24 for 20 seconds\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Chosen_Material",
+            "=",
+            "4 "
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "winningcondition",
+            "Text",
+            "=",
+            "\"Keep the Temperature between 16  and 20 for 12 seconds\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Chosen_Material",
+            "=",
+            "5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "winningcondition",
+            "Text",
+            "=",
+            "\"Keep the Temperature between 12  and 16 for 25 seconds\""
           ]
         }
       ]
