@@ -2742,6 +2742,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/ending-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/test"
     }
   ],
   "externalEvents": [],

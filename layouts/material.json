@@ -1758,6 +1758,16 @@
                 "",
                 "\"Left\""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Chosen_Material",
+                ">",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -2200,55 +2210,6 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "left",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\sound\\weapon_button.ogg",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "chosen_weapon",
-            "-",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
             "right",
             "",
             "",
@@ -2295,6 +2256,62 @@
       "conditions": [
         {
           "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "left",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\sound\\weapon_button.ogg",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "chosen_weapon",
+            "-",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "NumberVariable"
           },
           "parameters": [
@@ -2305,6 +2322,16 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "ChosenWeaponName",
+            "=",
+            "\"Longsword\""
+          ]
+        },
         {
           "type": {
             "value": "Montre"
@@ -2364,6 +2391,16 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "ChosenWeaponName",
+            "=",
+            "\"Dagger\""
+          ]
+        },
         {
           "type": {
             "value": "Montre"
@@ -2426,6 +2463,16 @@
       "actions": [
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "ChosenWeaponName",
+            "=",
+            "\"Axe\""
+          ]
+        },
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [
@@ -2455,64 +2502,6 @@
           },
           "parameters": [
             "right"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"scene_timer\"",
-            "<",
-            "60"
-          ]
-        },
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"scene_timer\"",
-            ">",
-            "20"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "HeatLevel",
-            ">=",
-            "2"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "StopMusicCanal"
-          },
-          "parameters": [
-            "",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"hammering\"",
-            ""
           ]
         }
       ]
