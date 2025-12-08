@@ -1293,7 +1293,7 @@
                 "",
                 "assets\\sound\\hover.wav",
                 "no",
-                "50",
+                "sfx_volume",
                 ""
               ]
             }
@@ -1367,7 +1367,7 @@
                 "",
                 "assets\\sound\\point.wav",
                 "",
-                "20",
+                "sfx_volume - 10",
                 "TimerElapsedTime(\"count_timer\")"
               ]
             }
@@ -1464,7 +1464,7 @@
                 "",
                 "assets\\sound\\point.wav",
                 "",
-                "20",
+                "sfx_volume - 10",
                 "TimerElapsedTime(\"count_timer\")"
               ]
             }
@@ -1556,7 +1556,7 @@
             "",
             "assets\\sound\\point.wav",
             "",
-            "20",
+            "sfx_volume - 10",
             "TimerElapsedTime(\"count_timer\")"
           ]
         }
@@ -1646,7 +1646,7 @@
             "",
             "assets\\sound\\coin.wav",
             "",
-            "10",
+            "sfx_volume - 10",
             "TimerElapsedTime(\"count_timer\")"
           ]
         }

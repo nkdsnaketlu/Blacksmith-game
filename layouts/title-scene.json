@@ -457,7 +457,7 @@
             "assets\\sound\\music\\Alon Ohana - Castle of Dreams.mp3",
             "1",
             "no",
-            "50",
+            "music_volume",
             ""
           ]
         }
@@ -522,7 +522,7 @@
                 "",
                 "assets\\sound\\hover.wav",
                 "no",
-                "50",
+                "sfx_volume",
                 ""
               ]
             }
@@ -550,7 +550,7 @@
                 "",
                 "assets\\sound\\menubutton.wav",
                 "",
-                "",
+                "sfx_volume",
                 ""
               ]
             },
@@ -723,7 +723,7 @@
                 "",
                 "assets\\sound\\hover.wav",
                 "no",
-                "50",
+                "sfx_volume",
                 ""
               ]
             }
@@ -751,7 +751,7 @@
                 "",
                 "assets\\sound\\menubutton.wav",
                 "",
-                "",
+                "sfx_volume",
                 ""
               ]
             },

@@ -340,7 +340,7 @@
             "",
             "assets\\sound\\applause.wav",
             "",
-            "",
+            "sfx_volume - 10",
             ""
           ]
         }

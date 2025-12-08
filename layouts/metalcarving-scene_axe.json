@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "MetalCarving_32scene",
-  "name": "MetalCarving scene",
+  "mangledName": "MetalCarving_32scene_95axe",
+  "name": "MetalCarving scene_axe",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.22916801610749069,
+    "zoomFactor": 0.5800155239904939,
     "windowMask": false,
     "selectedLayer": "UI Layer"
   },
@@ -2318,8 +2318,8 @@
       "name": "SparePlatesText",
       "persistentUuid": "2fa2bd72-3f65-43f8-adf7-0f12368afcdc",
       "width": 0,
-      "x": 1449,
-      "y": 73,
+      "x": 1423,
+      "y": 82,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -2336,9 +2336,9 @@
       "opacity": 204,
       "persistentUuid": "c6a6a1df-eba5-4e18-ad51-4e7246237016",
       "width": 2168,
-      "x": -79,
-      "y": -60,
-      "zOrder": 11,
+      "x": -93,
+      "y": -59,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2354,7 +2354,7 @@
       "width": 0,
       "x": 45,
       "y": 412,
-      "zOrder": 12,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2491,6 +2491,22 @@
       "x": 2367,
       "y": -407,
       "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "error_msg",
+      "persistentUuid": "79ece0e8-2aa9-4c1e-ae09-42664de96179",
+      "width": 0,
+      "x": 933,
+      "y": 975,
+      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3351,7 +3367,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Plates: 3",
+      "string": "Plates left: 3",
       "font": "assets\\ReggaeOne-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 60,
@@ -3374,7 +3390,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Plates: 3",
+        "text": "Plates left: 3",
         "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -3494,6 +3510,49 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "error_msg",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": " ",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": " ",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3534,6 +3593,9 @@
       },
       {
         "objectName": "Tutorial"
+      },
+      {
+        "objectName": "error_msg"
       }
     ]
   },
@@ -3830,6 +3892,36 @@
                 "NoTouchPoint",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "error_msg",
+                "Text",
+                "=",
+                "\"Sword was damaged\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "error_msg",
+                "Text",
+                "=",
+                "\" \""
+              ]
             }
           ]
         },
@@ -4058,6 +4150,75 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "skip for the devs"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Numpad2\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Forging\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Numpad3\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"hammering\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

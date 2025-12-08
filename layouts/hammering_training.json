@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "hammering",
-  "name": "hammering",
+  "mangledName": "hammering_95training",
+  "name": "hammering_training",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.40272258333259287,
+    "zoomFactor": 0.44485159988866685,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -190,8 +190,8 @@
       "opacity": 204,
       "persistentUuid": "80d4d820-6ba5-4a98-9dc7-22f596f41bc5",
       "width": 2327,
-      "x": -122,
-      "y": -20,
+      "x": -136,
+      "y": -31,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -221,10 +221,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "settings",
-      "persistentUuid": "f94cefd5-bf58-4af8-80a8-42a424d2dc0e",
+      "persistentUuid": "6fd40f9a-9cb2-47e1-af47-683680834e7b",
       "width": 100,
-      "x": 1875,
-      "y": 76,
+      "x": 1874,
+      "y": 74,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -238,10 +238,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "menu2",
-      "persistentUuid": "ec2c28c3-675b-4d18-a497-48ddd994a7c0",
+      "persistentUuid": "e7fbfd19-1126-4e15-8707-25ab53b6444c",
       "width": 100,
-      "x": 85,
-      "y": 76,
+      "x": 84,
+      "y": 74,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -1897,78 +1897,6 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "settings",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"settings\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "menu2",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Main Map scene\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "KeyFromTextReleased"
           },
           "parameters": [
@@ -2556,7 +2484,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Judging\"",
+                    "\"Game Selection scene\"",
                     ""
                   ]
                 }

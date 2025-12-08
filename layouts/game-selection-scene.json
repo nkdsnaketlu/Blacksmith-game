@@ -407,7 +407,7 @@
                 "",
                 "assets\\sound\\hover.wav",
                 "no",
-                "50",
+                "sfx_volume",
                 ""
               ]
             }
@@ -435,7 +435,7 @@
                 "",
                 "assets\\sound\\menubutton.wav",
                 "",
-                "",
+                "sfx_volume",
                 ""
               ]
             },
@@ -453,7 +453,7 @@
               },
               "parameters": [
                 "",
-                "\"Material\"",
+                "\"MetalCarving scene training\"",
                 ""
               ]
             }
@@ -508,7 +508,7 @@
                 "",
                 "assets\\sound\\hover.wav",
                 "no",
-                "50",
+                "sfx_volume",
                 ""
               ]
             }
@@ -536,7 +536,7 @@
                 "",
                 "assets\\sound\\menubutton.wav",
                 "",
-                "",
+                "sfx_volume",
                 ""
               ]
             },
@@ -554,7 +554,7 @@
               },
               "parameters": [
                 "",
-                "\"Forging\"",
+                "\"Forging_training\"",
                 ""
               ]
             }
@@ -609,7 +609,7 @@
                 "",
                 "assets\\sound\\hover.wav",
                 "no",
-                "50",
+                "sfx_volume",
                 ""
               ]
             }
@@ -637,7 +637,7 @@
                 "",
                 "assets\\sound\\menubutton.wav",
                 "",
-                "",
+                "sfx_volume",
                 ""
               ]
             },
@@ -655,7 +655,7 @@
               },
               "parameters": [
                 "",
-                "\"hammering\"",
+                "\"hammering_training\"",
                 ""
               ]
             }

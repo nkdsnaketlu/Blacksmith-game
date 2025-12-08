@@ -2175,6 +2175,14 @@
         "name": "NewSprite13",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "selected_map_area.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "selected_map_area.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2763,6 +2771,16 @@
       "name": "time_in_zone",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "music_volume",
+      "type": "number",
+      "value": 25
+    },
+    {
+      "name": "sfx_volume",
+      "type": "number",
+      "value": 50
     }
   ],
   "layouts": [
@@ -2776,11 +2794,23 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/metalcarving-scene"
+      "referenceTo": "/layouts/metalcarving-scene_sword"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/metalcarving-scene_axe"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/metalcarving-scene-training"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/forging"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/forging_training"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -2789,6 +2819,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/hammering"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hammering_training"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

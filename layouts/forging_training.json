@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Forging",
-  "name": "Forging",
+  "mangledName": "Forging_95training",
+  "name": "Forging_training",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -210,8 +210,8 @@
       "opacity": 204,
       "persistentUuid": "cf16f867-e98c-43ab-8647-76261cc3c448",
       "width": 2168,
-      "x": -17,
-      "y": -15,
+      "x": -37,
+      "y": -1,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -1565,7 +1565,7 @@
           },
           "parameters": [
             "",
-            "\"Main Map scene\""
+            "\"Game Selection scene\""
           ]
         }
       ]
@@ -2582,7 +2582,7 @@
           },
           "parameters": [
             "",
-            "\"hammering\"",
+            "\"Game Selection scene\"",
             ""
           ]
         },
