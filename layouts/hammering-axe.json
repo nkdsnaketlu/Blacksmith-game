@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "hammering",
-  "name": "hammering",
+  "mangledName": "hammering_32axe",
+  "name": "hammering axe",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.40272258333259287,
+    "zoomFactor": 0.31928945896901795,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -82,14 +82,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 758,
+      "height": 279,
       "keepRatio": true,
       "layer": "",
       "name": "hitting__zone",
       "persistentUuid": "bca3cf23-6f25-4c5a-a90d-2732e2021713",
-      "width": 30,
-      "x": 908,
-      "y": 131,
+      "width": 96,
+      "x": 1136,
+      "y": 345,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -99,14 +99,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 583,
+      "height": 170,
       "keepRatio": true,
       "layer": "",
       "name": "hitting__zone",
       "persistentUuid": "16fc5815-f356-4ba0-bc67-d5cdd0a8079a",
-      "width": 71,
-      "x": 936,
-      "y": 203,
+      "width": 481,
+      "x": 760,
+      "y": 424,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -116,14 +116,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 633,
+      "height": 517,
       "keepRatio": true,
       "layer": "",
       "name": "hitting__zone",
       "persistentUuid": "3c19574e-aa05-4719-a742-ca1a50c48e4c",
-      "width": 55,
-      "x": 913,
-      "y": 172,
+      "width": 80,
+      "x": 811,
+      "y": 250,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -139,8 +139,8 @@
       "name": "hit",
       "persistentUuid": "8110b7ee-2a9a-44f6-8be0-589acf7404e4",
       "width": 75,
-      "x": 2311,
-      "y": 620,
+      "x": 2271,
+      "y": 583,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -172,8 +172,8 @@
       "name": "osuahhcircle",
       "persistentUuid": "f40fcc06-06e0-412d-95a0-9c1be1da31fd",
       "width": 206,
-      "x": 850,
-      "y": 105,
+      "x": 768,
+      "y": 260,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -190,8 +190,8 @@
       "opacity": 204,
       "persistentUuid": "80d4d820-6ba5-4a98-9dc7-22f596f41bc5",
       "width": 2327,
-      "x": -122,
-      "y": -20,
+      "x": -176,
+      "y": -13,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -206,8 +206,8 @@
       "name": "tutorial",
       "persistentUuid": "acf43cb4-848d-4989-8965-97f00675e310",
       "width": 0,
-      "x": 32,
-      "y": 408,
+      "x": 52,
+      "y": 325,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -243,6 +243,142 @@
       "x": 85,
       "y": 76,
       "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 374,
+      "keepRatio": true,
+      "layer": "",
+      "name": "hitting__zone",
+      "persistentUuid": "5f1c7564-dcf5-4562-a698-fd76d7a2d4f4",
+      "width": 30,
+      "x": 1166,
+      "y": 319,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "",
+      "name": "hitting__zone",
+      "persistentUuid": "befdf199-310d-4065-9dcd-b5c26b17f1f3",
+      "width": 369,
+      "x": 768,
+      "y": 379,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 47,
+      "keepRatio": true,
+      "layer": "",
+      "name": "hitting__zone",
+      "persistentUuid": "a31c124b-b2c7-4535-aeab-f91beca76d8a",
+      "width": 200,
+      "x": 789,
+      "y": 336,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 418,
+      "keepRatio": true,
+      "layer": "",
+      "name": "hitting__zone",
+      "persistentUuid": "1d140549-d39c-4fbd-9fb8-db0e315ef215",
+      "width": 160,
+      "x": 800,
+      "y": 294,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "",
+      "name": "hitting__zone",
+      "persistentUuid": "7bfb59cc-4068-4835-9a4a-d9bb6a0db9b3",
+      "width": 364,
+      "x": 774,
+      "y": 586,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 46,
+      "keepRatio": true,
+      "layer": "",
+      "name": "hitting__zone",
+      "persistentUuid": "ba287e54-961c-4528-ba35-f558b647ea16",
+      "width": 243,
+      "x": 789,
+      "y": 636,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 59,
+      "keepRatio": true,
+      "layer": "",
+      "name": "hitting__zone",
+      "persistentUuid": "544fde0d-1c84-489a-9197-bf59ff8e1ab2",
+      "width": 83,
+      "x": 1137,
+      "y": 620,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 37,
+      "keepRatio": true,
+      "layer": "",
+      "name": "hitting__zone",
+      "persistentUuid": "31c77e85-8069-4a98-893e-3ffefcf598f4",
+      "width": 55,
+      "x": 987,
+      "y": 349,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -430,7 +566,23 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "disabled": true,
+          "effectType": "HslAdjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 1,
+            "hue": -140,
+            "lightness": 0.7,
+            "saturation": 0.7
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "colorize": true
+          }
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -443,7 +595,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigames\\hammering\\start.png",
+                  "image": "assets\\minigames\\hammering\\axestart.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -459,20 +611,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26,
-                        "y": 5
+                        "x": 15,
+                        "y": 13
                       },
                       {
-                        "x": 33,
-                        "y": 5
+                        "x": 51,
+                        "y": 13
                       },
                       {
-                        "x": 33,
-                        "y": 58
+                        "x": 51,
+                        "y": 49
                       },
                       {
-                        "x": 26,
-                        "y": 58
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -491,7 +643,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigames\\hammering\\firsthit.png",
+                  "image": "assets\\minigames\\hammering\\axefirst.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -507,20 +659,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26,
-                        "y": 5
+                        "x": 15,
+                        "y": 13
                       },
                       {
-                        "x": 33,
-                        "y": 5
+                        "x": 51,
+                        "y": 13
                       },
                       {
-                        "x": 33,
-                        "y": 58
+                        "x": 51,
+                        "y": 49
                       },
                       {
-                        "x": 26,
-                        "y": 58
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -539,7 +691,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigames\\hammering\\seconhit.png",
+                  "image": "assets\\minigames\\hammering\\axesecnd.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -555,20 +707,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26,
-                        "y": 5
+                        "x": 15,
+                        "y": 13
                       },
                       {
-                        "x": 33,
-                        "y": 5
+                        "x": 51,
+                        "y": 13
                       },
                       {
-                        "x": 33,
-                        "y": 58
+                        "x": 51,
+                        "y": 49
                       },
                       {
-                        "x": 26,
-                        "y": 58
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -587,7 +739,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigames\\hammering\\thirdhit.png",
+                  "image": "assets\\minigames\\hammering\\axethird.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -603,20 +755,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26,
-                        "y": 5
+                        "x": 15,
+                        "y": 13
                       },
                       {
-                        "x": 33,
-                        "y": 5
+                        "x": 51,
+                        "y": 13
                       },
                       {
-                        "x": 33,
-                        "y": 58
+                        "x": 51,
+                        "y": 49
                       },
                       {
-                        "x": 26,
-                        "y": 58
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -626,7 +778,7 @@
           ]
         },
         {
-          "name": "lasthit",
+          "name": "fourthhit",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -635,7 +787,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigames\\hammering\\final.png",
+                  "image": "assets\\minigames\\hammering\\axefourth.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -651,20 +803,116 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26,
-                        "y": 5
+                        "x": 15,
+                        "y": 13
                       },
                       {
-                        "x": 33,
-                        "y": 5
+                        "x": 51,
+                        "y": 13
                       },
                       {
-                        "x": 33,
-                        "y": 58
+                        "x": 51,
+                        "y": 49
                       },
                       {
-                        "x": 26,
-                        "y": 58
+                        "x": 15,
+                        "y": 49
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fifthhit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\minigames\\hammering\\axefifth.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 13
+                      },
+                      {
+                        "x": 51,
+                        "y": 13
+                      },
+                      {
+                        "x": 51,
+                        "y": 49
+                      },
+                      {
+                        "x": 15,
+                        "y": 49
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sixthhit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\minigames\\hammering\\axesixth.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 13
+                      },
+                      {
+                        "x": 51,
+                        "y": 13
+                      },
+                      {
+                        "x": 51,
+                        "y": 49
+                      },
+                      {
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -1889,6 +2137,209 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "EffectCapability::EffectBehavior::EnableEffect"
+          },
+          "parameters": [
+            "sword",
+            "Effect",
+            "\"Effect\"",
+            "no"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Chosen_Material",
+                ">=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "sword",
+                "Effect",
+                "\"Effect\"",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Chosen_Material",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "sword",
+                    "Effect",
+                    "\"Effect\"",
+                    "\"hue\"",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "sword",
+                    "Effect",
+                    "\"Effect\"",
+                    "\"lightness\"",
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "sword",
+                    "Effect",
+                    "\"Effect\"",
+                    "\"saturation\"",
+                    "0.4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Chosen_Material",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "sword",
+                    "Effect",
+                    "\"Effect\"",
+                    "\"hue\"",
+                    "-130"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "sword",
+                    "Effect",
+                    "\"Effect\"",
+                    "\"lightness\"",
+                    "-0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "sword",
+                    "Effect",
+                    "\"Effect\"",
+                    "\"saturation\"",
+                    "-0.5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Chosen_Material",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "sword",
+                    "Effect",
+                    "\"Effect\"",
+                    "\"hue\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "sword",
+                    "Effect",
+                    "\"Effect\"",
+                    "\"lightness\"",
+                    "-0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "sword",
+                    "Effect",
+                    "\"Effect\"",
+                    "\"saturation\"",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2049,7 +2500,7 @@
                 "sword",
                 "Animation",
                 "!=",
-                "\"lasthit\""
+                "\"sixthhit\""
               ]
             },
             {
@@ -2251,9 +2702,9 @@
               "parameters": [
                 "hit",
                 "=",
-                "917",
+                "820",
                 "=",
-                "178"
+                "280"
               ]
             },
             {
@@ -2263,9 +2714,9 @@
               "parameters": [
                 "osuahhcircle",
                 "=",
-                "850",
+                "755",
                 "=",
-                "110"
+                "210"
               ]
             }
           ]
@@ -2293,9 +2744,9 @@
               "parameters": [
                 "hit",
                 "=",
-                "917",
+                "807",
                 "=",
-                "710"
+                "650"
               ]
             },
             {
@@ -2305,9 +2756,9 @@
               "parameters": [
                 "osuahhcircle",
                 "=",
-                "850",
+                "740",
                 "=",
-                "640"
+                "580"
               ]
             }
           ]
@@ -2335,9 +2786,9 @@
               "parameters": [
                 "hit",
                 "=",
-                "950",
+                "1050",
                 "=",
-                "320"
+                "370"
               ]
             },
             {
@@ -2347,9 +2798,9 @@
               "parameters": [
                 "osuahhcircle",
                 "=",
-                "885",
+                "985",
                 "=",
-                "250"
+                "300"
               ]
             }
           ]
@@ -2377,9 +2828,9 @@
               "parameters": [
                 "hit",
                 "=",
-                "950",
+                "1050",
                 "=",
-                "620"
+                "580"
               ]
             },
             {
@@ -2389,9 +2840,9 @@
               "parameters": [
                 "osuahhcircle",
                 "=",
-                "885",
+                "985",
                 "=",
-                "550"
+                "510"
               ]
             }
           ]
@@ -2408,6 +2859,90 @@
                 "was_hit",
                 "=",
                 "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "hit",
+                "=",
+                "1165",
+                "=",
+                "440"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "osuahhcircle",
+                "=",
+                "1165 - 65",
+                "=",
+                "440 - 70"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "hit",
+                "was_hit",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "hit",
+                "=",
+                "870",
+                "=",
+                "650"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "osuahhcircle",
+                "=",
+                "870 - 65",
+                "=",
+                "650 - 70"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "hit",
+                "was_hit",
+                "=",
+                "6"
               ]
             }
           ],
@@ -2545,7 +3080,7 @@
                     "hit",
                     "was_hit",
                     "=",
-                    "4"
+                    "6"
                   ]
                 }
               ],
@@ -2778,7 +3313,7 @@
           },
           "parameters": [
             "",
-            "\"MetalCarving scene_sword\"",
+            "\"MetalCarving scene_axe\"",
             ""
           ]
         }

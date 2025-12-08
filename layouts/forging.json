@@ -2578,22 +2578,68 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"hammering\"",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
             "time_in_zone",
             "=",
             "0"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "chosen_weapon",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"hammering sword\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "chosen_weapon",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"hammering axe\"",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -2808,7 +2854,7 @@
           },
           "parameters": [
             "",
-            "\"hammering\"",
+            "\"hammering sword\"",
             ""
           ]
         }

@@ -56,7 +56,7 @@
       "width": 256,
       "x": 365,
       "y": 735,
-      "zOrder": 13,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -82,14 +82,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 327,
+      "height": 300,
       "keepRatio": true,
       "layer": "Effect Layer",
       "name": "BigCaslteHitBox",
       "persistentUuid": "f1cf8892-05be-469b-b1f7-fc8ea84d547e",
       "width": 369,
       "x": 1280,
-      "y": 241,
+      "y": 268,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -261,7 +261,7 @@
           "effectType": "Brightness",
           "name": "Effect",
           "doubleParameters": {
-            "brightness": 0.95
+            "brightness": 0.85
           },
           "stringParameters": {},
           "booleanParameters": {}
@@ -270,10 +270,24 @@
           "effectType": "Blur",
           "name": "Effect2",
           "doubleParameters": {
-            "blur": 0.5,
+            "blur": 0.6,
             "kernelSize": 5,
             "quality": 1,
             "resolution": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "AdvancedBloom",
+          "name": "Effect3",
+          "doubleParameters": {
+            "bloomScale": 0.3,
+            "blur": 3,
+            "brightness": 0.7,
+            "padding": 0,
+            "quality": 7,
+            "threshold": 0.5
           },
           "stringParameters": {},
           "booleanParameters": {}
@@ -880,6 +894,19 @@
             "",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sound\\birds_ambient.wav",
+            "2",
+            "",
+            "sfx_volume",
+            ""
+          ]
         }
       ]
     },
@@ -957,6 +984,15 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PauseSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
@@ -1140,6 +1176,15 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PauseSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Scene"
                   },
                   "parameters": [
@@ -1301,6 +1346,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
         {
           "type": {
             "value": "PushScene"

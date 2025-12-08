@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.40272258333259103,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -64,15 +64,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 667.2632794457279,
+      "depth": 1,
+      "height": 646,
       "keepRatio": true,
       "layer": "",
       "name": "Ending",
       "persistentUuid": "30188b60-2773-4983-b8e1-74ec221798d5",
-      "width": 1300,
-      "x": 388,
-      "y": 257,
+      "width": 1259,
+      "x": 391,
+      "y": 252,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -81,33 +81,32 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 100,
+      "depth": 1,
+      "height": 116,
       "keepRatio": true,
       "layer": "",
-      "name": "menu2",
-      "persistentUuid": "67ff27b2-6394-4dd8-9326-61ed3ee08746",
-      "width": 100,
-      "x": 85,
-      "y": 75,
-      "zOrder": 24,
+      "name": "NewSprite",
+      "persistentUuid": "f63b16d7-2079-4c3a-abee-4778947d93b3",
+      "width": 708,
+      "x": 659,
+      "y": 904,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 100,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "settings",
-      "persistentUuid": "d3df209b-0d55-49ee-8de6-3bf9907aead2",
-      "width": 100,
-      "x": 1875,
-      "y": 75,
-      "zOrder": 24,
+      "name": "NewText",
+      "persistentUuid": "e1f96628-f78e-4ba5-b4f5-9b6e1c049e6a",
+      "width": 0,
+      "x": 838,
+      "y": 924,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -233,6 +232,109 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "plate.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 3207,
+                        "y": 0
+                      },
+                      {
+                        "x": 3207,
+                        "y": 1063
+                      },
+                      {
+                        "x": 0,
+                        "y": 1063
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Back to menu",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Back to menu",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -243,6 +345,12 @@
       },
       {
         "objectName": "Ending"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
@@ -252,42 +360,6 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "menu2",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Main Map scene\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
@@ -300,7 +372,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "settings",
+            "NewSprite",
             "",
             "",
             ""
@@ -314,7 +386,7 @@
           },
           "parameters": [
             "",
-            "\"settings\""
+            "\"Title scene\""
           ]
         }
       ]

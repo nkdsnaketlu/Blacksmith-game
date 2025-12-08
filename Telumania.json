@@ -2183,6 +2183,128 @@
         "name": "selected_map_area.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/mat.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mat",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/mat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mat.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/mat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\mat.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/mat3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\mat3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/mat4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\mat4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/shape_carving/mat5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\shape_carving\\mat5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/axestart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\axestart.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/axefirst.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\axefirst.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/axesecnd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\axesecnd.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/axethird.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\axethird.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/axefourth.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\axefourth.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/axefifth.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\axefifth.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/minigames/hammering/axesixth.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigames\\hammering\\axesixth.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/birds_ambient.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\birds_ambient.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -2718,10 +2840,6 @@
         },
         {
           "type": "string",
-          "value": "Dagger"
-        },
-        {
-          "type": "string",
           "value": "Axe"
         }
       ]
@@ -2802,7 +2920,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/metalcarving-scene-training"
+      "referenceTo": "/layouts/metalcarving-scene_axe-training"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/metalcarving-scene-training-sword"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -2818,11 +2940,23 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hammering"
+      "referenceTo": "/layouts/material-training"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hammering_training"
+      "referenceTo": "/layouts/hammering-sword"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hammering-axe"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hammering-training-axe2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hammering_training-sw"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

@@ -453,7 +453,7 @@
               },
               "parameters": [
                 "",
-                "\"MetalCarving scene training\"",
+                "\"Material training\"",
                 ""
               ]
             }
@@ -655,7 +655,7 @@
               },
               "parameters": [
                 "",
-                "\"hammering_training\"",
+                "\"hammering_training sw\"",
                 ""
               ]
             }

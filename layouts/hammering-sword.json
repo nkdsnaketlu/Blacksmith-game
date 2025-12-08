@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "hammering_95training",
-  "name": "hammering_training",
+  "mangledName": "hammering_32sword",
+  "name": "hammering sword",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.44485159988866685,
+    "zoomFactor": 0.40272258333259287,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -190,8 +190,8 @@
       "opacity": 204,
       "persistentUuid": "80d4d820-6ba5-4a98-9dc7-22f596f41bc5",
       "width": 2327,
-      "x": -136,
-      "y": -31,
+      "x": -204,
+      "y": -25,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -207,7 +207,7 @@
       "persistentUuid": "acf43cb4-848d-4989-8965-97f00675e310",
       "width": 0,
       "x": 32,
-      "y": 408,
+      "y": 341,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -221,10 +221,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "settings",
-      "persistentUuid": "6fd40f9a-9cb2-47e1-af47-683680834e7b",
+      "persistentUuid": "f94cefd5-bf58-4af8-80a8-42a424d2dc0e",
       "width": 100,
-      "x": 1874,
-      "y": 74,
+      "x": 1875,
+      "y": 76,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -238,10 +238,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "menu2",
-      "persistentUuid": "e7fbfd19-1126-4e15-8707-25ab53b6444c",
+      "persistentUuid": "ec2c28c3-675b-4d18-a497-48ddd994a7c0",
       "width": 100,
-      "x": 84,
-      "y": 74,
+      "x": 85,
+      "y": 76,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -430,7 +430,23 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "disabled": true,
+          "effectType": "HslAdjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 1,
+            "hue": -140,
+            "lightness": 0.7,
+            "saturation": 0.7
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "colorize": true
+          }
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1889,6 +1905,279 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "EffectCapability::EffectBehavior::EnableEffect"
+          },
+          "parameters": [
+            "sword",
+            "Effect",
+            "\"Effect\"",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Chosen_Material",
+            ">=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EffectCapability::EffectBehavior::EnableEffect"
+          },
+          "parameters": [
+            "sword",
+            "Effect",
+            "\"Effect\"",
+            "yes"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Chosen_Material",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "sword",
+                "Effect",
+                "\"Effect\"",
+                "\"hue\"",
+                "30"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "sword",
+                "Effect",
+                "\"Effect\"",
+                "\"lightness\"",
+                "0.6"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "sword",
+                "Effect",
+                "\"Effect\"",
+                "\"saturation\"",
+                "0.4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Chosen_Material",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "sword",
+                "Effect",
+                "\"Effect\"",
+                "\"hue\"",
+                "-115"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "sword",
+                "Effect",
+                "\"Effect\"",
+                "\"lightness\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "sword",
+                "Effect",
+                "\"Effect\"",
+                "\"saturation\"",
+                "-0.7"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Chosen_Material",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "sword",
+                "Effect",
+                "\"Effect\"",
+                "\"hue\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "sword",
+                "Effect",
+                "\"Effect\"",
+                "\"lightness\"",
+                "-0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "sword",
+                "Effect",
+                "\"Effect\"",
+                "\"saturation\"",
+                "0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "settings",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"settings\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "menu2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Main Map scene\""
+          ]
         }
       ]
     },
@@ -2484,7 +2773,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Game Selection scene\"",
+                    "\"Judging\"",
                     ""
                   ]
                 }

@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "MetalCarving_32scene_32training",
-  "name": "MetalCarving scene training",
+  "mangledName": "MetalCarving_32scene_32training_32sword",
+  "name": "MetalCarving scene training sword",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -3803,11 +3803,30 @@
           "actions": [
             {
               "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "error_msg",
+                "Text",
+                "=",
+                "\"Time is up!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"game over\"",
+                "\"MetalCarving scene training sword\"",
                 ""
               ]
             }
@@ -3997,11 +4016,30 @@
           "actions": [
             {
               "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "error_msg",
+                "Text",
+                "=",
+                "\"No metal plates left!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"game over\"",
+                "\"MetalCarving scene training sword\"",
                 ""
               ]
             }
@@ -4065,11 +4103,30 @@
           "actions": [
             {
               "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "error_msg",
+                "Text",
+                "=",
+                "\"Well Done!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Forging\"",
+                "\"Game Selection scene\"",
                 ""
               ]
             }
@@ -4209,7 +4266,7 @@
           },
           "parameters": [
             "",
-            "\"hammering_training\"",
+            "\"hammering_training sw\"",
             ""
           ]
         }
