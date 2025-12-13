@@ -2046,6 +2046,15 @@
       "actions": [
         {
           "type": {
+            "value": "RePlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
@@ -2072,28 +2081,6 @@
             "CoolDown",
             "=",
             "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlayMusicCanal"
-          },
-          "parameters": [
-            "",
-            "fire-crackling-356123.mp3",
-            "0",
-            "70",
-            "sfx_volume -25",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "RePlayMusicCanal"
-          },
-          "parameters": [
-            "",
-            "1"
           ]
         },
         {
