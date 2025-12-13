@@ -2700,12 +2700,12 @@
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 24
+              "value": 1200
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 20
+              "value": 800
             },
             {
               "name": "RequiredTime",
@@ -2721,12 +2721,12 @@
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 20
+              "value": 1400
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 16
+              "value": 1000
             },
             {
               "name": "RequiredTime",
@@ -2742,17 +2742,17 @@
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 16
+              "value": 1000
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 12
+              "value": 600
             },
             {
               "name": "RequiredTime",
               "type": "number",
-              "value": 25
+              "value": 20
             }
           ]
         },
@@ -2763,12 +2763,12 @@
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 12
+              "value": 1200
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 8
+              "value": 800
             },
             {
               "name": "RequiredTime",
@@ -2784,12 +2784,12 @@
             {
               "name": "MaxTempZone",
               "type": "number",
-              "value": 24
+              "value": 1400
             },
             {
               "name": "MinTempZone",
               "type": "number",
-              "value": 20
+              "value": 800
             },
             {
               "name": "RequiredTime",

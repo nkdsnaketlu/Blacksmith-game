@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3526904934771242,
+    "zoomFactor": 0.3411856023473466,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -60,9 +60,9 @@
       "name": "TempArrow",
       "persistentUuid": "4b3d9713-129d-4f3d-8182-20f28ba6f378",
       "width": 118,
-      "x": 1580,
-      "y": 930,
-      "zOrder": 10,
+      "x": 1585,
+      "y": 900,
+      "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -87,14 +87,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 778,
+      "height": 712,
       "keepRatio": true,
       "layer": "",
       "name": "scale",
       "persistentUuid": "1c56d296-fa7a-4ce7-98fd-e267798a9f1f",
       "width": 77,
-      "x": 1601,
-      "y": 210,
+      "x": 1606,
+      "y": 246,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -142,8 +142,8 @@
       "name": "Level_divider",
       "persistentUuid": "c0a59a4b-7294-4219-998f-02466861b429",
       "width": 268,
-      "x": 1493,
-      "y": 644,
+      "x": 1497,
+      "y": 639,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -159,9 +159,9 @@
       "name": "Level_divider",
       "persistentUuid": "71b69f06-f5fb-45cf-959a-4ce35717bc09",
       "width": 268,
-      "x": 1492,
-      "y": 420,
-      "zOrder": 19,
+      "x": 1498,
+      "y": 436,
+      "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -176,8 +176,8 @@
       "name": "Level_divider",
       "persistentUuid": "863a2634-38f5-472f-969a-e7182f9b5bb6",
       "width": 268,
-      "x": 1496,
-      "y": 204,
+      "x": 1498,
+      "y": 236,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -210,8 +210,8 @@
       "opacity": 204,
       "persistentUuid": "cf16f867-e98c-43ab-8647-76261cc3c448",
       "width": 2168,
-      "x": -17,
-      "y": -15,
+      "x": -1930,
+      "y": 42,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -227,8 +227,8 @@
       "name": "instructions",
       "persistentUuid": "7ddca3f4-463e-4040-9af3-db40d841e1de",
       "width": 1831,
-      "x": 141,
-      "y": 395,
+      "x": -1324,
+      "y": 372,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -246,7 +246,7 @@
       "width": 2071,
       "x": -6,
       "y": -2,
-      "zOrder": -19,
+      "zOrder": -25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -414,6 +414,202 @@
       "x": 116,
       "y": 201,
       "zOrder": -18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 225,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Level_divider",
+      "persistentUuid": "cc63715c-f134-4077-ac38-71f720b233b2",
+      "width": 268,
+      "x": 1499,
+      "y": 543,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 225,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Level_divider",
+      "persistentUuid": "f34c0dfd-2a8b-42ba-990a-b33834d4e5cc",
+      "width": 268,
+      "x": 1496,
+      "y": 336,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 225,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Level_divider",
+      "persistentUuid": "eef7fe05-5a70-4e7c-b3de-931499fefa8e",
+      "width": 268,
+      "x": 1499,
+      "y": 133,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 225,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Level_divider",
+      "persistentUuid": "19bdeb60-141b-452f-8ecf-c0e31bfba996",
+      "width": 268,
+      "x": 1497,
+      "y": 740,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "number",
+      "persistentUuid": "ea165886-5466-4311-bf3a-4cf0a644c94b",
+      "width": 0,
+      "x": 1727,
+      "y": 914,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "number2",
+      "persistentUuid": "8bcb3af0-bb6c-4c96-90fc-b2e92bf9e42e",
+      "width": 0,
+      "x": 1702,
+      "y": 831,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "number3",
+      "persistentUuid": "df275baf-f10e-43f6-a7c9-a1eb69d6e02d",
+      "width": 0,
+      "x": 1703,
+      "y": 726,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "number4",
+      "persistentUuid": "8156066e-be07-4303-8bdb-a34a27ef0206",
+      "width": 0,
+      "x": 1701,
+      "y": 632,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "number5",
+      "persistentUuid": "014ea49d-3195-4b1b-910c-73189ccd03a6",
+      "width": 0,
+      "x": 1701,
+      "y": 524,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "number6",
+      "persistentUuid": "1f7c6b05-7e5d-448a-b1ad-42fc53de8871",
+      "width": 0,
+      "x": 1696,
+      "y": 424,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "number7",
+      "persistentUuid": "5a9755b2-b9b6-4463-9c07-3b7b13e73228",
+      "width": 0,
+      "x": 1699,
+      "y": 326,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "number8",
+      "persistentUuid": "6af11b29-b30e-4a40-9f6d-5b2bfc1476f7",
+      "width": 0,
+      "x": 1696,
+      "y": 227,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -937,9 +1133,9 @@
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 205,
+        "g": 228,
+        "r": 233
       },
       "content": {
         "bold": false,
@@ -961,7 +1157,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 60,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "233;228;205"
       }
     },
     {
@@ -1376,9 +1572,9 @@
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 196,
+        "g": 216,
+        "r": 218
       },
       "content": {
         "bold": false,
@@ -1397,6 +1593,350 @@
         "text": "\ngoal: \n\n",
         "font": "assets\\ReggaeOne-Regular.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "218;216;196"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "number",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "number2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "200",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "200",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "number3",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "400",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "400",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "number4",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "600",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "600",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "number5",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "800",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "800",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "number6",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "1000",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "1000",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "number7",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "1200",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "1200",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "number8",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "1400",
+      "font": "assets\\ReggaeOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "1400",
+        "font": "assets\\ReggaeOne-Regular.ttf",
+        "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
@@ -1463,6 +2003,30 @@
       },
       {
         "objectName": "weapon"
+      },
+      {
+        "objectName": "number"
+      },
+      {
+        "objectName": "number2"
+      },
+      {
+        "objectName": "number3"
+      },
+      {
+        "objectName": "number4"
+      },
+      {
+        "objectName": "number5"
+      },
+      {
+        "objectName": "number6"
+      },
+      {
+        "objectName": "number7"
+      },
+      {
+        "objectName": "number8"
       }
     ]
   },
@@ -1530,6 +2094,18 @@
           "parameters": [
             "",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "TempArrow",
+            "=",
+            "1585",
+            "=",
+            "900"
           ]
         }
       ]
@@ -1674,6 +2250,15 @@
           "parameters": [
             "instructions"
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"scene_timer\""
+          ]
         }
       ]
     },
@@ -1760,6 +2345,28 @@
             },
             {
               "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "woosh-345977.mp3",
+                "",
+                "sfx_volume + 15",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CoolDown",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -1771,149 +2378,176 @@
             },
             {
               "type": {
-                "value": "PlayMusic"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "",
-                "woosh-345977.mp3",
-                "",
-                "sfx_volume + 15",
-                "1"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "CurrentTemp",
-                    ">=",
-                    "25"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "CurrentTemp",
-                    "=",
-                    "24"
-                  ]
-                }
+                "CurrentTemp",
+                "=",
+                "min(CurrentTemp + 200, 1400)"
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "CurrentTemp",
-                    "=",
-                    "24"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "TempArrow",
-                    "=",
-                    "155"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "CurrentTemp",
-                    "<=",
-                    "20"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "CurrentTemp",
-                    "+",
-                    "4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "TempArrow",
-                    "-",
-                    "110"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "CoolDown",
-                    "=",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "CurrentTemp",
-                    "<=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "CoolDown",
-                    "=",
-                    "0"
-                  ]
-                }
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "TempArrow",
+                "-",
+                "100"
               ]
             }
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "TempArrow",
+            "=",
+            "800"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "TempArrow",
+            "=",
+            "700"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "TempArrow",
+            "=",
+            "600"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "TempArrow",
+            "=",
+            "500"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "TempArrow",
+            "=",
+            "400"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "TempArrow",
+            "=",
+            "300"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "TempArrow",
+            "=",
+            "200"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CurrentTemp",
+            "=",
+            "1400"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "TempArrow",
+            "=",
+            "200"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -1956,6 +2590,16 @@
                 "=",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentTemp",
+                ">",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -1965,8 +2609,8 @@
               },
               "parameters": [
                 "CurrentTemp",
-                "-",
-                "4"
+                "=",
+                "max(CurrentTemp - 200, 0)"
               ]
             },
             {
@@ -1987,7 +2631,7 @@
               "parameters": [
                 "TempArrow",
                 "+",
-                "110"
+                "100"
               ]
             }
           ],
@@ -2104,157 +2748,7 @@
           ]
         }
       ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "CurrentTemp",
-                ">=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "CurrentTemp",
-                "<=",
-                "6"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "HeatLevel",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "CurrentTemp",
-                ">",
-                "6"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "CurrentTemp",
-                "<=",
-                "12"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "HeatLevel",
-                "=",
-                "2"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "CurrentTemp",
-                ">",
-                "12"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "CurrentTemp",
-                "<=",
-                "18"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "HeatLevel",
-                "=",
-                "3"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "CurrentTemp",
-                ">",
-                "18"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "CurrentTemp",
-                "<=",
-                "24"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "HeatLevel",
-                "=",
-                "4"
-              ]
-            }
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "colorB": 228,
@@ -2465,21 +2959,12 @@
         },
         {
           "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"scene_timer\""
-          ]
-        },
-        {
-          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
             "GameStarted",
             "=",
-            "1"
+            "0"
           ]
         },
         {
@@ -2573,20 +3058,19 @@
             ">=",
             "GlobalVariable(Materials[ChosenMaterialName].RequiredTime)"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
-            "value": "SetNumberVariable"
+            "value": "NumberVariable"
           },
           "parameters": [
-            "time_in_zone",
+            "GameStarted",
             "=",
-            "0"
+            "1"
           ]
         }
       ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2679,7 +3163,7 @@
             "winningcondition",
             "Text",
             "=",
-            "\"Keep the Temperature between 8  and 12 for 15 seconds\""
+            "\"Keep the Temperature between 800 and 1200 for 15 seconds\""
           ]
         }
       ]
@@ -2707,7 +3191,7 @@
             "winningcondition",
             "Text",
             "=",
-            "\"Keep the Temperature between 20  and 24 for 10 seconds\""
+            "\"Keep the Temperature between 800 and 1200 for 10 seconds\""
           ]
         }
       ]
@@ -2735,7 +3219,7 @@
             "winningcondition",
             "Text",
             "=",
-            "\"Keep the Temperature between 20  and 24 for 20 seconds\""
+            "\"Keep the Temperature between 800  and 1400 for 20 seconds\""
           ]
         }
       ]
@@ -2763,7 +3247,7 @@
             "winningcondition",
             "Text",
             "=",
-            "\"Keep the Temperature between 16  and 20 for 12 seconds\""
+            "\"Keep the Temperature between 1000  and 1400 for 12 seconds\""
           ]
         }
       ]
@@ -2791,7 +3275,7 @@
             "winningcondition",
             "Text",
             "=",
-            "\"Keep the Temperature between 12  and 16 for 25 seconds\""
+            "\"Keep the Temperature between 600 and 1000 for 20 seconds\""
           ]
         }
       ]
