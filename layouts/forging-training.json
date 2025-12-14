@@ -210,8 +210,8 @@
       "opacity": 204,
       "persistentUuid": "cf16f867-e98c-43ab-8647-76261cc3c448",
       "width": 2168,
-      "x": -52,
-      "y": -28,
+      "x": -85,
+      "y": -4,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -227,8 +227,8 @@
       "name": "instructions",
       "persistentUuid": "7ddca3f4-463e-4040-9af3-db40d841e1de",
       "width": 1831,
-      "x": 120,
-      "y": 368,
+      "x": 130,
+      "y": 343,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -2370,7 +2370,7 @@
               "parameters": [
                 "CurrentTemp",
                 "=",
-                "min(CurrentTemp + 200, 1400)"
+                "clamp(CurrentTemp + 200, 0, 1400)"
               ]
             },
             {
@@ -2386,118 +2386,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PosY"
-          },
-          "parameters": [
-            "TempArrow",
-            "=",
-            "800"
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PosY"
-          },
-          "parameters": [
-            "TempArrow",
-            "=",
-            "700"
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PosY"
-          },
-          "parameters": [
-            "TempArrow",
-            "=",
-            "600"
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PosY"
-          },
-          "parameters": [
-            "TempArrow",
-            "=",
-            "500"
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PosY"
-          },
-          "parameters": [
-            "TempArrow",
-            "=",
-            "400"
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PosY"
-          },
-          "parameters": [
-            "TempArrow",
-            "=",
-            "300"
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PosY"
-          },
-          "parameters": [
-            "TempArrow",
-            "=",
-            "200"
-          ]
-        }
-      ],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
