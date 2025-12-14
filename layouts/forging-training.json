@@ -2382,6 +2382,16 @@
                 "-",
                 "100"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GameStarted",
+                "=",
+                "1"
+              ]
             }
           ]
         }
