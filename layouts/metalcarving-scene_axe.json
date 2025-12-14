@@ -3530,8 +3530,8 @@
           "type": "DraggablePhysics::DraggablePhysics",
           "PhysicsBehavior": "Physics2",
           "MouseButton": "Left",
-          "MaxForce": 500,
-          "Frequency": 10,
+          "MaxForce": 10000,
+          "Frequency": 1,
           "Damping": 1,
           "MouseJointID": 1.00000000000091,
           "EnableAutomaticDragging": true

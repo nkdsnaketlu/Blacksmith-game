@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5800155239904939,
+    "zoomFactor": 0.3526904934771274,
     "windowMask": false,
     "selectedLayer": "UI Layer"
   },
@@ -2527,8 +2527,8 @@
           "type": "DraggablePhysics::DraggablePhysics",
           "PhysicsBehavior": "Physics2",
           "MouseButton": "Left",
-          "MaxForce": 500,
-          "Frequency": 10,
+          "MaxForce": 10000,
+          "Frequency": 1,
           "Damping": 1,
           "MouseJointID": 1.00000000000091,
           "EnableAutomaticDragging": true
