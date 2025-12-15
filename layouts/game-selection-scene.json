@@ -655,7 +655,7 @@
               },
               "parameters": [
                 "",
-                "\"hammering_training sw\"",
+                "\"Material training3\"",
                 ""
               ]
             }
@@ -690,11 +690,12 @@
       "actions": [
         {
           "type": {
-            "value": "PushScene"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "\"Main Map scene\""
+            "\"Main Map scene\"",
+            ""
           ]
         }
       ]

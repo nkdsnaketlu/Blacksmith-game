@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4163025217733391,
+    "zoomFactor": 0.3895856273827348,
     "windowMask": false,
     "selectedLayer": "UI Layer"
   },
@@ -1345,14 +1345,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 15,
+      "height": 8,
       "keepRatio": true,
       "layer": "",
       "name": "Sawtip",
       "persistentUuid": "7875c30d-1e46-4a44-8b35-b3dad60c4800",
-      "width": 16,
-      "x": 1336,
-      "y": 665,
+      "width": 9,
+      "x": 1339,
+      "y": 707,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -2244,38 +2244,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI Layer",
-      "name": "TimerText",
-      "persistentUuid": "b232d37b-7aed-4552-b679-f09582cda5a4",
-      "width": 0,
-      "x": 996,
-      "y": 73,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI Layer",
-      "name": "SparePlatesText",
-      "persistentUuid": "2fa2bd72-3f65-43f8-adf7-0f12368afcdc",
-      "width": 0,
-      "x": 1423,
-      "y": 82,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 1209,
@@ -2285,8 +2253,8 @@
       "opacity": 204,
       "persistentUuid": "c6a6a1df-eba5-4e18-ad51-4e7246237016",
       "width": 2168,
-      "x": -52,
-      "y": -13,
+      "x": -72,
+      "y": -50,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -2301,8 +2269,8 @@
       "name": "Tutorial",
       "persistentUuid": "bb56f306-b806-4d86-a7ad-b424b75452f9",
       "width": 0,
-      "x": 84,
-      "y": 399,
+      "x": 85,
+      "y": 381,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -2338,23 +2306,6 @@
       "x": 1875,
       "y": 75,
       "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 150,
-      "keepRatio": true,
-      "layer": "UI Layer",
-      "name": "clock",
-      "persistentUuid": "45602d62-e1c4-4397-9963-f6ebdda7001e",
-      "width": 150,
-      "x": 815,
-      "y": 45,
-      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2453,8 +2404,8 @@
       "name": "error_msg",
       "persistentUuid": "79ece0e8-2aa9-4c1e-ae09-42664de96179",
       "width": 0,
-      "x": 933,
-      "y": 975,
+      "x": 1334,
+      "y": 76,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -3717,6 +3668,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "SmallTanButton",
+      "persistentUuid": "f861e990-60c3-49b0-9cdc-b85d2744b14e",
+      "width": 356,
+      "x": 779,
+      "y": 87,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -4522,92 +4490,6 @@
     },
     {
       "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "TimerText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "60",
-      "font": "assets\\ReggaeOne-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "60",
-        "font": "assets\\ReggaeOne-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 60,
-        "lineHeight": 0,
-        "color": "255;255;255"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "SparePlatesText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Plates left: 3",
-      "font": "assets\\ReggaeOne-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Plates left: 3",
-        "font": "assets\\ReggaeOne-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 60,
-        "lineHeight": 0,
-        "color": "255;255;255"
-      }
-    },
-    {
-      "assetStoreId": "",
       "bold": false,
       "italic": false,
       "name": "Tutorial",
@@ -5117,6 +4999,19 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "c22fb0ef85cbe185b6ca8705c18c5bcc879d7cdfd18556b886954ad75c920835",
+      "name": "SmallTanButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Small Tan Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelText": "reset",
+        "PressedLabelOffsetY": 2
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -5153,16 +5048,13 @@
         "objectName": "NoTouchPoint"
       },
       {
-        "objectName": "TimerText"
-      },
-      {
-        "objectName": "SparePlatesText"
-      },
-      {
         "objectName": "Tutorial"
       },
       {
         "objectName": "error_msg"
+      },
+      {
+        "objectName": "SmallTanButton"
       }
     ]
   },
@@ -5304,103 +5196,12 @@
               },
               "parameters": [
                 "",
-                "\"CuttingTimer\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
                 "\"DamageCooldown\""
               ]
             }
           ]
         }
       ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Timer",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TimerText",
-                "Text",
-                "=",
-                "\"Time:\" + ToString(round(60 - TimerElapsedTime(\"CuttingTimer\")))"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"CuttingTimer\"",
-                ">",
-                "60"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "error_msg",
-                "Text",
-                "=",
-                "\"Time is up!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"MetalCarving scene_axe training\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
     },
     {
       "colorB": 228,
@@ -5461,17 +5262,6 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "SparePlatesText",
-                "Text",
-                "=",
-                "\"Plates:\" + SparePlates"
-              ]
-            },
-            {
-              "type": {
                 "value": "Montre"
               },
               "parameters": [
@@ -5507,107 +5297,6 @@
                 "Text",
                 "=",
                 "\" \""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "damage",
-                "\"DamageCooldown\"",
-                ">=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "SparePlatesText",
-                "\"255;0;0\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"DamageCooldown\"",
-                ">=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "SparePlatesText",
-                "\"255;255;255\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "SparePlates",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "error_msg",
-                "Text",
-                "=",
-                "\"No metal plates left!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"MetalCarving scene_axe training\"",
-                ""
               ]
             }
           ]
@@ -5771,6 +5460,32 @@
           "parameters": [
             "",
             "\"settings\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "SmallTanButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MetalCarving scene_axe training\"",
+            ""
           ]
         }
       ]

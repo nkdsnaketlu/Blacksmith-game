@@ -1636,6 +1636,15 @@
       "actions": [
         {
           "type": {
+            "value": "RePlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
@@ -2177,7 +2186,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"MetalCarving scene_sword\"",
+                    "\"MetalCarving scene training sword\"",
                     ""
                   ]
                 }
@@ -2204,7 +2213,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"MetalCarving scene_axe\"",
+                    "\"MetalCarving scene_axe training\"",
                     ""
                   ]
                 }

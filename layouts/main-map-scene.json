@@ -71,8 +71,8 @@
       "name": "LittleCastleHitBox",
       "persistentUuid": "f2b78ce9-3f59-4a4c-a010-4513f61dc372",
       "width": 230,
-      "x": 988,
-      "y": 356,
+      "x": 973,
+      "y": 367,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -82,32 +82,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 300,
+      "height": 361,
       "keepRatio": true,
       "layer": "Effect Layer",
       "name": "BigCaslteHitBox",
       "persistentUuid": "f1cf8892-05be-469b-b1f7-fc8ea84d547e",
-      "width": 369,
-      "x": 1280,
-      "y": 268,
+      "width": 445,
+      "x": 1231,
+      "y": 224,
       "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 287,
-      "keepRatio": true,
-      "layer": "Effect Layer",
-      "name": "MountainHitBox",
-      "persistentUuid": "481376f5-9c96-442d-a015-44d6c709e7dd",
-      "width": 418,
-      "x": 1023,
-      "y": -25,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -226,23 +209,6 @@
       "x": 960,
       "y": 384,
       "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 352,
-      "keepRatio": true,
-      "layer": "Effect Layer",
-      "name": "NewSprite",
-      "persistentUuid": "26c58bfc-ebed-4a6b-b9b8-f84ce4e084b0",
-      "width": 375,
-      "x": 1282,
-      "y": 252,
-      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -877,17 +843,6 @@
         },
         {
           "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "MountainHitBox",
-            "Opacity",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
             "value": "RePlayMusicCanal"
           },
           "parameters": [
@@ -1042,7 +997,7 @@
                 "DetailInfo",
                 "Text",
                 "=",
-                "\"Already completed\""
+                "\"Avaible in full game\""
               ]
             },
             {
@@ -1093,57 +1048,6 @@
                 "DetailInfo",
                 "Text",
                 "=",
-                "\"Already completed\""
-              ]
-            },
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "BigCaslteHitBox",
-                "Opacity",
-                "=",
-                "50"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "MountainHitBox",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Info",
-                "Text",
-                "=",
-                "\"Mountain of GodSmith\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "DetailInfo",
-                "Text",
-                "=",
                 "\"Become a legend\""
               ]
             },
@@ -1152,7 +1056,7 @@
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
-                "MountainHitBox",
+                "BigCaslteHitBox",
                 "Opacity",
                 "=",
                 "50"
@@ -1235,18 +1139,6 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "MountainHitBox",
-                "",
-                "",
-                ""
-              ]
             }
           ],
           "actions": [
@@ -1300,17 +1192,6 @@
               },
               "parameters": [
                 "BigCaslteHitBox",
-                "Opacity",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "MountainHitBox",
                 "Opacity",
                 "=",
                 "0"

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3411856023473466,
+    "zoomFactor": 0.4753585087126956,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -610,6 +610,22 @@
       "x": 1696,
       "y": 227,
       "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WoodYellowBar",
+      "persistentUuid": "69959e8f-6ffd-498e-afd7-a305bec45cc3",
+      "width": 0,
+      "x": 1426,
+      "y": 108,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1942,6 +1958,24 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "805020d83a9f62501db39c113f2b92bb91f651bb9e462ae5f83d1412c35d3d8a",
+      "name": "WoodYellowBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Wood Yellow Bar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "InitialValue": 0,
+        "MaxValue": 10,
+        "BarTopPadding": 8,
+        "BarRightPadding": 10,
+        "BarBottomPadding": 8,
+        "BarLeftPadding": 10,
+        "PreviousHighValueDuration": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2027,6 +2061,9 @@
       },
       {
         "objectName": "number8"
+      },
+      {
+        "objectName": "WoodYellowBar"
       }
     ]
   },
@@ -2085,14 +2122,13 @@
         },
         {
           "type": {
-            "value": "MettreXY"
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
           },
           "parameters": [
-            "TempArrow",
+            "WoodYellowBar",
             "=",
-            "1585",
-            "=",
-            "900"
+            "GlobalVariable(Materials[ChosenMaterialName].RequiredTime)",
+            ""
           ]
         }
       ]
@@ -2332,18 +2368,6 @@
             },
             {
               "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "woosh-345977.mp3",
-                "",
-                "sfx_volume + 15",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -2425,9 +2449,23 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "woosh-345977.mp3",
+            "",
+            "sfx_volume + 15",
+            "1"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2563,6 +2601,35 @@
                 "0"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"forge_timer\"",
+            ">",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "WoodYellowBar",
+            "=",
+            "floor(time_in_zone)",
+            ""
           ]
         }
       ]
@@ -2735,21 +2802,31 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "",
-            "\"game over\"",
-            ""
+            "time",
+            "Text",
+            "=",
+            "\"Time is up, try again!\""
           ]
         },
         {
           "type": {
-            "value": "StopMusicCanal"
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "0"
+            "\"Forging training\"",
+            ""
           ]
         }
       ]
@@ -2779,6 +2856,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "RePlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
         {
           "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -2833,6 +2919,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "RePlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
         {
           "type": {
             "value": "ResetTimer"

@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Material_32training2",
-  "name": "Material training2",
+  "mangledName": "Material_32training3",
+  "name": "Material training3",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -2186,7 +2186,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Forging training\""
+                    "\"hammering_training sw\""
                   ]
                 }
               ]
@@ -2212,7 +2212,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Forging training\"",
+                    "\"hammering training axe2\"",
                     ""
                   ]
                 }

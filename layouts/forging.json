@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3411856023473466,
+    "zoomFactor": 0.4753585087126956,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -610,6 +610,22 @@
       "x": 1696,
       "y": 227,
       "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WoodYellowBar",
+      "persistentUuid": "0c14ab0b-ed7f-4a8a-8f20-3e7d0bfeb941",
+      "width": 0,
+      "x": 1382,
+      "y": 108,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1942,6 +1958,67 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "805020d83a9f62501db39c113f2b92bb91f651bb9e462ae5f83d1412c35d3d8a",
+      "name": "WoodYellowBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Wood Yellow Bar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "InitialValue": 0,
+        "MaxValue": 10,
+        "BarTopPadding": 8,
+        "BarRightPadding": 10,
+        "BarBottomPadding": 8,
+        "BarLeftPadding": 10,
+        "PreviousHighValueDuration": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "debvug",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "lineHeight": 0,
+        "color": "255;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2027,6 +2104,12 @@
       },
       {
         "objectName": "number8"
+      },
+      {
+        "objectName": "WoodYellowBar"
+      },
+      {
+        "objectName": "debvug"
       }
     ]
   },
@@ -2044,15 +2127,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "RePlayMusicCanal"
-          },
-          "parameters": [
-            "",
-            "1"
-          ]
-        },
         {
           "type": {
             "value": "SetNumberVariable"
@@ -2093,6 +2167,26 @@
             "1585",
             "=",
             "900"
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+          },
+          "parameters": [
+            "WoodYellowBar",
+            "=",
+            "GlobalVariable(Materials[ChosenMaterialName].RequiredTime)",
+            ""
           ]
         }
       ]
@@ -2332,18 +2426,6 @@
             },
             {
               "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "woosh-345977.mp3",
-                "",
-                "sfx_volume + 15",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -2425,9 +2507,23 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "woosh-345977.mp3",
+            "",
+            "sfx_volume + 15",
+            "1"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2563,6 +2659,35 @@
                 "0"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"forge_timer\"",
+            ">",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "WoodYellowBar",
+            "=",
+            "floor(time_in_zone)",
+            ""
           ]
         }
       ]
@@ -2741,15 +2866,6 @@
             "",
             "\"game over\"",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "StopMusicCanal"
-          },
-          "parameters": [
-            "",
-            "0"
           ]
         }
       ]
